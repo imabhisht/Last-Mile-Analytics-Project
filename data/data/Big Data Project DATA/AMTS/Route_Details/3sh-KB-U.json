@@ -1,0 +1,30 @@
+{
+  "Data": [
+    {
+      "ScheduleForRouteId": 241,
+      "schedulecode": "3S/C",
+      "scheduleForRouteCode": "5698131",
+      "routeCode": "3sh-KB-U",
+      "routeName": "Kalupur terminus - Bhadrakali Mandir",
+      "routeDestination": "Bhadrakali Mandir",
+      "routeVariant": "NORMAL",
+      "firstStopCode": 3050,
+      "lastStopCode": 3400,
+      "Shift": null,
+      "startTime": "06:35:00",
+      "stopTime": "06:45:00",
+      "runCode": "3S/C",
+      "tripSeqNumber": null,
+      "dutyCode": "3S/C-G",
+      "firstStopName": "Kalupur Terminus",
+      "lastStopName": "Kalupur Terminus",
+      "busNo": 0
+    }
+  ],
+  "Paging": {
+    "PageNo": 0,
+    "PageSize": 2000,
+    "PageCount": 1,
+    "TotalRecordCount": 1
+  }
+}

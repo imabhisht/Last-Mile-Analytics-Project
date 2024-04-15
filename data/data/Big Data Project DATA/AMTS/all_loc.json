@@ -1,0 +1,660 @@
+{
+  "all_station": [
+    {
+      "station_name": "Chinubhainagar",
+      "loacation": { "longitude": "72.696555", "latitude": "23.026311" }
+    },
+    {
+      "station_name": "Sarkhej-Bavla Circle (Ujala Hotel)",
+      "loacation": { "longitude": "72.492048", "latitude": "22.978935" }
+    },
+    {
+      "station_name": "Nigam Society",
+      "loacation": { "longitude": "72.619805", "latitude": "22.97113" }
+    },
+    {
+      "station_name": "Ranip Gam",
+      "loacation": { "longitude": "72.577471", "latitude": "23.080836" }
+    },
+    {
+      "station_name": "Ghuma Gam",
+      "loacation": { "longitude": "72.450251", "latitude": "23.03055" }
+    },
+    {
+      "station_name": "Someshwar Mahadev",
+      "loacation": { "longitude": "72.660123", "latitude": "23.111598" }
+    },
+    {
+      "station_name": "Shilaj Gam",
+      "loacation": { "longitude": "72.471761", "latitude": "23.053831" }
+    },
+    {
+      "station_name": "Kali Gam",
+      "loacation": { "longitude": "72.57568", "latitude": "23.090853" }
+    },
+    {
+      "station_name": "Meghaninagar",
+      "loacation": { "longitude": "72.617915", "latitude": "23.059143" }
+    },
+    {
+      "station_name": "Godrejcity Phase-1",
+      "loacation": { "longitude": "72.554693", "latitude": "23.113885" }
+    },
+    {
+      "station_name": "Maninagar",
+      "loacation": { "longitude": "72.611516", "latitude": "22.997571" }
+    },
+    {
+      "station_name": "Vaishnodevi Circle(Zydus Life)",
+      "loacation": { "longitude": "72.541978", "latitude": "23.133026" }
+    },
+    {
+      "station_name": "Chandkheda (Sarthi Bunglows)",
+      "loacation": { "longitude": "72.580726", "latitude": "23.122918" }
+    },
+    {
+      "station_name": "Sarkhej Gam",
+      "loacation": { "longitude": "72.501097", "latitude": "22.981012" }
+    },
+    {
+      "station_name": "Arvind Polycoat (Khatraj)",
+      "loacation": { "longitude": "72.447335", "latitude": "23.147508" }
+    },
+    {
+      "station_name": "Hatkeshwar Depo",
+      "loacation": { "longitude": "72.626221", "latitude": "22.997731" }
+    },
+    {
+      "station_name": "Sitarambapa Chowk (Gopal Chowk)",
+      "loacation": { "longitude": "72.657404", "latitude": "23.048637" }
+    },
+    {
+      "station_name": "Madhavnagar (Sanand)",
+      "loacation": { "longitude": "72.35629", "latitude": "23.000601" }
+    },
+    {
+      "station_name": "Sarangpur",
+      "loacation": { "longitude": "72.598729", "latitude": "23.022186" }
+    },
+    {
+      "station_name": "Gujarat High Court",
+      "loacation": { "longitude": "72.526306", "latitude": "23.07956" }
+    },
+    {
+      "station_name": "Tragad Gam",
+      "loacation": { "longitude": "72.558458", "latitude": "23.127056" }
+    },
+    {
+      "station_name": "Prabhahanuman Mandir(Trimandir)",
+      "loacation": { "longitude": "72.566679", "latitude": "23.181006" }
+    },
+    {
+      "station_name": "Kalapinagar",
+      "loacation": { "longitude": "72.617841", "latitude": "23.051858" }
+    },
+    {
+      "station_name": "Sardarnagar",
+      "loacation": { "longitude": "72.623133", "latitude": "23.08122" }
+    },
+    {
+      "station_name": "Ujala Circle(Sarkhej RailwayOverbridge)",
+      "loacation": { "longitude": "72.493936", "latitude": "22.980465" }
+    },
+    {
+      "station_name": "Sardarbag",
+      "loacation": { "longitude": "72.578645", "latitude": "23.027351" }
+    },
+    {
+      "station_name": "Krushnanagar",
+      "loacation": { "longitude": "72.642553", "latitude": "23.05704" }
+    },
+    {
+      "station_name": "Lal Darwaja",
+      "loacation": { "longitude": "72.578186", "latitude": "23.025053" }
+    },
+    {
+      "station_name": "Vatva Railway Colony",
+      "loacation": { "longitude": "72.631313", "latitude": "22.953549" }
+    },
+    {
+      "station_name": "Lambha Gam",
+      "loacation": { "longitude": "72.575723", "latitude": "22.934162" }
+    },
+    {
+      "station_name": "Kubadthal Gam",
+      "loacation": { "longitude": "72.760088", "latitude": "23.033231" }
+    },
+    {
+      "station_name": "Vasna",
+      "loacation": { "longitude": "72.547439", "latitude": "23.002146" }
+    },
+    {
+      "station_name": "Bapunagar",
+      "loacation": { "longitude": "72.633975", "latitude": "23.034078" }
+    },
+    {
+      "station_name": "Income Tax Office",
+      "loacation": { "longitude": "72.569121", "latitude": "23.039453" }
+    },
+    {
+      "station_name": "Rancharda Gam",
+      "loacation": { "longitude": "72.437755", "latitude": "23.069934" }
+    },
+    {
+      "station_name": "Ranasan Circle",
+      "loacation": { "longitude": "72.673083", "latitude": "23.111422" }
+    },
+    {
+      "station_name": "But Bhavani Mandir",
+      "loacation": { "longitude": "72.516333", "latitude": "23.006291" }
+    },
+    {
+      "station_name": "Gujarat University",
+      "loacation": { "longitude": "72.548851", "latitude": "23.034453" }
+    },
+    {
+      "station_name": "Vadaj",
+      "loacation": { "longitude": "72.571935", "latitude": "23.055433" }
+    },
+    {
+      "station_name": "Bhadrakali Mandir",
+      "loacation": { "longitude": "72.582874", "latitude": "23.024113" }
+    },
+    {
+      "station_name": "Kalupur Terminus",
+      "loacation": { "longitude": "72.599252", "latitude": "23.030033" }
+    },
+    {
+      "station_name": "Dhamatwan Gam",
+      "loacation": { "longitude": "72.722195", "latitude": "22.956083" }
+    },
+    {
+      "station_name": "Sattadhar Society",
+      "loacation": { "longitude": "72.53225", "latitude": "23.066173" }
+    },
+    {
+      "station_name": "Naroda",
+      "loacation": { "longitude": "72.655876", "latitude": "23.077186" }
+    },
+    {
+      "station_name": "Iskon Mandir",
+      "loacation": { "longitude": "72.508475", "latitude": "23.02708" }
+    },
+    {
+      "station_name": "Dev Residency",
+      "loacation": { "longitude": "72.572289", "latitude": "23.120127" }
+    },
+    {
+      "station_name": "Sahyadri Bunglows",
+      "loacation": { "longitude": "72.608245", "latitude": "22.978875" }
+    },
+    {
+      "station_name": "Nikol Kathwada Ring Road",
+      "loacation": { "longitude": "72.677598", "latitude": "23.038726" }
+    },
+    {
+      "station_name": "Moti Bhoyan Chokdi",
+      "loacation": { "longitude": "72.450961", "latitude": "23.174901" }
+    },
+    {
+      "station_name": "Adani Vidyavihar",
+      "loacation": { "longitude": "72.498291", "latitude": "22.99172" }
+    },
+    {
+      "station_name": "Silver Oak University",
+      "loacation": { "longitude": "72.535068", "latitude": "23.088585" }
+    },
+    {
+      "station_name": "Prakash Vidhyalay (Isanpur)",
+      "loacation": { "longitude": "72.590279", "latitude": "22.980336" }
+    },
+    {
+      "station_name": "Nandej-Barejadi Gam",
+      "loacation": { "longitude": "72.683911", "latitude": "22.895276" }
+    },
+    {
+      "station_name": "Ahvadiya Talav(New Ranip)",
+      "loacation": { "longitude": "72.564933", "latitude": "23.0881" }
+    },
+    {
+      "station_name": "Paldi",
+      "loacation": { "longitude": "72.564703", "latitude": "23.013808" }
+    },
+    {
+      "station_name": "Acher Depot",
+      "loacation": { "longitude": "72.590408", "latitude": "23.09059" }
+    },
+    {
+      "station_name": "Usmanpura",
+      "loacation": { "longitude": "72.570203", "latitude": "23.045203" }
+    },
+    {
+      "station_name": "Vakil Bridge",
+      "loacation": { "longitude": "72.476369", "latitude": "23.026937" }
+    },
+    {
+      "station_name": "Bhakti Circle",
+      "loacation": { "longitude": "72.681666", "latitude": "23.052048" }
+    },
+    {
+      "station_name": "Vivekanandnagar",
+      "loacation": { "longitude": "72.66124", "latitude": "22.929085" }
+    },
+    {
+      "station_name": "Karnavati Chowk-4 (New Narol)",
+      "loacation": { "longitude": "72.59985", "latitude": "22.949384" }
+    },
+    {
+      "station_name": "G.E.B (Naroda)",
+      "loacation": { "longitude": "72.671914", "latitude": "23.080899" }
+    },
+    {
+      "station_name": "Kush Society (New Naroda)",
+      "loacation": { "longitude": "72.665351", "latitude": "23.075668" }
+    },
+    {
+      "station_name": "Bakrol Gam",
+      "loacation": { "longitude": "72.509937", "latitude": "22.925256" }
+    },
+    {
+      "station_name": "Dani Limda Gam",
+      "loacation": { "longitude": "72.583908", "latitude": "22.997178" }
+    },
+    {
+      "station_name": "S.P.Ring Road (Odhav Gidc)",
+      "loacation": { "longitude": "72.67429", "latitude": "23.030995" }
+    },
+    {
+      "station_name": "Nirant Chokdi",
+      "loacation": { "longitude": "72.6578", "latitude": "22.999736" }
+    },
+    {
+      "station_name": "Naroda Industrial Township(MuthiyaGam)",
+      "loacation": { "longitude": "72.675936", "latitude": "23.094222" }
+    },
+    {
+      "station_name": "Indiranagar Vibhag-2 (Pani ni Tanki)",
+      "loacation": { "longitude": "72.560473", "latitude": "22.931513" }
+    },
+    {
+      "station_name": "Sanathal Cross Road",
+      "loacation": { "longitude": "72.475978", "latitude": "22.96203" }
+    },
+    {
+      "station_name": "Indrapuri Township (Trikampura)",
+      "loacation": { "longitude": "72.632146", "latitude": "22.982164" }
+    },
+    {
+      "station_name": "Vinobabhavenagar",
+      "loacation": { "longitude": "72.64885", "latitude": "22.93628" }
+    },
+    {
+      "station_name": "Godhavi Gam",
+      "loacation": { "longitude": "72.409551", "latitude": "23.025361" }
+    },
+    {
+      "station_name": "Arbudanagar",
+      "loacation": { "longitude": "72.6448", "latitude": "23.009321" }
+    },
+    {
+      "station_name": "Vastral Gam",
+      "loacation": { "longitude": "72.67104", "latitude": "22.9955" }
+    },
+    {
+      "station_name": "Civil Hospital",
+      "loacation": { "longitude": "72.602518", "latitude": "23.049418" }
+    },
+    {
+      "station_name": "Bhadaj Circle (S.P.Ring Road)",
+      "loacation": { "longitude": "72.492595", "latitude": "23.084894" }
+    },
+    {
+      "station_name": "Lapakaman Gam",
+      "loacation": { "longitude": "72.49947", "latitude": "23.129116" }
+    },
+    {
+      "station_name": "Madhav Homes",
+      "loacation": { "longitude": "72.65506", "latitude": "22.991995" }
+    },
+    {
+      "station_name": "Sabarmati 'D' Cabin",
+      "loacation": { "longitude": "72.57006", "latitude": "23.102583" }
+    },
+    {
+      "station_name": "Shela Gam",
+      "loacation": { "longitude": "72.442702", "latitude": "23.009342" }
+    },
+    {
+      "station_name": "Bakrol-Bujrang Gam",
+      "loacation": { "longitude": "72.739661", "latitude": "22.98261" }
+    },
+    {
+      "station_name": "Nava Vadaj",
+      "loacation": { "longitude": "72.561808", "latitude": "23.068126" }
+    },
+    {
+      "station_name": "Sherisa Gam",
+      "loacation": { "longitude": "72.469655", "latitude": "23.196456" }
+    },
+    {
+      "station_name": "Manmohan Park",
+      "loacation": { "longitude": "72.661983", "latitude": "23.032553" }
+    },
+    {
+      "station_name": "Badrinarayan Society",
+      "loacation": { "longitude": "72.651466", "latitude": "23.044106" }
+    },
+    {
+      "station_name": "Thaltej Gam",
+      "loacation": { "longitude": "72.508022", "latitude": "23.050366" }
+    },
+    {
+      "station_name": "Parshwanath Township",
+      "loacation": { "longitude": "72.652203", "latitude": "23.055969" }
+    },
+    {
+      "station_name": "Chandkheda Gam",
+      "loacation": { "longitude": "72.582871", "latitude": "23.116276" }
+    },
+    {
+      "station_name": "Rajoda Patiya",
+      "loacation": { "longitude": "72.38298", "latitude": "22.858656" }
+    },
+    {
+      "station_name": "Narol Circle",
+      "loacation": { "longitude": "72.588505", "latitude": "22.971628" }
+    },
+    {
+      "station_name": "Jaspur Gam",
+      "loacation": { "longitude": "72.517126", "latitude": "23.167671" }
+    },
+    {
+      "station_name": "Odhav Panjarapol",
+      "loacation": { "longitude": "72.668351", "latitude": "23.009869" }
+    },
+    {
+      "station_name": "Parijat Bunglows",
+      "loacation": { "longitude": "72.51435", "latitude": "23.037563" }
+    },
+    {
+      "station_name": "Gayatri Vidyalay",
+      "loacation": { "longitude": "72.570425", "latitude": "23.079621" }
+    },
+    {
+      "station_name": "Bopal Gam",
+      "loacation": { "longitude": "72.461789", "latitude": "23.036592" }
+    },
+    {
+      "station_name": "Zundal Circle",
+      "loacation": { "longitude": "72.585404", "latitude": "23.130353" }
+    },
+    {
+      "station_name": "Santej Gam",
+      "loacation": { "longitude": "72.469051", "latitude": "23.109393" }
+    },
+    {
+      "station_name": "Nenpur Chokdi",
+      "loacation": { "longitude": "72.752263", "latitude": "22.857024" }
+    },
+    {
+      "station_name": "Kubernagar Bangla",
+      "loacation": { "longitude": "72.63612", "latitude": "23.071183" }
+    },
+    {
+      "station_name": "Bareja Eye Hospital",
+      "loacation": { "longitude": "72.598276", "latitude": "22.849501" }
+    },
+    {
+      "station_name": "Chenpur Gam",
+      "loacation": { "longitude": "72.559313", "latitude": "23.100011" }
+    },
+    {
+      "station_name": "Wanch Gam",
+      "loacation": { "longitude": "72.69127", "latitude": "22.941736" }
+    },
+    {
+      "station_name": "Mahalakshmi Talav (Vatva)",
+      "loacation": { "longitude": "72.617331", "latitude": "22.952046" }
+    },
+    {
+      "station_name": "Santej (Shah Alloys)",
+      "loacation": { "longitude": "72.46909", "latitude": "23.109358" }
+    },
+    {
+      "station_name": "Prahladnagar Cross Road",
+      "loacation": { "longitude": "72.5041", "latitude": "23.011756" }
+    },
+    {
+      "station_name": "Jodhpur Gam",
+      "loacation": { "longitude": "72.520846", "latitude": "23.016856" }
+    },
+    {
+      "station_name": "Sardar Party Plot (S.P.Ring Road)",
+      "loacation": { "longitude": "72.688861", "latitude": "23.069817" }
+    },
+    {
+      "station_name": "Ramol Gam",
+      "loacation": { "longitude": "72.655738", "latitude": "22.980555" }
+    },
+    {
+      "station_name": "Mangalmurti Apartment",
+      "loacation": { "longitude": "72.548161", "latitude": "23.060538" }
+    },
+    {
+      "station_name": "Chosar Gam",
+      "loacation": { "longitude": "72.63509", "latitude": "22.90282" }
+    },
+    {
+      "station_name": "Amba Township Sector-5 (Trimandir)",
+      "loacation": { "longitude": "72.578453", "latitude": "23.187805" }
+    },
+    {
+      "station_name": "Sola Bhagwat Vidyapith",
+      "loacation": { "longitude": "72.520573", "latitude": "23.087061" }
+    },
+    {
+      "station_name": "Pasunj Gam",
+      "loacation": { "longitude": "72.799228", "latitude": "23.036143" }
+    },
+    {
+      "station_name": "Gandhibag (Acher)",
+      "loacation": { "longitude": "72.591725", "latitude": "23.089013" }
+    },
+    {
+      "station_name": "Thol Gam (Saradar Chowk)",
+      "loacation": { "longitude": "72.377312", "latitude": "23.133087" }
+    },
+    {
+      "station_name": "Tapi Apartment",
+      "loacation": { "longitude": "72.676674", "latitude": "23.06537" }
+    },
+    {
+      "station_name": "Engg./B.Ed.College (Vahelal)",
+      "loacation": { "longitude": "72.756915", "latitude": "23.084071" }
+    },
+    {
+      "station_name": "Kasindra Gam",
+      "loacation": { "longitude": "72.489811", "latitude": "22.89361" }
+    },
+    {
+      "station_name": "Vatva Gam",
+      "loacation": { "longitude": "72.612875", "latitude": "22.953706" }
+    },
+    {
+      "station_name": "Vatva Railway Station",
+      "loacation": { "longitude": "72.629112", "latitude": "22.958856" }
+    },
+    {
+      "station_name": "Aslali Circle",
+      "loacation": { "longitude": "72.596078", "latitude": "22.92939" }
+    },
+    {
+      "station_name": "Ranchodpura Cross Road",
+      "loacation": { "longitude": "72.4382", "latitude": "23.096152" }
+    },
+    {
+      "station_name": "Vagheshwari Soc(Chandlodia Rly Station)",
+      "loacation": { "longitude": "72.54792", "latitude": "23.076736" }
+    },
+    {
+      "station_name": "Isanpur",
+      "loacation": { "longitude": "72.600135", "latitude": "22.978313" }
+    },
+    {
+      "station_name": "Vaishali Township",
+      "loacation": { "longitude": "72.538232", "latitude": "22.992617" }
+    },
+    {
+      "station_name": "Abu-Koba Cross Road",
+      "loacation": { "longitude": "72.591128", "latitude": "23.086738" }
+    },
+    {
+      "station_name": "Gatrad Gam",
+      "loacation": { "longitude": "72.702098", "latitude": "22.978493" }
+    },
+    {
+      "station_name": "Vatva Railway Crossing",
+      "loacation": { "longitude": "72.631265", "latitude": "22.953915" }
+    },
+    {
+      "station_name": "Rajivnagar (Chandkheda)",
+      "loacation": { "longitude": "72.595699", "latitude": "23.120139" }
+    },
+    {
+      "station_name": "Paldi-Kankaj Gam",
+      "loacation": { "longitude": "72.52074", "latitude": "22.89861" }
+    },
+    {
+      "station_name": "Vehlal Gam",
+      "loacation": { "longitude": "72.761006", "latitude": "23.07819" }
+    },
+    {
+      "station_name": "Amraiwadi",
+      "loacation": { "longitude": "72.624274", "latitude": "23.006786" }
+    },
+    {
+      "station_name": "Krishna Shelbi Hospital (Ghuma)",
+      "loacation": { "longitude": "72.442003", "latitude": "23.023918" }
+    },
+    {
+      "station_name": "Chandlodiya Talav (Ganeshwar Mahadev)",
+      "loacation": { "longitude": "72.553555", "latitude": "23.084258" }
+    },
+    {
+      "station_name": "Aradhana Residency (Fateh wadi Kenal)",
+      "loacation": { "longitude": "72.511969", "latitude": "22.977795" }
+    },
+    {
+      "station_name": "Andh Kalyan Kendra",
+      "loacation": { "longitude": "72.570987", "latitude": "23.085201" }
+    },
+    {
+      "station_name": "Ghodasar Gam",
+      "loacation": { "longitude": "72.612538", "latitude": "22.98459" }
+    },
+    {
+      "station_name": "Devdi Gam",
+      "loacation": { "longitude": "72.649681", "latitude": "22.907225" }
+    },
+    {
+      "station_name": "Adinathnagar",
+      "loacation": { "longitude": "72.661821", "latitude": "23.015041" }
+    },
+    {
+      "station_name": "Kamod Gam",
+      "loacation": { "longitude": "72.543123", "latitude": "22.928855" }
+    },
+    {
+      "station_name": "Shardaben Hospital",
+      "loacation": { "longitude": "72.611318", "latitude": "23.031652" }
+    },
+    {
+      "station_name": "Rasraj Jackpot (Ring Road)",
+      "loacation": { "longitude": "72.683878", "latitude": "23.05197" }
+    },
+    {
+      "station_name": "Sarkhej Roza",
+      "loacation": { "longitude": "72.50784", "latitude": "22.993001" }
+    },
+    {
+      "station_name": "Dabhoda Gam",
+      "loacation": { "longitude": "72.747471", "latitude": "23.174573" }
+    },
+    {
+      "station_name": "Memco",
+      "loacation": { "longitude": "72.63125", "latitude": "23.052925" }
+    },
+    {
+      "station_name": "Lilapur Gam",
+      "loacation": { "longitude": "72.514136", "latitude": "23.147436" }
+    },
+    {
+      "station_name": "Miroli Gam",
+      "loacation": { "longitude": "72.521301", "latitude": "22.8722" }
+    },
+    {
+      "station_name": "Riddhi Siddhi Bunglows (Ashapura Motors)",
+      "loacation": { "longitude": "72.39447", "latitude": "22.986113" }
+    },
+    {
+      "station_name": "Vamaj Gam",
+      "loacation": { "longitude": "72.4101", "latitude": "23.219208" }
+    },
+    {
+      "station_name": "C.T.M. Cross Road",
+      "loacation": { "longitude": "72.6325", "latitude": "22.992043" }
+    },
+    {
+      "station_name": "Mumatpura Gam",
+      "loacation": { "longitude": "72.490007", "latitude": "23.015209" }
+    },
+    {
+      "station_name": "Swami Vivekanand Chowk(Vastral)",
+      "loacation": { "longitude": "72.679229", "latitude": "23.012598" }
+    },
+    {
+      "station_name": "Nana Chiloda(Mnu.Octroi)",
+      "loacation": { "longitude": "72.669785", "latitude": "23.103688" }
+    },
+    {
+      "station_name": "Jawahar Chowk (Sabarmati)",
+      "loacation": { "longitude": "72.585121", "latitude": "23.092605" }
+    },
+    {
+      "station_name": "Ahmedabad Institute Of Medical Science",
+      "loacation": { "longitude": "72.50125", "latitude": "23.127348" }
+    },
+    {
+      "station_name": "Subhash Bridge Circle",
+      "loacation": { "longitude": "72.583601", "latitude": "23.067446" }
+    },
+    {
+      "station_name": "Kathwada Gam",
+      "loacation": { "longitude": "72.705992", "latitude": "23.057975" }
+    },
+    {
+      "station_name": "Isanpur-Vatva Cross Road",
+      "loacation": { "longitude": "72.600675", "latitude": "22.975548" }
+    },
+    {
+      "station_name": "Khokhara Circle",
+      "loacation": { "longitude": "72.618346", "latitude": "23.00242" }
+    },
+    {
+      "station_name": "Oganaj Circle (S.P.Ring Road)",
+      "loacation": { "longitude": "72.507834", "latitude": "23.120444" }
+    },
+    {
+      "station_name": "Shrinand Residency",
+      "loacation": { "longitude": "72.643584", "latitude": "22.980336" }
+    },
+    {
+      "station_name": "Raipur Darwaja",
+      "loacation": { "longitude": "72.594003", "latitude": "23.01699" }
+    },
+    {
+      "station_name": "Arohi Homes (South Bopal)",
+      "loacation": { "longitude": "72.477214", "latitude": "23.016262" }
+    }
+  ]
+}

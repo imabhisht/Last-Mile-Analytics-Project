@@ -1,0 +1,312 @@
+Data for AMTS Stations:
+
+Raipur Darwaja
+Vatva Railway Station
+Isanpur-Vatva Cross Road
+Madhavnagar (Sanand)
+Vamaj Gam
+Amraiwadi
+Badrinarayan Society
+Chandkheda Gam
+Swami Vivekanand Chowk(Vastral)
+Shilaj Gam
+Lal Darwaja
+Chenpur Gam
+Vatva Railway Colony
+Subhash Bridge Circle
+Nigam Society
+Nenpur Chokdi
+Engg. B.Ed.College (Vahelal)
+Bareja Eye Hospital
+Ranasan Circle
+Godrejcity Phase-1
+Shela Gam
+Dani Limda Gam
+Tragad Gam
+Indiranagar Vibhag-2 (Pani ni Tanki)
+Kasindra Gam
+Karnavati Chowk-4 (New Narol)
+Sabarmati 'D' Cabin
+Kalapinagar
+Isanpur
+Thol Gam (Saradar Chowk)
+Krishna Shelbi Hospital (Ghuma)
+Vinobabhavenagar
+Gandhibag (Acher)
+But Bhavani Mandir
+Silver Oak University
+Paldi-Kankaj Gam
+Kubadthal Gam
+Ranip Gam
+G.E.B (Naroda)
+Dev Residency
+Vaishnodevi Circle(Zydus Life)
+Gatrad Gam
+Parshwanath Township
+Sola Bhagwat Vidyapith
+Nandej-Barejadi Gam
+Ramol Gam
+Bhadaj Circle (S.P.Ring Road)
+Ujala Circle(Sarkhej RailwayOverbridge)
+Godhavi Gam
+Nirant Chokdi
+Bopal Gam
+Rajoda Patiya
+Kathwada Gam
+Andh Kalyan Kendra
+Vatva Railway Crossing
+Sarangpur
+Lambha Gam
+Rancharda Gam
+Ahmedabad Institute Of Medical Science
+Kubernagar Bangla
+Prakash Vidhyalay (Isanpur)
+Aradhana Residency (Fateh wadi Kenal)
+Kalupur Terminus
+Arvind Polycoat (Khatraj)
+Madhav Homes
+Vasna
+Kamod Gam
+Sitarambapa Chowk (Gopal Chowk)
+Ghodasar Gam
+Rasraj Jackpot (Ring Road)
+Vagheshwari Soc(Chandlodia Rly Station)
+Ranchodpura Cross Road
+Jodhpur Gam
+Acher Depot
+Vivekanandnagar
+Mahalakshmi Talav (Vatva)
+Income Tax Office
+Memco
+Amba Township Sector-5 (Trimandir)
+Hatkeshwar Depo
+Vakil Bridge
+Arohi Homes (South Bopal)
+Bakrol Gam
+Dabhoda Gam
+Prahladnagar Cross Road
+Sahyadri Bunglows
+Arbudanagar
+Narol Circle
+Aslali Circle
+Parijat Bunglows
+Prabhahanuman Mandir(Trimandir)
+Tapi Apartment
+Gujarat High Court
+Abu-Koba Cross Road
+Jaspur Gam
+Chosar Gam
+Lilapur Gam
+Khokhara Circle
+Ahvadiya Talav(New Ranip)
+Someshwar Mahadev
+Thaltej Gam
+Chandlodiya Talav (Ganeshwar Mahadev)
+Nikol Kathwada Ring Road
+Mumatpura Gam
+Civil Hospital
+Bhakti Circle
+Adinathnagar
+Kali Gam
+Shrinand Residency
+Bakrol-Bujrang Gam
+Sarkhej-Bavla Circle (Ujala Hotel)
+Nana Chiloda(Mnu.Octroi)
+Gujarat University
+Kush Society (New Naroda)
+Chandkheda (Sarthi Bunglows)
+Sardarnagar
+Jawahar Chowk (Sabarmati)
+Maninagar
+Pasunj Gam
+Chinubhainagar
+Devdi Gam
+Ghuma Gam
+Wanch Gam
+Gayatri Vidyalay
+Sarkhej Roza
+Indrapuri Township (Trikampura)
+Shardaben Hospital
+Lapakaman Gam
+Sanathal Cross Road
+Zundal Circle
+Meghaninagar
+Oganaj Circle (S.P.Ring Road)
+Nava Vadaj
+Naroda
+Vehlal Gam
+Sherisa Gam
+Manmohan Park
+Riddhi Siddhi Bunglows (Ashapura Motors)
+Moti Bhoyan Chokdi
+Iskon Mandir
+S.P.Ring Road (Odhav Gidc)
+Odhav Panjarapol
+Sattadhar Society
+Sardarbag
+Krushnanagar
+Dhamatwan Gam
+Vadaj
+Miroli Gam
+Sarkhej Gam
+Santej (Shah Alloys)
+Mangalmurti Apartment
+Usmanpura
+Bapunagar
+Sardar Party Plot (S.P.Ring Road)
+Vatva Gam
+Rajivnagar (Chandkheda)
+Naroda Industrial Township(MuthiyaGam)
+Paldi
+Adani Vidyavihar
+Vaishali Township
+Bhadrakali Mandir
+C.T.M. Cross Road
+Vastral Gam
+Santej Gam
+
+
+Data for BRTS Stations:
+
+Ambar Tower
+Bhagwat Bungalows
+Sabarmati Municipal Swimming pool
+Bhadaj Circle
+Pravinnagar
+Hanspura Ring Road
+Sarkari Litho Press Cabin
+Shivranjani
+Chandkheda Gam
+Express Highway Junction
+University
+South Bopal BRTS Terminus
+Soma Textiles
+ONGC Avani Bhavan
+Karnavati Club
+Naroda Bazaar
+Swaminarayan Park
+Sarthi Bungalows
+Jantanagar
+Ambli Gam
+Vaikunth Dham Mandir
+Jhansi Ki Rani
+Morlidhar Society
+Jawahar Chowk
+ISRO
+Soni ni Chali B
+G.E.B (Naroda)
+Hetarth Party Plot
+Danilimda Char Rasta
+Gayatri Mandir
+Haridarshan Char Rasta
+L Colony
+Juhapura Road
+Shukan Mall
+Bhimnath Mahadev
+LD Engg. College
+Science City Approach
+Swaminarayan Mandir
+Bopal Gam
+Sola Bhagwat
+Bhulabhai Park
+Khurshid Park
+Sattadhar Char Rasta
+Hanuman Camp
+Danilimda Road
+Trimandir
+Panjrapole Char Rasta
+Rakhiyal Char Rasta
+Amba Township
+Saijpur Towers
+Prabha Hanuman
+Jeening Press
+G.C.S. Hospital
+BRTS Workshop
+Prem Darwaja
+Maktampura Ward Office
+Kalupur Ghee Bazar
+Sthapatya Eligance
+Vasna
+Odhav Talav
+Sarkhej Circle
+Ramdevnagar
+Aarohi Club Road
+Swagat City
+Pragatinagar
+Jaimangal
+Akhbarnagar
+Naranghat
+Sanand Circle
+Sarangpur Darwaja
+Naroda Gam
+Vijay Park
+Basant Bahar
+Bopal Approach
+Makarba Road
+Vishvakarma Engineering College
+Sterling City
+Hirawadi
+Gujarat High Court
+Andhjan Mandal
+Narayana Hospital
+Patel Mills
+Kashiram Textiles
+Jogeshwari Society
+Vasundhara Society
+Naroda S. T. Workshop
+Civil Hospital
+Bethak
+Shastrinagar
+Bhairavnath Road
+Kalpataru Park
+Rabari Colony
+Maninagar
+Rambaug
+Dhanush Dhari Mandir
+Kalupur
+Prahalad Nagar Cross Road
+Mangal Park
+Samarpan Bungalows
+Maninagar Char Rasta
+Jodhpur Char Rasta
+Vallabh Nagar
+Himmatlal Park
+Purvdeep Society
+Ghuma Gam
+SOBO Center
+Geeta Mandir
+Gulbai Tekra Approach
+Chittavan 
+Shiv Shaktinagar
+Khodiyarnagar
+ISKCON Cross Road
+DCIS Circle
+Adalaj Circle
+Narol
+Ranip Cross Road
+Science City
+Little Wings
+CTM Cross Road
+Swaminarayan College
+Gota Vasant Nagar Township
+Ram Rajya Nagar
+Chhipa Society
+Adalaj S.T. Stand
+Nehrunagar
+Star Bazaar
+Jashodanagar Char Rasta
+Sola Bridge
+Ashok Vatika
+Delhi Darwaja
+Motera Cross Road
+Rameshwar Park
+M J Library
+Hanspura Gam
+Ahmedabad Domestic Airport
+Mira Cinema Char Rasta
+Krishna nagar
+Law Garden
+Gota Cross Road
+Sukhasan Char Rasta
+Kankariya Lake Shukla Dada Chowk
+Airport Circle

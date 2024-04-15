@@ -1,0 +1,572 @@
+{
+  "all_station": [
+    {
+      "station_name": "ISKCON Cross Road",
+      "loacation": { "longitude": "72.508539", "latitude": "23.027171" }
+    },
+    {
+      "station_name": "Rabari Colony",
+      "loacation": { "longitude": "72.636855", "latitude": "23.004385" }
+    },
+    {
+      "station_name": "Samarpan Bungalows",
+      "loacation": { "longitude": "72.476288", "latitude": "23.029066" }
+    },
+    {
+      "station_name": "Sthapatya Eligance",
+      "loacation": { "longitude": "72.675277", "latitude": "23.082949" }
+    },
+    {
+      "station_name": "Sarkari Litho Press Cabin",
+      "loacation": { "longitude": "72.586281", "latitude": "23.039412" }
+    },
+    {
+      "station_name": "Ram Rajya Nagar",
+      "loacation": { "longitude": "72.638116", "latitude": "23.007985" }
+    },
+    {
+      "station_name": "Gujarat High Court",
+      "loacation": { "longitude": "72.525964", "latitude": "23.0795" }
+    },
+    {
+      "station_name": "Bhulabhai Park",
+      "loacation": { "longitude": "72.59109", "latitude": "23.006711" }
+    },
+    {
+      "station_name": "Jogeshwari Society",
+      "loacation": { "longitude": "72.635611", "latitude": "23.000439" }
+    },
+    {
+      "station_name": "Delhi Darwaja",
+      "loacation": { "longitude": "72.589757", "latitude": "23.037613" }
+    },
+    {
+      "station_name": "Hanuman Camp",
+      "loacation": { "longitude": "72.600394", "latitude": "23.066394" }
+    },
+    {
+      "station_name": "Vasna",
+      "loacation": { "longitude": "72.547867", "latitude": "23.002248" }
+    },
+    {
+      "station_name": "Ashok Vatika",
+      "loacation": { "longitude": "72.495576", "latitude": "23.027909" }
+    },
+    {
+      "station_name": "Naroda S. T. Workshop",
+      "loacation": { "longitude": "72.642475", "latitude": "23.064553" }
+    },
+    {
+      "station_name": "Basant Bahar",
+      "loacation": { "longitude": "72.46705", "latitude": "23.028735" }
+    },
+    {
+      "station_name": "Bhadaj Circle",
+      "loacation": { "longitude": "72.495317", "latitude": "23.082913" }
+    },
+    {
+      "station_name": "LD Engg. College",
+      "loacation": { "longitude": "72.548809", "latitude": "23.034959" }
+    },
+    {
+      "station_name": "Nehrunagar",
+      "loacation": { "longitude": "72.541715", "latitude": "23.022555" }
+    },
+    {
+      "station_name": "Hanspura Gam",
+      "loacation": { "longitude": "72.680345", "latitude": "23.085446" }
+    },
+    {
+      "station_name": "Sarkhej Circle",
+      "loacation": { "longitude": "72.503007", "latitude": "22.987644" }
+    },
+    {
+      "station_name": "Naranghat",
+      "loacation": { "longitude": "72.587809", "latitude": "23.057562" }
+    },
+    {
+      "station_name": "Sanand Circle",
+      "loacation": { "longitude": "72.495313", "latitude": "22.987987" }
+    },
+    {
+      "station_name": "Vasundhara Society",
+      "loacation": { "longitude": "72.552174", "latitude": "23.027862" }
+    },
+    {
+      "station_name": "Sterling City",
+      "loacation": { "longitude": "72.469126", "latitude": "23.032377" }
+    },
+    {
+      "station_name": "Law Garden",
+      "loacation": { "longitude": "72.559058", "latitude": "23.023972" }
+    },
+    {
+      "station_name": "Gota Vasant Nagar Township",
+      "loacation": { "longitude": "72.524915", "latitude": "23.106449" }
+    },
+    {
+      "station_name": "Hetarth Party Plot",
+      "loacation": { "longitude": "72.509484", "latitude": "23.07565" }
+    },
+    {
+      "station_name": "Amba Township",
+      "loacation": { "longitude": "72.576362", "latitude": "23.189629" }
+    },
+    {
+      "station_name": "Naroda Bazaar",
+      "loacation": { "longitude": "72.656174", "latitude": "23.074838" }
+    },
+    {
+      "station_name": "Bhairavnath Road",
+      "loacation": { "longitude": "72.599028", "latitude": "22.995486" }
+    },
+    {
+      "station_name": "Soni ni Chali B",
+      "loacation": { "longitude": "72.638276", "latitude": "23.020581" }
+    },
+    {
+      "station_name": "Gulbai Tekra Approach",
+      "loacation": { "longitude": "72.547166", "latitude": "23.029531" }
+    },
+    {
+      "station_name": "DCIS Circle",
+      "loacation": { "longitude": "72.584466", "latitude": "23.129198" }
+    },
+    {
+      "station_name": "Gota Cross Road",
+      "loacation": { "longitude": "72.531421", "latitude": "23.098686" }
+    },
+    {
+      "station_name": "Science City Approach",
+      "loacation": { "longitude": "72.522567", "latitude": "23.069693" }
+    },
+    {
+      "station_name": "Hirawadi",
+      "loacation": { "longitude": "72.640999", "latitude": "23.045583" }
+    },
+    {
+      "station_name": "Prabha Hanuman",
+      "loacation": { "longitude": "72.565852", "latitude": "23.181576" }
+    },
+    {
+      "station_name": "M J Library",
+      "loacation": { "longitude": "72.570259", "latitude": "23.023724" }
+    },
+    {
+      "station_name": "Bethak",
+      "loacation": { "longitude": "72.649166", "latitude": "23.071963" }
+    },
+    {
+      "station_name": "Science City",
+      "loacation": { "longitude": "72.499605", "latitude": "23.080483" }
+    },
+    {
+      "station_name": "Hanspura Ring Road",
+      "loacation": { "longitude": "72.685861", "latitude": "23.088254" }
+    },
+    {
+      "station_name": "Gayatri Mandir",
+      "loacation": { "longitude": "72.595317", "latitude": "23.061989" }
+    },
+    {
+      "station_name": "Mira Cinema Char Rasta",
+      "loacation": { "longitude": "72.593199", "latitude": "22.999124" }
+    },
+    {
+      "station_name": "Bhimnath Mahadev",
+      "loacation": { "longitude": "72.458218", "latitude": "23.026779" }
+    },
+    {
+      "station_name": "Kalupur Ghee Bazar",
+      "loacation": { "longitude": "72.599906", "latitude": "23.03139" }
+    },
+    {
+      "station_name": "Karnavati Club",
+      "loacation": { "longitude": "72.504976", "latitude": "23.019843" }
+    },
+    {
+      "station_name": "Chhipa Society",
+      "loacation": { "longitude": "72.581578", "latitude": "22.991571" }
+    },
+    {
+      "station_name": "CTM Cross Road",
+      "loacation": { "longitude": "72.631727", "latitude": "22.991333" }
+    },
+    {
+      "station_name": "Bhagwat Bungalows",
+      "loacation": { "longitude": "72.461657", "latitude": "23.017334" }
+    },
+    {
+      "station_name": "Prahalad Nagar Cross Road",
+      "loacation": { "longitude": "72.50252", "latitude": "23.012499" }
+    },
+    {
+      "station_name": "Naroda Gam",
+      "loacation": { "longitude": "72.655812", "latitude": "23.077071" }
+    },
+    {
+      "station_name": "Sukhasan Char Rasta",
+      "loacation": { "longitude": "72.46895", "latitude": "23.016283" }
+    },
+    {
+      "station_name": "Rambaug",
+      "loacation": { "longitude": "72.600643", "latitude": "22.99988" }
+    },
+    {
+      "station_name": "Mangal Park",
+      "loacation": { "longitude": "72.589863", "latitude": "23.003567" }
+    },
+    {
+      "station_name": "Rameshwar Park",
+      "loacation": { "longitude": "72.63841", "latitude": "23.013671" }
+    },
+    {
+      "station_name": "Airport Circle",
+      "loacation": { "longitude": "72.616404", "latitude": "23.08132" }
+    },
+    {
+      "station_name": "Odhav Talav",
+      "loacation": { "longitude": "72.665309", "latitude": "23.024458" }
+    },
+    {
+      "station_name": "Bopal Approach",
+      "loacation": { "longitude": "72.477817", "latitude": "23.025813" }
+    },
+    {
+      "station_name": "Chittavan ",
+      "loacation": { "longitude": "72.470455", "latitude": "23.024278" }
+    },
+    {
+      "station_name": "Chandkheda Gam",
+      "loacation": { "longitude": "72.582605", "latitude": "23.116507" }
+    },
+    {
+      "station_name": "Maninagar Char Rasta",
+      "loacation": { "longitude": "72.606448", "latitude": "22.9972" }
+    },
+    {
+      "station_name": "Dhanush Dhari Mandir",
+      "loacation": { "longitude": "72.642898", "latitude": "23.059802" }
+    },
+    {
+      "station_name": "Jawahar Chowk",
+      "loacation": { "longitude": "72.605", "latitude": "22.995157" }
+    },
+    {
+      "station_name": "Ambli Gam",
+      "loacation": { "longitude": "72.482132", "latitude": "23.026409" }
+    },
+    {
+      "station_name": "Makarba Road",
+      "loacation": { "longitude": "72.4986", "latitude": "23.00005" }
+    },
+    {
+      "station_name": "Purvdeep Society",
+      "loacation": { "longitude": "72.634153", "latitude": "22.996181" }
+    },
+    {
+      "station_name": "Civil Hospital",
+      "loacation": { "longitude": "72.60118", "latitude": "23.049941" }
+    },
+    {
+      "station_name": "Ahmedabad Domestic Airport",
+      "loacation": { "longitude": "72.621076", "latitude": "23.071765" }
+    },
+    {
+      "station_name": "Vijay Park",
+      "loacation": { "longitude": "72.64185", "latitude": "23.05132" }
+    },
+    {
+      "station_name": "Ambar Tower",
+      "loacation": { "longitude": "72.512412", "latitude": "22.988919" }
+    },
+    {
+      "station_name": "Juhapura Road",
+      "loacation": { "longitude": "72.53009", "latitude": "22.994573" }
+    },
+    {
+      "station_name": "Jaimangal",
+      "loacation": { "longitude": "72.549326", "latitude": "23.057561" }
+    },
+    {
+      "station_name": "G.E.B (Naroda)",
+      "loacation": { "longitude": "72.672253", "latitude": "23.080555" }
+    },
+    {
+      "station_name": "Prem Darwaja",
+      "loacation": { "longitude": "72.594861", "latitude": "23.037267" }
+    },
+    {
+      "station_name": "Bopal Gam",
+      "loacation": { "longitude": "72.464102", "latitude": "23.033993" }
+    },
+    {
+      "station_name": "ISRO",
+      "loacation": { "longitude": "72.517628", "latitude": "23.027659" }
+    },
+    {
+      "station_name": "South Bopal BRTS Terminus",
+      "loacation": { "longitude": "72.465699", "latitude": "23.016207" }
+    },
+    {
+      "station_name": "Swaminarayan Mandir",
+      "loacation": { "longitude": "72.611634", "latitude": "22.994862" }
+    },
+    {
+      "station_name": "SOBO Center",
+      "loacation": { "longitude": "72.474928", "latitude": "23.017849" }
+    },
+    {
+      "station_name": "Jantanagar",
+      "loacation": { "longitude": "72.585187", "latitude": "23.108237" }
+    },
+    {
+      "station_name": "Little Wings",
+      "loacation": { "longitude": "72.459563", "latitude": "23.032042" }
+    },
+    {
+      "station_name": "Pragatinagar",
+      "loacation": { "longitude": "72.556055", "latitude": "23.064658" }
+    },
+    {
+      "station_name": "Swagat City",
+      "loacation": { "longitude": "72.587971", "latitude": "23.160158" }
+    },
+    {
+      "station_name": "Kankariya Lake Shukla Dada Chowk",
+      "loacation": { "longitude": "72.598896", "latitude": "23.00323" }
+    },
+    {
+      "station_name": "Ramdevnagar",
+      "loacation": { "longitude": "72.512763", "latitude": "23.027471" }
+    },
+    {
+      "station_name": "L Colony",
+      "loacation": { "longitude": "72.542881", "latitude": "23.023516" }
+    },
+    {
+      "station_name": "Kalupur",
+      "loacation": { "longitude": "72.600349", "latitude": "23.026879" }
+    },
+    {
+      "station_name": "Narayana Hospital",
+      "loacation": { "longitude": "72.623291", "latitude": "23.021505" }
+    },
+    {
+      "station_name": "Kashiram Textiles",
+      "loacation": { "longitude": "72.586806", "latitude": "22.976786" }
+    },
+    {
+      "station_name": "Khurshid Park",
+      "loacation": { "longitude": "72.518202", "latitude": "22.991276" }
+    },
+    {
+      "station_name": "Trimandir",
+      "loacation": { "longitude": "72.57308", "latitude": "23.177094" }
+    },
+    {
+      "station_name": "G.C.S. Hospital",
+      "loacation": { "longitude": "72.609088", "latitude": "23.039335" }
+    },
+    {
+      "station_name": "Ranip Cross Road",
+      "loacation": { "longitude": "72.575648", "latitude": "23.067603" }
+    },
+    {
+      "station_name": "Morlidhar Society",
+      "loacation": { "longitude": "72.662407", "latitude": "23.024067" }
+    },
+    {
+      "station_name": "Jhansi Ki Rani",
+      "loacation": { "longitude": "72.536272", "latitude": "23.023012" }
+    },
+    {
+      "station_name": "Vishvakarma Engineering College",
+      "loacation": { "longitude": "72.596592", "latitude": "23.104971" }
+    },
+    {
+      "station_name": "Shukan Mall",
+      "loacation": { "longitude": "72.515282", "latitude": "23.072833" }
+    },
+    {
+      "station_name": "Geeta Mandir",
+      "loacation": { "longitude": "72.59141", "latitude": "23.012996" }
+    },
+    {
+      "station_name": "Krishna nagar",
+      "loacation": { "longitude": "72.642422", "latitude": "23.054942" }
+    },
+    {
+      "station_name": "Sola Bridge",
+      "loacation": { "longitude": "72.529577", "latitude": "23.064879" }
+    },
+    {
+      "station_name": "Star Bazaar",
+      "loacation": { "longitude": "72.524173", "latitude": "23.026189" }
+    },
+    {
+      "station_name": "Himmatlal Park",
+      "loacation": { "longitude": "72.532415", "latitude": "23.029749" }
+    },
+    {
+      "station_name": "Rakhiyal Char Rasta",
+      "loacation": { "longitude": "72.61915", "latitude": "23.022236" }
+    },
+    {
+      "station_name": "Saijpur Towers",
+      "loacation": { "longitude": "72.63985", "latitude": "23.061417" }
+    },
+    {
+      "station_name": "BRTS Workshop",
+      "loacation": { "longitude": "72.58572", "latitude": "22.982124" }
+    },
+    {
+      "station_name": "Sarthi Bungalows",
+      "loacation": { "longitude": "72.582715", "latitude": "23.122981" }
+    },
+    {
+      "station_name": "Swaminarayan College",
+      "loacation": { "longitude": "72.587096", "latitude": "23.001416" }
+    },
+    {
+      "station_name": "Shiv Shaktinagar",
+      "loacation": { "longitude": "72.583895", "latitude": "23.112173" }
+    },
+    {
+      "station_name": "ONGC Avani Bhavan",
+      "loacation": { "longitude": "72.586668", "latitude": "23.103505" }
+    },
+    {
+      "station_name": "Panjrapole Char Rasta",
+      "loacation": { "longitude": "72.544132", "latitude": "23.026346" }
+    },
+    {
+      "station_name": "Adalaj S.T. Stand",
+      "loacation": { "longitude": "72.57514", "latitude": "23.175303" }
+    },
+    {
+      "station_name": "Swaminarayan Park",
+      "loacation": { "longitude": "72.674884", "latitude": "23.073116" }
+    },
+    {
+      "station_name": "Pravinnagar",
+      "loacation": { "longitude": "72.542251", "latitude": "22.998131" }
+    },
+    {
+      "station_name": "Vaikunth Dham Mandir",
+      "loacation": { "longitude": "72.582908", "latitude": "22.999847" }
+    },
+    {
+      "station_name": "Sabarmati Municipal Swimming pool",
+      "loacation": { "longitude": "72.593304", "latitude": "23.081531" }
+    },
+    {
+      "station_name": "Express Highway Junction",
+      "loacation": { "longitude": "72.627615", "latitude": "22.987238" }
+    },
+    {
+      "station_name": "Maktampura Ward Office",
+      "loacation": { "longitude": "72.535035", "latitude": "22.995936" }
+    },
+    {
+      "station_name": "Adalaj Circle",
+      "loacation": { "longitude": "72.586919", "latitude": "23.166944" }
+    },
+    {
+      "station_name": "Danilimda Road",
+      "loacation": { "longitude": "72.57909", "latitude": "22.996104" }
+    },
+    {
+      "station_name": "Aarohi Club Road",
+      "loacation": { "longitude": "72.459927", "latitude": "23.02126" }
+    },
+    {
+      "station_name": "Jodhpur Char Rasta",
+      "loacation": { "longitude": "72.527423", "latitude": "23.025194" }
+    },
+    {
+      "station_name": "Kalpataru Park",
+      "loacation": { "longitude": "72.586358", "latitude": "23.136461" }
+    },
+    {
+      "station_name": "Vallabh Nagar",
+      "loacation": { "longitude": "72.654811", "latitude": "23.022921" }
+    },
+    {
+      "station_name": "Motera Cross Road",
+      "loacation": { "longitude": "72.590147", "latitude": "23.091929" }
+    },
+    {
+      "station_name": "Shastrinagar",
+      "loacation": { "longitude": "72.552973", "latitude": "23.062166" }
+    },
+    {
+      "station_name": "Narol",
+      "loacation": { "longitude": "72.589558", "latitude": "22.973039" }
+    },
+    {
+      "station_name": "Haridarshan Char Rasta",
+      "loacation": { "longitude": "72.672813", "latitude": "23.070224" }
+    },
+    {
+      "station_name": "Jeening Press",
+      "loacation": { "longitude": "72.616016", "latitude": "23.04439" }
+    },
+    {
+      "station_name": "Shivranjani",
+      "loacation": { "longitude": "72.531305", "latitude": "23.02433" }
+    },
+    {
+      "station_name": "Ghuma Gam",
+      "loacation": { "longitude": "72.448392", "latitude": "23.030963" }
+    },
+    {
+      "station_name": "University",
+      "loacation": { "longitude": "72.538544", "latitude": "23.039761" }
+    },
+    {
+      "station_name": "Akhbarnagar",
+      "loacation": { "longitude": "72.563817", "latitude": "23.067571" }
+    },
+    {
+      "station_name": "Soma Textiles",
+      "loacation": { "longitude": "72.628939", "latitude": "23.020105" }
+    },
+    {
+      "station_name": "Maninagar",
+      "loacation": { "longitude": "72.61142", "latitude": "22.997729" }
+    },
+    {
+      "station_name": "Jashodanagar Char Rasta",
+      "loacation": { "longitude": "72.623936", "latitude": "22.983865" }
+    },
+    {
+      "station_name": "Danilimda Char Rasta",
+      "loacation": { "longitude": "72.577389", "latitude": "22.996454" }
+    },
+    {
+      "station_name": "Sattadhar Char Rasta",
+      "loacation": { "longitude": "72.532825", "latitude": "23.062888" }
+    },
+    {
+      "station_name": "Sola Bhagwat",
+      "loacation": { "longitude": "72.528377", "latitude": "23.086087" }
+    },
+    {
+      "station_name": "Patel Mills",
+      "loacation": { "longitude": "72.612931", "latitude": "23.021956" }
+    },
+    {
+      "station_name": "Sarangpur Darwaja",
+      "loacation": { "longitude": "72.599037", "latitude": "23.021686" }
+    },
+    {
+      "station_name": "Andhjan Mandal",
+      "loacation": { "longitude": "72.536006", "latitude": "23.034618" }
+    },
+    {
+      "station_name": "Khodiyarnagar",
+      "loacation": { "longitude": "72.570477", "latitude": "22.995685" }
+    }
+  ]
+}

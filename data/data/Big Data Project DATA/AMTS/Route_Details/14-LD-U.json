@@ -1,0 +1,30 @@
+{
+  "Data": [
+    {
+      "ScheduleForRouteId": 1162,
+      "schedulecode": "14/A",
+      "scheduleForRouteCode": "5691028",
+      "routeCode": "14-LD-U",
+      "routeName": "Lal Darwaja - Devdi Gam",
+      "routeDestination": "Devdi Gam",
+      "routeVariant": "NORMAL",
+      "firstStopCode": 1077,
+      "lastStopCode": 4069,
+      "Shift": null,
+      "startTime": "05:50:00",
+      "stopTime": "07:00:00",
+      "runCode": "14/A",
+      "tripSeqNumber": null,
+      "dutyCode": "14/A-G",
+      "firstStopName": "Lal Darwaja",
+      "lastStopName": "Lal Darwaja",
+      "busNo": 0
+    }
+  ],
+  "Paging": {
+    "PageNo": 0,
+    "PageSize": 2000,
+    "PageCount": 1,
+    "TotalRecordCount": 1
+  }
+}

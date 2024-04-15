@@ -1,0 +1,29 @@
+User
+i have traffic_congestion data in:
+
+"station_name,day,time,traffic_congestion"
+
+Where station == station name
+day = 1,2,3,4,5,6,7 where 1 stands for Monday...and so on
+time = hourly in range of 0-23.
+traffic_congestion = in rannge 0-100 raw intergers showing percentage of traffic in station.
+
+Is this data is good to show Last Mile Analytics Problem statment,  by running analysis on this data? 
+
+-------------------------------------
+"hourly_congestion = data.groupby('time')['traffic_congestion'].mean()"
+
+There is change in code. The Time is in hour, in 0-23 format. please don't format without reason. i already preprocssed the data.
+
+Im adding some lines of data for your reference:
+
+```station_name,day,time,traffic_congestion
+Ambar Tower,1,4,12
+Ambar Tower,1,5,11
+Ambar Tower,1,6,12
+Ambar Tower,1,7,14
+Ambar Tower,1,8,18
+Ambar Tower,1,9,24
+Ambar Tower,1,10,31
+Ambar Tower,1,11,38
+Ambar Tower,1,12,43```
