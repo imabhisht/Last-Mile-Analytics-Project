@@ -7,6 +7,7 @@ import plotly.express as px
 import datetime
 import numpy as np
 import pydeck as pdk
+from st_pages import Page, show_pages, add_page_title
 
 import functions.map as map_functions
 #######################
@@ -18,7 +19,12 @@ st.set_page_config(
     initial_sidebar_state="expanded")
 
 alt.themes.enable("dark")
-
+show_pages(
+    [
+        Page("streamlit_app.py", "Dashboard", "🏠"),
+        Page("./page_stats.py", "Statistics", "📊"),
+    ]
+)
 
 #######################
 # Load data

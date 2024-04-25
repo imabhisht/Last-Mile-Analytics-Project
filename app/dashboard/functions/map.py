@@ -16,11 +16,9 @@ def scale_traffic_congestion(traffic_congestion):
     else:
         return traffic_congestion
     
-def create_traffic_congestion_map_currently(station_data, traffic_data):
+def create_traffic_congestion_map_currently(station_data, traffic_data, time_hour, time_day):
     merged_data = pd.merge(station_data, traffic_data, on='station_name', how='inner')
-    current_day = datetime.datetime.now().weekday() + 1
-    current_time = datetime.datetime.now().hour
-    merged_data = merged_data[(merged_data['day'] == current_day) & (merged_data['time'] == current_time)]
+    merged_data = merged_data[(merged_data['day'] == time_day) & (merged_data['time'] == time_hour)]
     merged_data['scaled_traffic_congestion'] = merged_data['traffic_congestion'].apply(scale_traffic_congestion)
     # print(merged_data.head())
 
