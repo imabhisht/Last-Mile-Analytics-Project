@@ -1,1 +1,50 @@
-{"Data":[{"ScheduleForRouteId":1365,"schedulecode":"9/SM12","scheduleForRouteCode":"5699735","routeCode":"9E-MJ","routeName":"Maninagar - Jaimangal","routeDestination":"Jaimangal","routeVariant":"NORMAL","firstStopCode":57,"lastStopCode":14,"Shift":null,"startTime":"13:41:00","stopTime":"14:51:00","runCode":"9/SM12","tripSeqNumber":null,"dutyCode":null,"firstStopName":"Maninagar","lastStopName":"Maninagar","busNo":1},{"ScheduleForRouteId":1367,"schedulecode":"9/SM15","scheduleForRouteCode":"5699808","routeCode":"9E-MJ","routeName":"Maninagar - Jaimangal","routeDestination":"Jaimangal","routeVariant":"NORMAL","firstStopCode":57,"lastStopCode":14,"Shift":null,"startTime":"14:45:00","stopTime":"15:55:00","runCode":"9/SM15","tripSeqNumber":null,"dutyCode":null,"firstStopName":"Maninagar","lastStopName":"Maninagar","busNo":2}],"Paging":{"PageNo":0,"PageSize":2000,"PageCount":1,"TotalRecordCount":2}}
+{
+  "Data": [
+    {
+      "ScheduleForRouteId": 1365,
+      "schedulecode": "9/SM12",
+      "scheduleForRouteCode": "5699735",
+      "routeCode": "9E-MJ",
+      "routeName": "Maninagar - Jaimangal",
+      "routeDestination": "Jaimangal",
+      "routeVariant": "NORMAL",
+      "firstStopCode": 57,
+      "lastStopCode": 14,
+      "Shift": null,
+      "startTime": "13:41:00",
+      "stopTime": "14:51:00",
+      "runCode": "9/SM12",
+      "tripSeqNumber": null,
+      "dutyCode": null,
+      "firstStopName": "Maninagar",
+      "lastStopName": "Maninagar",
+      "busNo": 1
+    },
+    {
+      "ScheduleForRouteId": 1367,
+      "schedulecode": "9/SM15",
+      "scheduleForRouteCode": "5699808",
+      "routeCode": "9E-MJ",
+      "routeName": "Maninagar - Jaimangal",
+      "routeDestination": "Jaimangal",
+      "routeVariant": "NORMAL",
+      "firstStopCode": 57,
+      "lastStopCode": 14,
+      "Shift": null,
+      "startTime": "14:45:00",
+      "stopTime": "15:55:00",
+      "runCode": "9/SM15",
+      "tripSeqNumber": null,
+      "dutyCode": null,
+      "firstStopName": "Maninagar",
+      "lastStopName": "Maninagar",
+      "busNo": 2
+    }
+  ],
+  "Paging": {
+    "PageNo": 0,
+    "PageSize": 2000,
+    "PageCount": 1,
+    "TotalRecordCount": 2
+  }
+}

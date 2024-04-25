@@ -1,0 +1,123 @@
+route_id,route_code,customer_route_code,route,start_name,end_name,start_stop_code,end_stop_code,start_time,start_time_min,end_time,end_time_min,days,line_type,variant
+1,1D,1D,Maninagar - Ghuma Gam,Maninagar,Ghuma Gam,57,270,06,10,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+4,2E-BJ,2E,Bhadaj Circle - Jaimangal,Bhadaj Circle,Jaimangal,332,14,11,56,22,26,"1,2,3,4,5,6,7",BRTS,NORMAL
+8,1S-CG,1S,Chhipa Society - Ghuma Gam,Chhipa Society,Ghuma Gam,70,270,06,10,08,24,"1,2,3,4,5,6,7",BRTS,NORMAL
+9,1S-CM,1S,Chhipa Society - Maninagar,Chhipa Society,Maninagar,70,317,06,07,09,17,"1,2,3,4,5,6,7",BRTS,NORMAL
+10,1S-JG,1S,Jaimangal - Ghuma Gam,Jaimangal,Ghuma Gam,13,270,06,00,17,32,"1,2,3,4,5,6,7",BRTS,NORMAL
+11,1E-GJ,1E,Ghuma Gam - Jaimangal,Ghuma Gam,Jaimangal,269,14,10,48,22,38,"1,2,3,4,5,6,7",BRTS,NORMAL
+13,1E-MK,1E,Maninagar - Kashiram Textiles,Maninagar,Kashiram Textiles,57,75,19,15,22,35,"1,2,3,4,5,6,7",BRTS,NORMAL
+14,1U,1U,Ghuma Gam - Maninagar,Ghuma Gam,Maninagar,269,317,06,10,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+22,2D-OB,2D,Odhav Ring Road - Bhadaj Circle,SP Ring Road Approach,Bhadaj Circle,157,331,06,00,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+26,2S-JB,2S,Jaimangal - Bhadaj Circle,Jaimangal,Bhadaj Circle,13,331,06,00,17,07,"1,2,3,4,5,6,7",BRTS,NORMAL
+30,2U-BO,2U,Bhadaj Circle - Odhav Ring Road,Bhadaj Circle,SP Ring Road Approach,332,158,06,00,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+35,3D,3D,Maninagar - R.T.O Circle,Maninagar,R.T.O Circle,57,1,06,05,20,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+38,5U-NH,5U,Narol - Hanspura Ring Road,Narol,Hanspura Ring Road,77,366,06,29,09,13,"1,2,3,4,5,6,7",BRTS,NORMAL
+40,3D-MC,3D,Maninagar - Chandkheda Gam,Maninagar,Chandkheda Gam,57,226,19,00,22,40,"1,2,3,4,5,6,7",BRTS,NORMAL
+44,3S-CM,3S,Chhipa Society - Maninagar,Chhipa Society,Maninagar,70,317,06,03,08,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+45,3E-MK,3E,Maninagar - Kashiram Textiles,Maninagar,Kashiram Textiles,57,75,20,26,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+46,5S-CV,5S,Chhipa Society - Vasna,Chhipa Society,Vasna,70,276,06,13,08,28,"1,2,3,4,5,6,7",BRTS,NORMAL
+48,3U,3U,R.T.O Circle - Maninagar,R.T.O Circle,Maninagar,318,317,06,07,22,41,"1,2,3,4,5,6,7",BRTS,NORMAL
+50,3U-CM,3U,Chandkheda Gam - Maninagar,Chandkheda Gam,Maninagar,225,317,06,02,08,11,"1,2,3,4,5,6,7",BRTS,NORMAL
+55,4D-LA,4D,LD Engg College - Amba Township,LD Engg. College,Amba Township,236,408,06,05,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+58,4D-LZ,4D,LD Engg. College - Zundal Circle,LD Engg. College,DCIS Circle,236,254,06,20,22,55,"1,2,3,4,5,6,7",BRTS,NORMAL
+65,4S-PZ,4S,Pragatinagar - Zundal Circle,Pragatinagar,DCIS Circle,10,254,16,21,16,21,"1,2,3,4,5,6,7",BRTS,NORMAL
+66,4S-SA,4S,Sarthi Bungalows - Amba Township,Sarthi Bungalows,Amba Township,252,408,06,00,09,24,"1,2,3,4,5,6,7",BRTS,NORMAL
+68,4E-AB,4E,Amba Township - Sarthi Bungalows,Amba Township,Sarthi Bungalows,409,251,20,05,21,32,"1,2,3,4,5,6,7",BRTS,NORMAL
+70,5S-CH,5S,Geeta Gauri Cinema - Hanspura Ring Road,Geeta Gauri Cinema,Hanspura Ring Road,102,366,06,00,16,42,"1,2,3,4,5,6,7",BRTS,NORMAL
+71,5S-OH,5S,Odhav Talav - Hanspura Ring Road,Odhav Talav,Hanspura Ring Road,155,366,07,54,08,54,"1,2,3,4,5,6,7",BRTS,NORMAL
+76,4E-ZS,4E,Zundal Circle - Shastrinagar,DCIS Circle,Shastrinagar,253,11,11,55,22,48,"1,2,3,4,5,6,7",BRTS,NORMAL
+77,4U-AL,4U,Amba Township - LD Engg College,Amba Township,LD Engg. College,409,235,06,00,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+81,4U-ZL,4U,Zundal Circle - LD Engg. College,DCIS Circle,LD Engg. College,253,235,06,00,21,53,"1,2,3,4,5,6,7",BRTS,NORMAL
+85,5D-HN,5D,Hanspura Ring Road - Narol,Hanspura Ring Road,Narol,367,78,18,28,22,30,"1,2,3,4,5,6,7",BRTS,NORMAL
+86,5D-NV,5D,Hanspura Ring Road - Vasna,Hanspura Ring Road,Vasna,367,276,06,00,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+87,5U-VN,5U,Vasna - Hanspura Ring Road,Vasna,Hanspura Ring Road,275,366,06,00,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+88,6D,6D,Naroda S. T. Workshop - Narol,Naroda S. T. Workshop,Narol,121,78,06,05,20,40,"1,2,3,4,5,6,7",BRTS,NORMAL
+91,5S-RV,5S,Rameshwar Park - Vasna,Rameshwar Park,Vasna,99,276,06,48,17,19,"1,2,3,4,5,6,7",BRTS,NORMAL
+93,5E-HC,5E,Hanspura Ring Road - Geeta Gauri Cinema,Hanspura Ring Road,Geeta Gauri Cinema,367,101,14,30,22,37,"1,2,3,4,5,6,7",BRTS,NORMAL
+96,5E-VK,5E,Vasna - Kashiram Textiles,Vasna,Kashiram Textiles,275,75,20,26,22,50,"1,2,3,4,5,6,7",BRTS,NORMAL
+97,5E-VO,5E,Vasna - Odhav Talav ,Vasna,Odhav Talav,275,156,22,30,22,30,"1,2,3,4,5,6,7",BRTS,NORMAL
+98,5E-VR,5E,Vasna - Rameshwar Park,Vasna,Rameshwar Park,275,100,10,43,22,37,"1,2,3,4,5,6,7",BRTS,NORMAL
+103,6S-CS,6S,Geeta Gauri Cinema - Naroda ST Workshop,Geeta Gauri Cinema,Naroda S. T. Workshop,102,122,08,16,16,42,"1,2,3,4,5,6,7",BRTS,NORMAL
+104,6S-ON,6S,Odhav Talav - Naroda S. T. Workshop,Odhav Talav,Naroda S. T. Workshop,155,122,07,23,07,23,"1,2,3,4,5,6,7",BRTS,NORMAL
+105,6S-ONL,6S,Odhav Talav - Narol,Odhav Talav,Narol,155,78,05,55,06,26,"1,2,3,4,5,6,7",BRTS,NORMAL
+106,6S-RN,6S,Rameshwar Park - Narol,Rameshwar Park,Narol,99,78,15,30,15,30,"1,2,3,4,5,6,7",BRTS,NORMAL
+108,6E-NLO,6E,Narol - Odhav Talav,Narol,Odhav Talav,77,156,20,05,20,05,"1,2,3,4,5,6,7",BRTS,NORMAL
+109,6E-NO,6E,Naroda S. T. Workshop - Odhav Talav,Naroda S. T. Workshop,Odhav Talav,121,156,19,00,19,35,"1,2,3,4,5,6,7",BRTS,NORMAL
+110,6E-NR,6E,Narol - Rameshwar Park,Narol,Rameshwar Park,77,100,10,48,21,28,"1,2,3,4,5,6,7",BRTS,NORMAL
+111,6E-SC,6E,Naroda ST Workshop - Geeta Gauri Cinema,Naroda S. T. Workshop,Geeta Gauri Cinema,121,101,10,56,21,40,"1,2,3,4,5,6,7",BRTS,NORMAL
+112,6U,6U,Narol - Naroda S. T. Workshop,Narol,Naroda S. T. Workshop,77,122,06,00,20,58,"1,2,3,4,5,6,7",BRTS,NORMAL
+115,7D,7D,Narol - Zundal Circle,Narol,DCIS Circle,78,254,06,05,22,46,"1,2,3,4,5,6,7",BRTS,NORMAL
+122,7S-ON,7S,Odhav Talav - Narol,Odhav Talav,Narol,155,78,06,00,08,40,"1,2,3,4,5,6,7",BRTS,NORMAL
+126,7E-NO,7E,Narol - Odhav Talav,Narol,Odhav Talav,77,156,19,32,21,17,"1,2,3,4,5,6,7",BRTS,NORMAL
+128,7U,7U,Zundal Circle - Narol,DCIS Circle,Narol,253,77,06,05,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+135,8D,8D,Naroda Gam - Iskcon,Naroda Gam,ISKCON Cross Road,273,144,06,00,22,44,"1,2,3,4,5,6,7",BRTS,NORMAL
+141,8S-CI,8S,Chhipa Society - Iskcon,Chhipa Society,ISKCON Cross Road,70,144,06,00,08,03,"1,2,3,4,5,6,7",BRTS,NORMAL
+142,8S-CN,8S,Geeta Gauri Cinema - Naroda Gam,Geeta Gauri Cinema,Naroda Gam,102,319,06,09,18,06,"1,2,3,4,5,6,7",BRTS,NORMAL
+146,8E-IK,8E,Iskcon - Kashiram Textiles,ISKCON Cross Road,Kashiram Textiles,143,75,21,34,22,55,"1,2,3,4,5,6,7",BRTS,NORMAL
+147,8E-NC,8E,Naroda Gam - Geeta Gauri Cinema,Naroda Gam,Geeta Gauri Cinema,273,101,10,58,22,42,"1,2,3,4,5,6,7",BRTS,NORMAL
+149,8U,8U,Iskcon - Naroda Gam,ISKCON Cross Road,Naroda Gam,143,319,06,00,22,49,"1,2,3,4,5,6,7",BRTS,NORMAL
+151,12D-PR,12D,Rameshwar Park - R.T.O Circle,Rameshwar Park,R.T.O Circle,99,1,06,00,17,35,"1,2,3,4,5,6,7",BRTS,NORMAL
+152,12D-RC,12D,Rabari Colony - Chandkheda Gam,Rabari Colony,Chandkheda Gam,95,226,18,34,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+153,12D-RR,12D,Rabari Colony - R.T.O Circle,Rabari Colony,R.T.O Circle,95,1,07,15,21,15,"1,2,3,4,5,6,7",BRTS,NORMAL
+157,12U-RL,12U,R.T.O Circle - Rabari Colony,R.T.O Circle,Rabari Colony,318,96,06,00,21,02,"1,2,3,4,5,6,7",BRTS,NORMAL
+158,12U-RP,12U,R.T.O Circle - Rameshwar Park,R.T.O Circle,Rameshwar Park,318,100,10,10,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+165,9D-LV,9D,LD Engg College - Gota Vasant Nagar Township,LD Engg. College,Gota Vasant Nagar Township,236,339,07,53,18,40,"1,2,3,4,5,6,7",BRTS,NORMAL
+167,9D-MV,9D,Maninagar - Gota Vasant Nagar Township,Maninagar,Gota Vasant Nagar Township,57,339,06,03,22,46,"1,2,3,4,5,6,7",BRTS,NORMAL
+168,9S-CM,9S,Chhipa Society - Maninagar,Chhipa Society,Maninagar,70,317,06,13,08,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+169,9S-JL,9S,Jaimangal - L.D Engg College,Jaimangal,LD Engg. College,13,235,07,23,18,04,"1,2,3,4,5,6,7",BRTS,NORMAL
+173,9S-JV,9S,Jaimangal - Gota Vasant Nagar Township,Jaimangal,Gota Vasant Nagar Township,13,339,06,00,17,22,"1,2,3,4,5,6,7",BRTS,NORMAL
+175,9E-MJ,9E,Maninagar - Jaimangal,Maninagar,Jaimangal,57,14,13,41,14,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+176,9E-MK,9E,Maninagar - Kashiram Textiles,Maninagar,Kashiram Textiles,57,75,19,24,21,15,"1,2,3,4,5,6,7",BRTS,NORMAL
+177,9E-VJ,9E,Gota Vasant Nagar Township - Jaimangal,Gota Vasant Nagar Township,Jaimangal,340,14,11,38,22,40,"1,2,3,4,5,6,7",BRTS,NORMAL
+180,9U-VM,9U,Gota Vasant Nagar Township - Maninagar,Gota Vasant Nagar Township,Maninagar,340,317,06,00,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+183,11D-OL,11D,Odhav Ring Road - LD Engg. College,SP Ring Road Approach,LD Engg. College,157,235,06,05,22,02,"1,2,3,4,5,6,7",BRTS,NORMAL
+184,11S-CL,11S,Chhipa Society - LD Engg. College,Chhipa Society,LD Engg. College,70,236,06,02,06,02,"1,2,3,4,5,6,7",BRTS,NORMAL
+185,16D-NS,16D,Nehrunagar - Sanand Circle,Nehrunagar,Sanand Circle,32,348,06,20,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+188,11E-LK,11E,LD Engg. College - Kashiram Textiles,LD Engg. College,Kashiram Textiles,236,75,19,37,20,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+191,11U-LO,11U,LD Engg. College - Odhav Ring Road,LD Engg. College,SP Ring Road Approach,236,158,06,00,22,50,"1,2,3,4,5,6,7",BRTS,NORMAL
+197,16S,16S,Jaimangal - Nehrunagar,Jaimangal,Nehrunagar,13,31,06,01,18,21,"1,2,3,4,5,6,7",BRTS,NORMAL
+201,12U-CR,12U,Chandkheda Gam - Rabari Colony,Chandkheda Gam,Rabari Colony,225,96,06,05,07,57,"1,2,3,4,5,6,7",BRTS,NORMAL
+202,13D,13D,South Bopal - Ghuma Gam,South Bopal BRTS Terminus,Ghuma Gam,356,270,07,00,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+203,13S-JG,13S,Jaimangal - Ghuma Gam,Jaimangal,Ghuma Gam,13,270,06,05,09,40,"1,2,3,4,5,6,7",BRTS,NORMAL
+204,13S-JS,13S,Jaimangal - South Bopal ,Jaimangal,South Bopal BRTS Terminus,13,356,14,35,17,24,"1,2,3,4,5,6,7",BRTS,NORMAL
+205,13E-GJ,13E,Ghuma Gam - Jaimangal,Ghuma Gam,Jaimangal,269,14,11,52,11,52,"1,2,3,4,5,6,7",BRTS,NORMAL
+206,13E-SJ,13E,South Bopal - Jaimangal,South Bopal BRTS Terminus,Jaimangal,357,14,15,21,21,25,"1,2,3,4,5,6,7",BRTS,NORMAL
+207,13U,13U,Ghuma Gam - South Bopal,Ghuma Gam,South Bopal BRTS Terminus,269,357,06,45,22,30,"1,2,3,4,5,6,7",BRTS,NORMAL
+208,14D,14D,Naroda Gam - Kalupur - Vasna,Naroda Gam,Vasna,273,276,21,40,21,40,"1,2,3,4,5,6,7",BRTS,NORMAL
+213,14D-NS,14D,Naroda Gam - Sanand Circle,Naroda Gam,Sanand Circle,273,349,06,00,22,46,"1,2,3,4,5,6,7",BRTS,NORMAL
+215,14S-CN,14S,Geeta Gauri Cinema - Naroda Gam,Geeta Gauri Cinema,Naroda Gam,102,319,06,07,19,16,"1,2,3,4,5,6,7",BRTS,NORMAL
+218,14S-JS,14S,Jaimangal - Sanand Circle,Jaimangal,Sanand Circle,13,348,06,00,17,00,"1,2,3,4,5,6,7",BRTS,NORMAL
+220,14E-NC,14E,Naroda Gam - Geeta Gauri Cinema,Naroda Gam,Geeta Gauri Cinema,273,101,12,06,22,25,"1,2,3,4,5,6,7",BRTS,NORMAL
+222,14E-SJ,14E,Sanand Circle - Jaimangal,Sanand Circle,Jaimangal,349,14,12,30,13,31,"1,2,3,4,5,6,7",BRTS,NORMAL
+225,14U,14U,Vasna - Kalupur - Naroda Gam,Vasna,Naroda Gam,275,319,22,38,22,38,"1,2,3,4,5,6,7",BRTS,NORMAL
+226,14U-KO,14U,Kalupur - Odhav Ring Road,Kalupur,SP Ring Road Approach,203,158,11,50,23,12,"1,2,3,4,5,6,7",BRTS,NORMAL
+229,14U-SK,14U,Sanand Circle - Kalupur,Sanand Circle,Kalupur,348,204,10,45,22,15,"1,2,3,4,5,6,7",BRTS,NORMAL
+230,14U-SN,14U,Sanand Circle - Naroda Gam,Sanand Circle,Naroda Gam,348,319,06,20,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+232,15D,15D,Iskcon Cross Road - R.T.O Circle,ISKCON Cross Road,R.T.O Circle,143,1,06,15,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+233,15D-IA,15D,Iskcon Cross Road - Ahmedabad Domestic Airport,ISKCON Cross Road,Ahmedabad Domestic Airport,143,1001,06,00,22,10,"1,2,3,4,5,6,7",BRTS,NORMAL
+235,15S-JI,15S,Jaimangal - Iskcon Cross Road,Jaimangal,ISKCON Cross Road,13,144,06,00,16,39,"1,2,3,4,5,6,7",BRTS,NORMAL
+236,15S-PA,15S,Pragatinagar - Airport,Pragatinagar,Ahmedabad Domestic Airport,10,1001,06,00,06,00,"1,2,3,4,5,6,7",BRTS,NORMAL
+237,15S-PR,15S,Pragatinagar - R.T.O Circle,Pragatinagar,R.T.O Circle,10,1,07,17,18,18,"1,2,3,4,5,6,7",BRTS,NORMAL
+238,15E-AS,15E,Airport - Shastrinagar,Ahmedabad Domestic Airport,Shastrinagar,1002,11,22,25,22,25,"1,2,3,4,5,6,7",BRTS,NORMAL
+239,15E-IJ,15E,Iskcon Cross Road - Jaimangal,ISKCON Cross Road,Jaimangal,143,14,10,56,22,37,"1,2,3,4,5,6,7",BRTS,NORMAL
+240,15E-RS,15E,R.T.O Circle - Shastrinagar,R.T.O Circle,Shastrinagar,318,11,12,22,22,37,"1,2,3,4,5,6,7",BRTS,NORMAL
+243,15U,15U,R.T.O Circle - Iskcon Cross Road,R.T.O Circle,ISKCON Cross Road,318,144,07,05,21,47,"1,2,3,4,5,6,7",BRTS,NORMAL
+244,15U-AI,15U,Ahmedabad Domestic Airport - Iskcon Cross Road,Ahmedabad Domestic Airport,ISKCON Cross Road,1002,144,06,00,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+247,16S-JS,16S,Jaimangal - Sanand Circle,Jaimangal,Sanand Circle,13,348,06,00,16,09,"1,2,3,4,5,6,7",BRTS,NORMAL
+248,16E,16E,Nehrunagar - Jaimangal,Nehrunagar,Jaimangal,32,14,12,20,22,15,"1,2,3,4,5,6,7",BRTS,NORMAL
+249,16E-SJ,16E,Sanand Circle - Jaimangal,Sanand Circle,Jaimangal,349,14,13,16,22,50,"1,2,3,4,5,6,7",BRTS,NORMAL
+251,16U-SN,16U,Sanand Circle - Nehrunagar,Sanand Circle,Nehrunagar,349,31,06,20,22,10,"1,2,3,4,5,6,7",BRTS,NORMAL
+252,17D,17D,Nehrunagar - South Bopal,Nehrunagar,South Bopal BRTS Terminus,32,356,06,25,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+255,17S,17S,Jaimangal - Nehrunagar,Jaimangal,Nehrunagar,13,31,06,07,18,11,"1,2,3,4,5,6,7",BRTS,NORMAL
+256,17S-JB,17S,Jaimangal - South Bopal,Jaimangal,South Bopal BRTS Terminus,13,356,06,00,16,31,"1,2,3,4,5,6,7",BRTS,NORMAL
+257,17E,17E,Nehrunagar - Jaimangal,Nehrunagar,Jaimangal,32,14,12,21,15,46,"1,2,3,4,5,6,7",BRTS,NORMAL
+258,17E-BJ,17E,South Bopal - Jaimangal,South Bopal BRTS Terminus,Jaimangal,357,14,11,07,22,50,"1,2,3,4,5,6,7",BRTS,NORMAL
+259,17U,17U,South Bopal - Nehrunagar,South Bopal BRTS Terminus,Nehrunagar,357,31,06,15,22,03,"1,2,3,4,5,6,7",BRTS,NORMAL
+260,18D,18D,Maninagar - Airport,Maninagar,Ahmedabad Domestic Airport,57,1001,06,05,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+262,18S,18S,Jaimangal - Maninagar,Jaimangal,Maninagar,13,317,08,12,17,15,"1,2,3,4,5,6,7",BRTS,NORMAL
+263,18S-PA,18S,Pragatinagar - Airport,Pragatinagar,Ahmedabad Domestic Airport,10,1001,06,10,14,30,"1,2,3,4,5,6,7",BRTS,NORMAL
+264,18E,18E,Maninagar - Jaimangal,Maninagar,Jaimangal,57,14,10,31,19,50,"1,2,3,4,5,6,7",BRTS,NORMAL
+270,18E-AS,18E,Airport - Shastrinagar,Ahmedabad Domestic Airport,Shastrinagar,1002,11,12,07,22,50,"1,2,3,4,5,6,7",BRTS,NORMAL
+271,18U,18U,Airport - Maninagar,Ahmedabad Domestic Airport,Maninagar,1002,317,06,00,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+273,101,101,R.T.O(Circular)-,R.T.O Circle,R.T.O Circle,1,318,06,05,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL
+274,201,201,R.T.O(Anti-Circular),R.T.O Circle,R.T.O Circle,1,318,07,05,22,45,"1,2,3,4,5,6,7",BRTS,NORMAL

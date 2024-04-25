@@ -2,11 +2,11 @@ import json
 import csv
 import os
 
-directory = '../../data/data/Big Data Project DATA/BRTS/all_loc.json'
+directory = '../../data/data/Big Data Project DATA/AMTS/all_loc.json'
 
 def main():
     headers = ["station_name","long","lat"]
-    csv_file = open("../data/brts_all_loc.csv", mode='w', newline='')
+    csv_file = open("../data/amts_all_loc.csv", mode='w', newline='')
     writer = csv.writer(csv_file)
     writer.writerow(headers)  
 

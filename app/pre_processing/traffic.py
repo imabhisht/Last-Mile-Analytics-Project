@@ -2,7 +2,7 @@ import json
 import csv
 import os
 
-directory = '../../data/data/Big Data Project DATA/BRTS/Traffic Data'
+directory = '../../data/data/Big Data Project DATA/AMTS/Traffic Data'
 
 
 def convert_time_to_24hour_format(time):
@@ -37,7 +37,7 @@ def operation(data):
     station_name = data["station_name"]
     traffic_data = data["traffic"]
     # start_time = traffic_data[0].split(" busy")[1].split("at ")[1]
-    day_counter = 6
+    day_counter = 7
     prevTime = 0
 
     for entry in traffic_data:
@@ -60,7 +60,7 @@ def operation(data):
 
 def main():
     headers = ["station_name","day","time", "traffic_congestion"]
-    csv_file = open("../data/brts_traffic_congestion_data.csv", mode='w', newline='')
+    csv_file = open("../data/amts_traffic_congestion_data.csv", mode='w', newline='')
     writer = csv.writer(csv_file)
     writer.writerow(headers)  
 
