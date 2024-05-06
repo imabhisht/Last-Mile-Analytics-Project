@@ -1,0 +1,713 @@
+route_id,route_code,customer_route_code,route,start_name,end_name,start_stop_code,end_stop_code,start_time,start_time_min,end_time,end_time_min,days,line_type,variant
+3,117/1-SK-D,117/1,Sarangpur - Kalupur,Sarangpur,Kalupur Terminus,1489,1734,13,30,15,59,"1,2,3,4,5,6,7",AMTS,NORMAL
+4,18-MN-U,18,Maninagar - Nigam Society,Maninagar,Nigam Society,3215,3240,06,35,08,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+5,22/1-U,22/1,Lal Darwaja - Bareja Eye Hospital,Lal Darwaja,Bareja Eye Hospital,1125,3297,06,00,20,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+6,31/5-PM-U,31/5,Paldi - Madhavnagar (Sanand),Paldi,Madhavnagar (Sanand),1346,1590,05,15,06,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+7,31/5-U,31/5,Lal Darwaja - Madhavnagar (Sanand),Lal Darwaja,Madhavnagar (Sanand),4104,1590,06,30,20,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+10,3sh-BK-U,3sh,Bhadrakali Mandir - Kalupur Terminus,Bhadrakali Mandir,Kalupur Terminus,3400,3050,20,07,20,07,"1,2,3,4,5,6,7",AMTS,NORMAL
+11,40-PV-D,40,Paldi - Vaishali Township,Paldi,Vaishali Township,1346,2081,06,40,06,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+12,40-U,40,Vaishali Township - Lapakaman Gam,Vaishali Township,Lapakaman Gam,2039,2723,07,00,18,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+13,40-VL-U,40,Vasna - Lapakaman Gam,Vasna,Lapakaman Gam,1286,2723,14,30,14,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+15,150sh-SaC-U,150sh,Sarkhej Gam - Chinubhainagar,Sarkhej Gam,Chinubhainagar,1149,1819,17,30,17,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+17,37sh-U,37sh,Vasna - Bapunagar,Vasna,Bapunagar,1286,4164,07,25,17,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+18,160-U,160,Hatkeshwar Depo - Silver Oak University,Hatkeshwar Depo,Silver Oak University,2312,9229,06,00,20,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+19,200-MV-D,200,Maninagar - Vadaj,Maninagar,Vadaj,1310,1820,18,15,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+20,32-D,32,Sahyadri Bunglows - But Bhavani Mandir,Sahyadri Bunglows,But Bhavani Mandir,1320,1365,07,50,19,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+21,58-GKS-U,58,Gujarat University - Kush Society (New Naroda),Gujarat University,Kush Society (New Naroda),1222,3868,09,00,20,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+23,52/2-MG-U,52/2,Maninagar - Gujarat University,Maninagar,Gujarat University,1329,1051,06,05,21,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+25,58-U,58,Thaltej Gam - Kush Society (New Naroda),Thaltej Gam,Kush Society (New Naroda),3016,3868,07,10,20,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+26,66/3sh-U,66/3sh,Sarangpur - Moti Bhoyan Chokdi,Sarangpur,Moti Bhoyan Chokdi,2270,2757,06,20,17,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+27,13/1-RV-D,13/1,Ranip Gam - Vadaj,Ranip Gam,Vadaj,3229,2107,19,50,23,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+29,18-U,18,Nigam Society - Ujala Circle,Nigam Society,Ujala Circle(Sarkhej RailwayOverbridge),3063,1599,06,50,18,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+30,18S-D,18S,Vatva Railway Station - Maninagar,Vatva Railway Station,Maninagar,8729,1329,06,50,21,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+35,3-U,3,Bhadrakali Mandir - Bhadrakali Mandir,Bhadrakali Mandir,Bhadrakali Mandir,3400,3400,06,30,20,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+36,3sh-KB-U,3sh,Kalupur terminus - Bhadrakali Mandir,Kalupur Terminus,Bhadrakali Mandir,3050,3400,06,35,06,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+37,3sh-U,3sh,Bhadrakali Mandir - Bhadrakali Mandir,Bhadrakali Mandir,Bhadrakali Mandir,3400,3400,06,45,19,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+38,13/1-D,13/1,Ranip Gam - Prakash Vidhyalay (Isanpur),Ranip Gam,Prakash Vidhyalay (Isanpur),3229,9236,06,20,21,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+43,13/1-U,13/1,Prakash Vidhyalay (Isanpur) - Ranip Gam,Prakash Vidhyalay (Isanpur),Ranip Gam,9235,3230,06,20,22,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+45,14-D,14,Nandej-Barejadi Gam - Lal Darwaja,Nandej-Barejadi Gam,Lal Darwaja,3123,1077,08,16,19,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+46,14-DL-D,14,Devdi Gam - Lal Darwaja,Devdi Gam,Lal Darwaja,4827,1077,07,00,07,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+48,14-VL-D,14,Vatva Gam - Lal Darwaja,Vatva Gam,Lal Darwaja,5636,1077,15,20,16,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+49,14-LD-U,14,Lal Darwaja - Devdi Gam,Lal Darwaja,Devdi Gam,1077,4069,05,50,05,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+51,14-LV-U,14,Lal Darwaja - Vatva Gam,Lal Darwaja,Vatva Gam,1077,4804,12,41,13,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+52,14-U,14,Lal Darwaja - Nandej-Barejadi Gam,Lal Darwaja,Nandej-Barejadi Gam,1077,3122,06,50,17,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+53,14/1-D,14/1,Vatva Railway Crossing - Lal Darwaja,Vatva Railway Crossing,Lal Darwaja,5299,1077,07,20,18,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+54,14/1-U,14/1,Lal Darwaja - Vatva Railway Crossing,Lal Darwaja,Vatva Railway Crossing,1077,4516,06,25,17,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+55,14sh-D,14sh,Mahalakshmi Talav (Vatva) - Lal Darwaja,Mahalakshmi Talav (Vatva),Lal Darwaja,4077,1077,06,15,23,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+57,16-NC-U,16,Vatva Railway Colony - Sarangpur,Vatva Railway Colony,Sarangpur,5063,1204,18,45,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+62,14sh-U,14sh,Lal Darwaja - Mahalakshmi Talav (Vatva),Lal Darwaja,Mahalakshmi Talav (Vatva),1077,4528,05,30,22,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+63,15-D,15,Chosar Gam - Maninagar,Chosar Gam,Maninagar,5628,3215,06,40,21,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+64,15-U,15,Maninagar - Chosar Gam,Maninagar,Chosar Gam,1329,4067,05,55,20,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+69,18S-U,18S,Maninagar - Vatva Railway Station,Maninagar,Vatva Railway Station,3215,8728,06,25,20,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+71,15/3-D,15/3,Nenpur Chokdi - Maninagar,Nenpur Chokdi,Maninagar,8610,1329,07,40,20,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+72,15/3-U,15/3,Maninagar - Nenpur Chokdi,Maninagar,Nenpur Chokdi,1310,8609,06,30,19,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+74,16-CS-D,16,Someshwar Mahadev - Sarangpur,Someshwar Mahadev,Sarangpur,8978,1844,18,30,21,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+76,16-D,16,Someshwar Mahadev - Vatva Railway Colony,Someshwar Mahadev,Vatva Railway Colony,8978,4785,07,10,17,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+77,16-SN-D,16,Sarangpur - Vatva Railway Colony,Sarangpur,Vatva Railway Colony,1844,4785,06,20,07,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+81,16-SC-U,16,Sarangpur - Someshwar Mahadev,Sarangpur,Someshwar Mahadev,1204,8978,06,15,09,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+82,16-U,16,Vatva Railway Colony - Someshwar Mahadev,Vatva Railway Colony,Someshwar Mahadev,5063,8978,07,30,19,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+84,17-D,17,Meghaninagar - Karnavati Chowk-4 (New Narol),Meghaninagar,Karnavati Chowk-4 (New Narol),4850,1802,08,10,17,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+87,17-MMt-D,17,Maninagar - Karnavati Chowk-4 (New Narol),Maninagar,Karnavati Chowk-4 (New Narol),3215,1802,06,20,06,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+90,17-MM-U,17,Karnavati Chowk-4 (New Narol) - Maninagar,Karnavati Chowk-4 (New Narol),Maninagar,1800,1329,19,20,19,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+96,17-U,17,Karnavati Chowk-4 (New Narol) - Meghaninagar,Karnavati Chowk-4 (New Narol),Meghaninagar,1800,3595,06,50,16,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+97,18-D,18,Ujala Circle - Nigam Society,Ujala Circle(Sarkhej RailwayOverbridge),Nigam Society,1769,3240,07,50,20,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+99,31-D,31,Meghaninagar - Sarkhej Gam,Meghaninagar,Sarkhej Gam,1248,1273,06,10,21,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+100,18-NM-D,18,Nigam Society - Maninagar,Nigam Society,Maninagar,3063,1329,19,50,21,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+104,20-CS-D,20,Civil Hospital - Sarangpur,Civil Hospital,Sarangpur,1110,1844,20,00,20,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+105,20-D,20,Civil Hospital - Prakash Vidhyalay (Isanpur),Civil Hospital,Prakash Vidhyalay (Isanpur),1110,9236,07,40,20,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+110,20-PS-U,20,Prakash Vidhyalay (Isanpur) - Sarangpur,Prakash Vidhyalay (Isanpur),Sarangpur,9235,1204,21,40,21,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+111,20-U,20,Prakash Vidhyalay (Isanpur) - Civil Hospital,Prakash Vidhyalay (Isanpur),Civil Hospital,9235,1092,06,50,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+112,22-D,22,Indiranagar Vibhag-2 (Pani ni Tanki) - Tragad Gam,Indiranagar Vibhag-2 (Pani ni Tanki),Tragad Gam,9007,3562,07,30,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+113,22-IL-D,22,Indiranagar Vibhag-2 (Pani ni Tanki) - Lal Darwaja,Indiranagar Vibhag-2 (Pani ni Tanki),Lal Darwaja,9007,4103,19,20,22,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+114,22-LT-D,22,Lal Darwaja - Tragad Gam,Lal Darwaja,Tragad Gam,4103,3562,06,15,09,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+115,22-LI-U,22,Lal Darwaja - Indiranagar Vibhag-2 (Pani ni Tanki),Lal Darwaja,Indiranagar Vibhag-2 (Pani ni Tanki),1077,9008,06,40,09,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+116,22-TL-U,22,Tragad Gam - Lal Darwaja,Tragad Gam,Lal Darwaja,3576,1077,18,10,22,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+117,22-U,22,Tragad Gam - Indiranagar Vibhag-2 (Pani ni Tanki),Tragad Gam,Indiranagar Vibhag-2 (Pani ni Tanki),3576,9008,07,05,19,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+119,22/1-D,22/1,Bareja Eye Hospital - Lal Darwaja,Bareja Eye Hospital,Lal Darwaja,3298,1077,07,10,22,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+120,22/1-DL-D,22/1,Dhamatwan Gam - Lal Darwaja,Dhamatwan Gam,Lal Darwaja,7044,1077,20,35,20,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+123,22/1-LD-U,22/1,Lal Darwaja - Dhamatwan Gam,Lal Darwaja,Dhamatwan Gam,1077,7043,19,10,19,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+125,23-D,23,Lambha Gam - Maninagar,Lambha Gam,Maninagar,3603,1310,08,10,20,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+126,23-U,23,Maninagar - Lambha Gam,Maninagar,Lambha Gam,1329,3688,07,25,19,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+127,117-KS-U,117,Kalapinagar - Sarangpur,Kalapinagar,Sarangpur,1100,1844,12,15,20,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+129,28-D,28,Lambha Gam - Meghaninagar,Lambha Gam,Meghaninagar,3603,3595,07,45,21,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+131,138-SK-D,138,Sarangpur - Kalupur Terminus,Sarangpur,Kalupur Terminus,2270,1734,14,15,14,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+134,28-U,28,Meghaninagar - Lambha Gam,Meghaninagar,Lambha Gam,4850,3688,06,20,19,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+135,34/5-SB-D,34/5,Lal Darwaja- But Bhavani Mandir,Lal Darwaja,But Bhavani Mandir,4104,1365,05,55,07,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+137,28sh-D,28sh,Indiranagar Vibhag-2 (Pani ni Tanki) - Sarangpur,Indiranagar Vibhag-2 (Pani ni Tanki),Sarangpur,9007,1489,07,00,22,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+138,28sh-U,28sh,Sarangpur - Indiranagar Vibhag-2 (Pani ni Tanki),Sarangpur,Indiranagar Vibhag-2 (Pani ni Tanki),1204,9008,06,15,21,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+139,30-D,30,Karnavati Chowk-4 (New Narol) - Maninagar,Karnavati Chowk-4 (New Narol),Maninagar,1802,1329,07,20,20,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+140,30/2-NV-U,30/2,Narol Circle - Vatva Railway Crossing,Narol Circle,Vatva Railway Crossing,4537,4541,06,30,06,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+142,143sh-U,143sh,Sarangpur - Kubadthal Gam,Sarangpur,Kubadthal Gam,1204,2586,05,30,19,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+144,38/1-VV-U,38/1,Vaishali Township - Vasna,Vaishali Township,Vasna,2039,1286,13,30,13,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+145,30-KI-D,30,Karnavati Chowk-4 (New Narol) - Isanpur,Karnavati Chowk-4 (New Narol),Isanpur,1802,3072,21,40,22,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+146,30-U,30,Maninagar - Karnavati Chowk-4 (New Narol),Maninagar,Karnavati Chowk-4 (New Narol),3215,1800,06,40,21,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+147,30/2-D,30/2,Vatva Railway Crossing - Sarkhej Gam,Vatva Railway Crossing,Sarkhej Gam,5321,1273,07,05,10,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+148,30/2-VI-D,30/2,Vatva Railway Crossing - Isanpur(Vatva Cross Road),Vatva Railway Crossing,Isanpur-Vatva Cross Road,5321,5329,13,40,13,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+149,144-D,144,Gujarat University - Arbudanagar,Gujarat University,Arbudanagar,1051,1181,07,15,20,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+151,30/2-U,30/2,Sarkhej Gam - Vatva Railway Crossing,Sarkhej Gam,Vatva Railway Crossing,1149,4541,08,35,12,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+153,30/3-D,30/3,Dev Residency - Dani Limda Gam,Dev Residency,Dani Limda Gam,9373,3517,08,40,16,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+154,30/3-SV-D,30/3,Dev Residency - Paldi,Dev Residency,Paldi,9373,1346,19,40,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+157,30/3-U,30/3,Dani Limda Gam - Dev Residency,Dani Limda Gam,Dev Residency,3480,9372,07,10,18,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+159,34/3-D,34/3,Adani Vidyavihar - Lal Darwaja,Adani Vidyavihar,Lal Darwaja,5365,4104,07,10,18,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+162,31-MS-D,31,Meghaninagar - Lal Darwaja,Meghaninagar,Lal Darwaja,1248,4104,20,15,22,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+164,31-SbS-D,31,Lal Darwaja - Sarkhej Gam,Lal Darwaja,Sarkhej Gam,4104,1273,05,30,07,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+165,40/3-GV-D,40/3,Gayatri Vidyalay - Vadaj,Gayatri Vidyalay,Vadaj,2092,2107,19,15,21,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+167,31/1-D,31/1,Aradhna Residency(Fatehwadi Kenal) - Lal Darwaja ,Aradhana Residency (Fateh wadi Kenal),Lal Darwaja,8487,1077,07,20,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+168,40/1-IM-U,40/1,Iskon Mandir - Maninagar,Iskon Mandir,Maninagar,3735,3215,11,40,22,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+170,31-SM-U,31,Lal Darwaja - Meghaninagar,Lal Darwaja,Meghaninagar,8721,1247,05,40,08,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+171,31sh-D,31sh,Lal Darwaja - Sarkhej Gam,Sardarbag,Sarkhej Gam,1127,1273,05,10,21,42,"1,2,3,4,5,6,7",AMTS,NORMAL
+172,31-SS-U,31,Sarkhej Gam - Lal Darwaja,Sarkhej Gam,Lal Darwaja,1149,8721,20,35,23,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+174,31-U,31,Sarkhej Gam - Meghaninagar,Sarkhej Gam,Meghaninagar,1149,1247,06,10,21,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+175,31/1-U,31/1,Lal Darwaja - Aradhana Residency(Fatehwadi Kenal),Lal Darwaja,Aradhana Residency (Fateh wadi Kenal),1125,8492,06,40,19,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+176,31/4-D,31/4,Kasindra Gam - Lal Darwaja,Kasindra Gam,Lal Darwaja,5339,4104,07,35,19,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+177,31/4-KV-D,31/4,Kasindra Gam - Paldi,Kasindra Gam,Paldi,5339,1293,18,15,18,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+179,31/4-U,31/4,Lal Darwaja - Kasindra Gam,Lal Darwaja,Kasindra Gam,4104,4562,07,25,18,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+180,31/4-VK-U,31/4,Paldi - Kasindra Gam,Paldi,Kasindra Gam,1346,4562,06,25,06,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+181,31/5-D,31/5,Madhavnagar (Sanand) - Lal Darwaja,Madhavnagar (Sanand),Lal Darwaja,1591,4104,06,25,22,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+183,49sh-D,49sh,Krishna Shelbi Hospital (Ghuma) - Sarangpur,Krishna Shelbi Hospital (Ghuma),Sarangpur,5460,1489,06,00,17,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+184,31sh-U,31sh,Sarkhej Gam - Lal Darwaja,Sarkhej Gam,Sardarbag,1149,1075,05,35,22,49,"1,2,3,4,5,6,7",AMTS,NORMAL
+186,32-VB-D,32,Lal Darwaja - But Bhavani Mandir,Lal Darwaja,But Bhavani Mandir,5976,1365,06,20,07,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+187,32-BV-U,32,But Bhavani Mandir - Lal Darwaja,But Bhavani Mandir,Lal Darwaja,1274,5976,19,35,21,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+188,32-U,32,But Bhavani Mandir - Sahyadri Bunglows,But Bhavani Mandir,Sahyadri Bunglows,1274,1319,06,45,18,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+193,33-D,33,S.P.Ring Road (Odhav Gidc) - Vasna,S.P.Ring Road (Odhav Gidc),Vasna,4909,1598,06,05,20,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+196,40-VV-U,40,Vaishali Township - Vasna,Vaishali Township,Vasna,2039,1286,14,20,22,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+197,33-MV-D,33,Sarangpur Darwaja - Vasna,Sarangpur,Vasna,1844,1598,05,45,16,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+198,33-SL-D,33,S.P.Ring Road (Odhav Gidc) - Sarangpur Darwaja,S.P.Ring Road (Odhav Gidc),Sarangpur,4909,1844,12,20,23,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+200,33-LS-U,33,Sarangpur - S.P.Ring Road (Odhav Gidc),Sarangpur,S.P.Ring Road (Odhav Gidc),1204,4133,05,30,15,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+202,33-U,33,Vasna - S.P.Ring Road (Odhav Gidc),Vasna,S.P.Ring Road (Odhav Gidc),1286,4133,06,30,21,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+203,40/1-D,40/1,Vinobabhavenagar - Iskon Mandir,Vinobabhavenagar,Iskon Mandir,3886,3918,06,10,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+204,40/1-MI-D,40/1,Maninagar - Iskon Mandir,Maninagar,Iskon Mandir,1329,3918,05,30,15,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+205,50-IsM-U,50,Iskon Mandir - Meghaninagar,Iskon Mandir,Meghaninagar,3197,3595,14,05,18,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+206,50-U,50,Ghuma Gam - Meghaninagar,Ghuma Gam,Meghaninagar,1546,3595,06,20,20,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+208,33-VM-U,33,Vasna -Sarangpur Darwaja,Vasna,Sarangpur,1286,1204,12,00,22,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+210,33/1-LV-D,33/1,Lal Darwaja - Vaishali Township,Lal Darwaja,Vaishali Township,4104,2081,07,05,19,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+211,117-U,117,Kalapinagar - Paldi-Kankaj Gam,Kalapinagar,Paldi-Kankaj Gam,1100,4325,08,35,17,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+212,123-D,123,Sitarambapa Chowk (Gopal Chowk) - Vasna,Sitarambapa Chowk (Gopal Chowk),Vasna,8923,1598,06,40,18,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+217,33/1-VL-U,33/1,Vaishali Township - Lal Darwaja,Vaishali Township,Lal Darwaja,2039,4104,07,45,19,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+220,34/3-U,34/3,Lal Darwaja - Adani Vidyavihar,Lal Darwaja,Adani Vidyavihar,4104,4580,06,25,17,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+221,34/4-D,34/4,But Bhavani Mandir - Lal Darwaja,But Bhavani Mandir,Lal Darwaja,1365,4104,07,00,21,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+222,34/4-U,34/4,Lal Darwaja - But Bhavani Mandir,Lal Darwaja,But Bhavani Mandir,4104,1365,06,15,21,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+223,34/5-D,34/5,Kalapinagar - But Bhavani Mandir,Kalapinagar,But Bhavani Mandir,1100,1365,06,25,20,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+224,34/5-KS-D,34/5,Kalapinagar - Lal Darwaja,Kalapinagar,Lal Darwaja,1100,4104,19,00,20,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+225,34/5-BS-U,34/5,But Bhavani Mandir - Lal Darwaja,But Bhavani Mandir,Lal Darwaja,1274,8721,19,10,21,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+226,34/5-SK-U,34/5,Lal Darwaja - Kalapinagar,Lal Darwaja,Kalapinagar,8721,1588,06,00,08,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+227,34/5-U,34/5,But Bhavani Mandir - Kalapinagar,But Bhavani Mandir,Kalapinagar,1274,1588,06,25,19,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+228,35-D,35,Rajoda Patiya - Lal Darwaja,Rajoda Patiya,Lal Darwaja,8792,4104,06,40,22,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+229,58-D,58,Kush Society (New Naroda) - Thaltej Gam,Kush Society (New Naroda),Thaltej Gam,3817,2995,06,15,18,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+230,58-KSG-D,58,Kush Society (New Naroda) - Gujarat University,Kush Society (New Naroda),Gujarat University,3817,1051,07,15,18,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+233,35-U,35,Lal Darwaja - Rajoda Patiya,Lal Darwaja,Rajoda Patiya,4104,8791,05,25,21,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+235,124-D,124,Engg./B.Ed.College (Vahelal) - Maninagar,Engg./B.Ed.College (Vahelal),Maninagar,5126,1310,09,10,21,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+236,124-U,124,Maninagar - Engg./B.Ed.College (Vahelal),Maninagar,Engg./B.Ed.College (Vahelal),1310,5138,07,50,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+237,125-D,125,Vehlal Gam - Lal Darwaja,Vehlal Gam,Lal Darwaja,5137,5976,08,00,19,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+241,36/1-D,36/1,Sarkhej Roza - Sarangpur,Sarkhej Roza,Sarangpur,5377,1489,07,30,13,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+243,64/2-US-U,64/2,Usmanpura - Satadhar Society,Usmanpura,Sattadhar Society,2888,3976,06,10,06,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+244,37/4-U,37/4,Kalupur Terminus - But Bhavani Mandir,Kalupur Terminus,But Bhavani Mandir,1715,1365,05,55,19,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+245,128-D,128,NarodaIndustrialTownship(MuthiyaGam)-Nigam Society,Naroda Industrial Township(MuthiyaGam),Nigam Society,3647,3240,06,00,20,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+246,36/1-U,36/1,Sarangpur - Sarkhej Roza,Sarangpur,Sarkhej Roza,1204,5371,06,30,11,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+247,37/4-BS-D,37/4,But Bhavani Mandir - Sarangpur,But Bhavani Mandir,Sarangpur,1274,2270,12,40,20,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+248,37/4-D,37/4,But Bhavani Mandir - Kalupur Terminus,But Bhavani Mandir,Kalupur Terminus,1274,1715,06,40,18,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+249,37/4-SK-D,37/4,Sarangpur - Kalupur Terminus,Sarangpur,Kalupur Terminus,2270,1715,13,25,13,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+252,37sh-BS-D,37sh,Bapunagar - Kalupur Terminus,Bapunagar,Kalupur Terminus,4416,1715,19,05,19,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+253,37sh-D,37sh,Bapunagar - Vasna,Bapunagar,Vasna,4416,1598,06,25,16,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+254,58-KSK-D,58,Kush Society (New Naroda) - Kalupur Terminus,Kush Society (New Naroda),Kalupur Terminus,3817,1715,18,40,21,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+255,58-KT-D,58,Kalupur Terminus - Thaltej Gam,Kalupur Terminus,Thaltej Gam,1715,2995,06,20,08,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+256,200-VM-U,200,Vadaj - Maninagar,Vadaj,Maninagar,1820,1329,06,30,09,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+258,37sh-SB-U,37sh,Kalupur Terminus - Bapunagar,Kalupur Terminus,Bapunagar,1734,4164,06,00,06,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+265,38/1-D,38/1,Krushnanagar - Vaishali Township,Krushnanagar,Vaishali Township,1702,2081,07,40,12,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+267,38/1-LK-U,38/1,Lal Darwaja - Krushnanagar,Lal Darwaja,Krushnanagar,1125,1747,07,10,07,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+268,38/1-U,38/1,Vaishali Township - Krushnanagar,Vaishali Township,Krushnanagar,2039,1747,07,41,10,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+269,39/3-BS-D,39/3,But Bhavani Mandir - Sarangpur,But Bhavani Mandir,Sarangpur,1274,2270,12,10,21,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+270,39/3-D,39/3,But Bhavani Mandir - Bhakti Circle,But Bhavani Mandir,Bhakti Circle,1274,5639,08,00,17,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+272,39/3-U,39/3,Bhakti Circle - But Bhavani Mandir,Bhakti Circle,But Bhavani Mandir,4818,1365,06,40,19,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+273,40-D,40,Lapakaman Gam - Vaishali Township,Lapakaman Gam,Vaishali Township,2774,2081,09,10,20,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+274,39/3-SK-D,39/3,Sarangpur - Bhakti Circle,Sarangpur,Bhakti Circle,2270,5639,06,00,14,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+276,50-IM-U,50,Income Tax Office - Meghaninagar,Income Tax Office,Meghaninagar,1152,3595,05,30,09,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+278,43-U,43,Lal Darwaja - Parijat Bunglows,Sardarbag,Parijat Bunglows,1127,3181,06,40,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+280,40/1-VM-D,40/1,Vinobabhavenagar - Maninagar,Vinobabhavenagar,Maninagar,3886,1329,12,05,22,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+281,40/1-MV-U,40/1,Maninagar - Vinobabhavenagar,Maninagar,Vinobabhavenagar,3215,3885,05,25,16,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+282,40/1-U,40/1,Iskon Mandir - Vinobabhavenagar,Iskon Mandir,Vinobabhavenagar,3735,3885,06,20,19,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+283,40/2-D,40/2,Rajoda Patiya - Ranip Gam,Rajoda Patiya,Ranip Gam,8792,3229,12,15,17,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+284,40/2-MN-D,40/2,Rajoda Patiya - Nava Vadaj,Rajoda Patiya,Nava Vadaj,8792,2101,08,10,11,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+285,40/2-MV-D,40/2,Rajoda Patiya - Vadaj,Rajoda Patiya,Vadaj,8792,2033,17,40,21,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+287,40/2-NM-U,40/2,Nava Vadaj - Rajoda Patiya,Nava Vadaj,Rajoda Patiya,2101,8791,09,50,14,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+288,40/2-U,40/2,Ranip Gam - Rajoda Patiya,Ranip Gam,Rajoda Patiya,3230,8791,06,20,20,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+290,40/3-D,40/3,Gayatri Vidyalay - But Bhavani Mandir,Gayatri Vidyalay,But Bhavani Mandir,2092,1365,06,10,18,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+292,56/1-D,56/1,Gujarat University-Sardar Party Plot(S.P.RingRoad),Gujarat University,Sardar Party Plot (S.P.Ring Road),1051,9100,07,50,17,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+295,45-U,45,Lal Darwaja - Shela Gam,Lal Darwaja,Shela Gam,1125,6056,06,00,18,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+297,40/3-U,40/3,But Bhavani Mandir - Gayatri Vidyalay,But Bhavani Mandir,Gayatri Vidyalay,1274,2091,07,10,19,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+298,42-D,42,Shilaj Gam - Nigam Society,Shilaj Gam,Nigam Society,3005,3240,07,15,18,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+299,42-LN-D,42,Lal Darwaja - Nigam Society,Lal Darwaja,Nigam Society,1077,3240,06,35,07,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+301,42-PM-D,42,Shilaj Gam - Lal Darwaja,Shilaj Gam,Lal Darwaja,3005,1125,19,00,20,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+302,56-U,56,Sitarambapa Chowk (Gopal Chowk) - Iskon Mandir,Sitarambapa Chowk (Gopal Chowk),Iskon Mandir,8923,3213,06,30,18,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+303,43-D,43,Parijat Bunglows - Lal Darwaja,Parijat Bunglows,Sardarbag,3182,1075,07,20,21,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+304,42-LS-U,42,Lal Darwaja - Shilaj Gam,Lal Darwaja,Shilaj Gam,1077,3004,06,30,07,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+305,42-NL-U,42,Nigam Society - Lal Darwaja,Nigam Society,Lal Darwaja,3063,1077,19,05,19,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+306,42-U,42,Nigam Society - Shilaj Gam,Nigam Society,Shilaj Gam,3063,3004,07,15,18,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+307,42sh-D,42sh,Lal Darwaja - Ghodasar Gam,Lal Darwaja,Ghodasar Gam,1125,3217,07,10,18,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+309,42sh-U,42sh,Ghodasar Gam - Lal Darwaja,Ghodasar Gam,Lal Darwaja,3168,1077,07,45,19,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+311,43/1-D,43/1,Prahladnagar Cross Road - Lal Darwaja,Prahladnagar Cross Road,Lal Darwaja,3736,1077,06,45,18,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+314,56/1-SB-D,56/1,Mahavirnagar - Sardar Party Plot (S.P.Ring Road),Mahavirnagar,Sardar Party Plot (S.P.Ring Road),2844,9100,06,00,07,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+315,56/1-BS-U,56/1,Sardar Party Plot(S.P.RingRoad) - Kalupur Termins,Sardar Party Plot (S.P.Ring Road),Kalupur Terminus,9099,1715,18,40,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+316,43/1-U,43/1,Lal Darwaja - Prahladnagar Cross Road,Lal Darwaja,Prahladnagar Cross Road,1125,3917,06,00,18,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+318,44/4-D,44/4,Arohi Homes (South Bopal) - Lal Darwaja,Arohi Homes (South Bopal),Lal Darwaja,5436,1077,09,10,13,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+320,44/4-U,44/4,Lal Darwaja - Arohi Homes (South Bopal),Lal Darwaja,Arohi Homes (South Bopal),1125,4636,07,30,11,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+321,45-D,45,Shela Gam - Lal Darwaja,Shela Gam,Lal Darwaja,6057,1125,07,00,20,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+322,45/1-D,45/1,Mumatpura Gam - Lal Darwaja,Mumatpura Gam,Lal Darwaja,5448,1077,07,30,12,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+323,45/1-U,45/1,Lal Darwaja - Mumatpura Gam,Lal Darwaja,Mumatpura Gam,1125,4647,06,40,11,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+324,46-U,46,Kalupur Terminus - Kalupur Terminus,Kalupur Terminus,Kalupur Terminus,1715,1734,09,50,16,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+326,47-D,47,Kalupur Terminus - Kalupur Terminus,Kalupur Terminus,Kalupur Terminus,1715,1734,09,50,16,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+328,49-D,49,Ghuma Gam - Panjarapol (Odhav),Ghuma Gam,Odhav Panjarapol,1546,6135,07,20,20,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+334,200-U,200,Maninagar - Maninagar,Maninagar,Maninagar,1310,1329,06,30,19,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+336,49-SA-D,49,Sarangpur Darwaja - Panjarapol (Odhav),Sarangpur,Odhav Panjarapol,1489,6135,06,30,09,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+339,49-AS-U,49,Panjarapol (Odhav) - Sarangpur Darwaja,Odhav Panjarapol,Sarangpur,6135,1204,19,05,22,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+340,49-GhS-U,49,Sarangpur Darwaja - Ghuma Gam,Sarangpur,Ghuma Gam,1204,1545,06,15,08,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+343,49-U,49,Panjarapol (Odhav)- Ghuma Gam,Odhav Panjarapol,Ghuma Gam,6135,1545,07,00,18,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+344,56/1-U,56/1,Sardar Party Plot(S.P.RingRoad)-Gujarat University,Sardar Party Plot (S.P.Ring Road),Gujarat University,9099,1222,06,30,16,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+345,49/1-D,49/1,Jodhpur Gam - Sarangpur,Jodhpur Gam,Sarangpur,4964,1489,06,45,19,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+348,49/1-U,49/1,Sarangpur - Jodhpur Gam,Sarangpur,Jodhpur Gam,1204,4652,06,10,18,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+349,49/2-D,49/2,Gujarat University - Nirant Chokdi,Gujarat University,Nirant Chokdi,1222,7802,08,05,19,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+353,49/2-GS-D,49/2,Gujarat University - Sarangpur Darwaja,Gujarat University,Sarangpur,1222,1489,18,50,21,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+354,49/2-SA-D,49/2,Sarangpur Darwaja - Nirant Chokdi,Sarangpur,Nirant Chokdi,1489,7802,06,00,21,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+356,49/2-AS-U,49/2,Nirant Chokdi - Sarangpur Darwaja,Nirant Chokdi,Sarangpur,7936,1204,21,05,22,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+358,49/2-U,49/2,Nirant Chokdi - Gujarat University,Nirant Chokdi,Gujarat University,7936,1051,06,40,19,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+359,202-D,202,Naroda - Vasna,Naroda,Vasna,1434,1286,06,30,19,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+361,202-NS-D,202,Naroda - Sattadhar Society,Naroda,Sattadhar Society,1434,3976,08,30,16,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+366,49sh-U,49sh,Sarangpur - Krishna Shelbi Hospital (Ghuma),Sarangpur,Krishna Shelbi Hospital (Ghuma),1204,4655,05,15,15,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+367,50-D,50,Meghaninagar - Ghuma Gam,Meghaninagar,Ghuma Gam,4850,1545,06,05,19,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+368,50-IG-D,50,Income Tax Office - Ghuma Gam,Income Tax Office,Ghuma Gam,1212,1545,05,20,09,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+369,50-MI-D,50,Meghaninagar - Income Tax Office,Meghaninagar,Income Tax Office,4850,1212,18,00,21,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+370,50-MIs-D,50,Meghaninagar - Iskon Mandir,Meghaninagar,Iskon Mandir,4850,3213,12,45,16,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+371,50-GI-U,50,Ghuma Gam- Income Tax Office,Ghuma Gam,Income Tax Office,1546,1152,17,50,21,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+374,202-SN-U,202,Sattadar Society - Naroda,Sattadhar Society,Naroda,2243,1543,10,15,18,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+378,51Ri-D,51Ri,Rancharda Gam - Lal Darwaja,Rancharda Gam,Lal Darwaja,3244,8431,08,45,17,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+379,51Ri-T-D,51Ri,Shilaj Gam - Lal Darwaja,Shilaj Gam,Lal Darwaja,3005,8431,20,05,20,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+380,51Ri-T-U,51Ri,Lal Darwaja - Shilaj Gam,Lal Darwaja,Shilaj Gam,8431,3004,19,00,19,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+381,51Ri-U,51Ri,Lal Darwaja - Rancharda Gam,Lal Darwaja,Rancharda Gam,8431,3385,07,35,15,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+382,51sh-D,51sh,Rancharda Gam - Lal Darwaja,Rancharda Gam,Lal Darwaja,3244,1077,08,10,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+383,51sh-SL-D,51sh,Shilaj Gam - Lal Darwaja,Shilaj Gam,Lal Darwaja,3005,8431,06,15,22,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+385,52/2-VM-D,52/2,Vivekanandnagar - Maninagar,Vivekanandnagar,Maninagar,3135,1329,06,20,06,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+387,51sh-LS-U,51sh,Lal Darwaja - Shilaj Gam,Lal Darwaja,Shilaj Gam,8431,3004,05,25,22,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+388,51sh-U,51sh,Lal Darwaja - Rancharda Gam,Lal Darwaja,Rancharda Gam,8431,3385,07,10,19,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+389,51T-D,51T,Thol Gam (Saradar Chowk) - Lal Darwaja,Thol Gam (Saradar Chowk),Lal Darwaja,9304,8431,06,45,21,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+392,51T-KT-U,51T,Kailasnagar - Thol Gam (Saradar Chowk),Kailasnagar,Thol Gam (Saradar Chowk),3841,9303,05,30,05,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+393,51T-U,51T,Lal Darwaja - Thol Gam (Saradar Chowk),Lal Darwaja,Thol Gam (Saradar Chowk),8431,9303,06,25,20,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+394,52-D,52,Thol Gam(Sardar Chowk) - Ahavadiya Talav(NewRanip),Thol Gam (Saradar Chowk),Ahvadiya Talav(New Ranip),9304,5873,07,40,17,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+395,52-TV-D,52,Thol Gam(Sardar Chowk) - Vadaj,Thol Gam (Saradar Chowk),Vadaj,9304,1820,20,05,20,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+396,52-U,52,Ahavadiya Talav(New Ranip) - Thol Gam(SardarChowk),Ahvadiya Talav(New Ranip),Thol Gam (Saradar Chowk),5874,9303,08,10,18,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+397,52-VT-U,52,Vadaj - Thol Gam(Sardar Chowk),Vadaj,Thol Gam (Saradar Chowk),2107,9303,06,15,06,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+398,52/2-D,52/2,Sattadhar Society - Maninagar,Sattadhar Society,Maninagar,3976,1310,06,05,22,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+399,52/2-GM-D,52/2,Gujarat University - Maninagar,Gujarat University,Maninagar,1222,1310,07,00,22,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+400,52/2-MV-U,52/2,Maninagar - Vivekanandnagar,Maninagar,Vivekanandnagar,1329,3135,05,35,05,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+401,52/2-U,52/2,Maninagar - Sattadhar Society,Maninagar,Sattadhar Society,1329,2243,05,10,21,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+403,56-D,56,Iskon Mandir - Sitarambapa Chowk (Gopal Chowk),Iskon Mandir,Sitarambapa Chowk (Gopal Chowk),3197,8923,08,15,20,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+411,60sh-D,60sh,Bopal Gam - Lal Darwaja,Bopal Gam,Lal Darwaja,9052,8431,07,25,18,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+413,60sh-U,60sh,Lal Darwaja - Bopal Gam,Lal Darwaja,Bopal Gam,8431,9051,06,30,17,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+417,63-D,63,Gujarat High Court - Lal Darwaja,Gujarat High Court,Lal Darwaja,1621,1125,08,20,19,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+419,63-LU-U,63,Lal Darwaja - Usmanpura,Lal Darwaja,Usmanpura,1125,2888,20,40,20,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+420,63-U,63,Lal Darwaja - Gujarat High Court,Lal Darwaja,Gujarat High Court,1125,1687,07,40,18,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+421,63/1-D,63/1,Lilapur Gam - Lal Darwaja,Lilapur Gam,Lal Darwaja,5475,1125,07,55,19,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+424,63/1-U,63/1,Lal Darwaja - Lilapur Gam,Lal Darwaja,Lilapur Gam,1125,4675,09,35,17,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+425,63/1-VL-U,63/1,Vadaj - Lilapur Gam,Vadaj,Lilapur Gam,2033,4675,06,40,07,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+426,64-PG-U,64,Usmanpura - Gujarat High Court,Usmanpura,Gujarat High Court,4257,1687,06,20,08,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+427,64-D,64,Gujarat High Court - Lal Darwaja,Gujarat High Court,Lal Darwaja,1621,1125,06,50,20,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+428,64-GU-D,64,Gujarat High Court - Usmanpura,Gujarat High Court,Usmanpura,1621,2863,19,05,21,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+430,64-UL-D,64,Usmanpura - Lal Darwaja,Usmanpura,Lal Darwaja,2863,1125,06,15,08,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+431,64-LU-U,64,Lal Darwaja - Usmanpura,Lal Darwaja,Usmanpura,1125,4257,19,10,21,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+432,65-U,65,Lal Darwaja - Sola Bhagwat Vidyapith,Lal Darwaja,Sola Bhagwat Vidyapith,1125,4196,06,25,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+433,64-U,64,Lal Darwaja - Gujarat High Court,Lal Darwaja,Gujarat High Court,1125,1687,06,30,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+434,64/1-D,64/1,Jaspur Gam - Lal Darwaja,Jaspur Gam,Lal Darwaja,5482,1125,07,00,10,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+435,64/1-JU-D,64/1,Jaspur Gam - Usmanpura,Jaspur Gam,Usmanpura,5482,2863,18,20,18,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+439,64/1-U,64/1,Lal Darwaja - Jaspur Gam,Lal Darwaja,Jaspur Gam,1125,4684,06,00,16,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+440,74/1-AV-U,74/1,Acher - Vadaj,Acher Depot,Vadaj,2202,2033,06,20,06,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+441,64/2-D,64/2,Sattadhar Society - Lal Darwaja,Sattadhar Society,Sardarbag,2243,1075,06,30,17,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+442,64/2-SU-D,64/2,Satadhar Society - Usmanpura,Sattadhar Society,Usmanpura,2243,2863,19,25,19,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+443,64/2-U,64/2,Lal Darwaja - Sattadhar Society,Sardarbag,Sattadhar Society,1127,3976,07,10,18,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+444,503-CA-D,503,Chandkheda Gam - Acher,Chandkheda Gam,Acher Depot,1652,2202,19,15,19,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+445,64/3-D,64/3,Ranip Gam - Lal Darwaja,Ranip Gam,Lal Darwaja,3230,1125,07,35,20,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+446,65-US-U,65,Usmanpura - Sola Bhagwat Vidyapith,Usmanpura,Sola Bhagwat Vidyapith,2888,4196,07,45,14,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+447,64/3-U,64/3,Lal Darwaja - Ranip Gam,Lal Darwaja,Ranip Gam,1125,3229,08,15,19,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+448,65-D,65,Sola Bhagwat Vidyapith - Lal Darwaja,Sola Bhagwat Vidyapith,Lal Darwaja,4988,1125,07,15,20,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+449,65-SU-D,65,Sola Bhagwat Vidyapith - Usmanpura,Sola Bhagwat Vidyapith,Usmanpura,4988,2863,13,15,13,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+453,70/1-U,70/1,Gujarat High Court - Meghaninagar,Gujarat High Court,Meghaninagar,1687,4850,07,15,18,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+454,65-LU-U,65,Lal Darwaja - Usmanpura,Lal Darwaja,Usmanpura,1125,2888,20,50,20,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+455,65/1-D,65/1,Mangalmurti Apartment - Lal Darwaja,Mangalmurti Apartment,Lal Darwaja,5500,8431,06,40,19,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+456,65/1-U,65/1,Lal Darwaja - Mangalmurti Apartment,Lal Darwaja,Mangalmurti Apartment,8431,4224,07,10,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+457,65/2-D,65/2,Arvind Polycoat (Khatraj) - Lal Darwaja,Arvind Polycoat (Khatraj),Lal Darwaja,3769,1125,06,35,20,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+458,65/2-SL-D,65/2,Santej (Shah Alloys) - Lal Darwaja,Santej (Shah Alloys),Lal Darwaja,3779,1125,06,50,19,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+459,65/2-LS-U,65/2,Lal Darwaja - Santej (Shah Alloys),Lal Darwaja,Santej (Shah Alloys),1125,3758,05,55,18,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+460,65/2-U,65/2,Lal Darwaja - Arvind Polycoat (Khatraj),Lal Darwaja,Arvind Polycoat (Khatraj),1125,2764,05,25,19,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+461,65/3-D,65/3,Santej Gam - Lal Darwaja,Santej Gam,Lal Darwaja,5529,1077,06,30,21,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+462,69sh-D,69sh,Bhadaj Circle (S.P.Ring Road)-S.P.RingRoad(OdhGid),Bhadaj Circle (S.P.Ring Road),S.P.Ring Road (Odhav Gidc),8855,4909,07,10,17,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+463,90sh-KT-D,90sh,Krushnanagar - Tragad Gam,Krushnanagar,Tragad Gam,6099,3562,08,10,13,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+466,65/3-U,65/3,Lal Darwaja - Santej Gam,Lal Darwaja,Santej Gam,1125,4712,05,30,20,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+467,66-D,66,Shilaj Gam - Kalupur Terminus,Shilaj Gam,Kalupur Terminus,3005,1734,06,50,15,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+468,66-SK-D,66,Shilaj Gam - Income Tax Office,Shilaj Gam,Income Tax Office,3005,5006,18,30,18,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+470,66-U,66,Kalupur Terminus - Shilaj Gam,Kalupur Terminus,Shilaj Gam,1715,3004,05,50,17,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+471,66/1-D,66/1,Shilaj Gam - Kalupur Terminus,Shilaj Gam,Kalupur Terminus,3005,1715,07,10,16,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+472,66/1-SU-D,66/1,Shilaj Gam - Usmanpura,Shilaj Gam,Usmanpura,3005,2863,19,20,19,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+477,66/1-U,66/1,Kalupur Terminus - Shilaj Gam,Kalupur Terminus,Shilaj Gam,1734,3004,08,25,18,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+478,66/1-US-U,66/1,Usmanpura - Shilaj Gam,Usmanpura,Shilaj Gam,2888,3004,06,30,06,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+483,66/3-D,66/3,Arvind Polycoat (Khatraj) - Naroda,Arvind Polycoat (Khatraj),Naroda,3769,1543,07,30,21,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+484,66/3-UN-D,66/3,Kalupur Terminus - Naroda,Kalupur Terminus,Naroda,1734,1543,05,15,09,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+488,66/3-NKa-U,66/3,Naroda Terminus - Kalupur Terminus,Naroda,Kalupur Terminus,1434,1715,19,10,23,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+490,66/3-U,66/3,Naroda - Arvind Polycoat (Khatraj),Naroda,Arvind Polycoat (Khatraj),1434,2764,05,45,20,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+491,66/4-D,66/4,Arvind Polycoat (Khatraj) - Kush Society,Arvind Polycoat (Khatraj),Kush Society (New Naroda),3769,3868,10,15,17,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+493,66/4-U,66/4,Kush Society - Arvind Polycoat (Khatraj),Kush Society (New Naroda),Arvind Polycoat (Khatraj),3817,2764,06,45,14,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+502,69-D,69,OganajCircle(S.P.RingRoad)-S.P.RingRoad(OdhavGidc),Oganaj Circle (S.P.Ring Road),S.P.Ring Road (Odhav Gidc),8867,4909,10,20,15,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+503,72-LV-U,72,Lal Darwaja - Vadaj,Lal Darwaja,Vadaj,1125,2033,19,00,19,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+504,69-KSP(O)-D,69,Kalupur - S.P.Ring Road (Odhav Gidc),Kalupur Terminus,S.P.Ring Road (Odhav Gidc),1734,4909,08,00,08,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+505,69-SP(S)U-D,69,Oganaj Circle (S.P.Ring Road) - Kalupur Terminus,Oganaj Circle (S.P.Ring Road),Kalupur Terminus,8867,1734,20,00,20,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+510,69-U,69,S.P.RingRoad(OdhavGidc)-OganajCircle(S.P.RingRoad),S.P.Ring Road (Odhav Gidc),Oganaj Circle (S.P.Ring Road),4133,8867,08,30,18,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+513,69sh-CK-D,69sh,Bhadaj Circle (S.P.Ring Road) - Kalupur,Bhadaj Circle (S.P.Ring Road),Kalupur Terminus,8855,1734,18,50,19,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+514,69sh-KSP(O)-D,69sh,Kalupur - S.P.Ring Road (Odhav Gidc),Kalupur Terminus,S.P.Ring Road (Odhav Gidc),1734,4909,06,20,07,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+516,69sh-KB-U,69sh,Kalupur - Bhadaj Circle (S.P.Ring Road),Kalupur Terminus,Bhadaj Circle (S.P.Ring Road),1715,8854,06,20,06,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+519,69sh-SPK-U,69sh,S.P.RingRoad(OdvGid) - Kalupur,S.P.Ring Road (Odhav Gidc),Kalupur Terminus,4133,1715,19,10,19,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+520,69sh-U,69sh,S.P.RingRoad(OdvGid)-Bhadaj Circle (S.P.Ring Road),S.P.Ring Road (Odhav Gidc),Bhadaj Circle (S.P.Ring Road),4133,8854,06,45,17,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+522,70-D,70,Tapi Apartment - Chandlodiya Railway Station,Tapi Apartment,Vagheshwari Soc(Chandlodia Rly Station),9345,4695,06,45,18,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+523,70-NV-D,70,Tapi Apartment - Vadaj,Tapi Apartment,Vadaj,9345,2033,20,00,21,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+525,70-U,70,Chandlodiya Railway Station - Tapi Apartment,Vagheshwari Soc(Chandlodia Rly Station),Tapi Apartment,5493,9344,07,30,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+529,70/1-D,70/1,Meghaninagar - Gujarat High Court,Meghaninagar,Gujarat High Court,3595,1621,06,15,17,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+532,70/2-D,70/2,Sherisa Gam - Vadaj,Sherisa Gam,Vadaj,2749,2107,08,00,17,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+533,70/2-LV-D,70/2,Arvind Polycoat (Khatraj) - Vadaj,Arvind Polycoat (Khatraj),Vadaj,2764,2107,19,00,20,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+534,70/2-U,70/2,Vadaj - Sherisa Gam,Vadaj,Sherisa Gam,2033,2748,06,40,16,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+535,70/2-VL-U,70/2,Vadaj - Arvind Polycoat (Khatraj),Vadaj,Arvind Polycoat (Khatraj),2033,3769,17,40,19,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+536,71/1-D,71/1,Vamaj Gam - Lal Darwaja,Vamaj Gam,Lal Darwaja,9222,4103,08,00,12,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+537,71/1-VV-D,71/1,Vamaj Gam - Vadaj,Vamaj Gam,Vadaj,9222,2107,17,15,17,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+538,71/1-U,71/1,Lal Darwaja - Vamaj Gam,Lal Darwaja,Vamaj Gam,4103,9221,10,00,15,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+539,71/1-VaV-U,71/1,Vadaj - Vamaj Gam,Vadaj,Vamaj Gam,2033,9221,06,30,06,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+540,72-D,72,Godrejcity Phase-1 - Sahyadri Bunglows,Godrejcity Phase-1,Sahyadri Bunglows,8410,1319,06,00,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+541,72-GV-D,72,Godrejcity Phase-1 - Vadaj,Godrejcity Phase-1,Vadaj,8410,3232,19,35,23,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+542,128-NaN-U,128,Naroda - Naroda Industrial Township(MuthiyaGam),Naroda,Naroda Industrial Township(MuthiyaGam),1543,3646,05,45,10,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+544,72-LSa-D,72,Lal Darwaja - Sarkhej Gam,Lal Darwaja,Sarkhej Gam,1077,1273,06,00,06,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+546,72-VS-D,72,Vadaj - Sahyadri Bunglows,Vadaj,Sahyadri Bunglows,3232,1319,06,10,09,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+547,72sh-D,72sh,Godrejcity Phase-1 - Lal Darwaja,Godrejcity Phase-1,Lal Darwaja,8410,1077,07,10,18,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+548,82-GV-D,82,Gayatri Vidyalay - Vadaj,Gayatri Vidyalay,Vadaj,2092,2107,19,45,22,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+550,89/1-U,89/1,Manmohan Park - Amba Township(Trimandir),Manmohan Park,Amba Township Sector-5 (Trimandir),4231,4768,09,35,09,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+551,89/1sh-U,89/1sh,Kalupur Terminus - Amba Township(Trimandir),Kalupur Terminus,Amba Township Sector-5 (Trimandir),1715,4768,07,30,18,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+552,89/2-D,89/2,Ramol Gam - Tragad Gam,Ramol Gam,Tragad Gam,2302,3562,07,15,18,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+553,74-LN-U,74,Isanpur - Vatva Railway Colony,Isanpur,Vatva Railway Colony,3224,4785,06,40,16,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+554,74-RL-U,74,Andh Kalyan Kendra (New Ranip) - Isanpur,Andh Kalyan Kendra,Isanpur,3423,3224,12,45,22,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+555,74-U,74,Andh Kalyan Kendra(New Ranip)-Vatva Railway Colony,Andh Kalyan Kendra,Vatva Railway Colony,3423,4785,07,40,19,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+557,72-SV-U,72,Sahyadri Bunglows - Vadaj,Sahyadri Bunglows,Vadaj,1320,2033,18,20,21,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+558,72-SaL-U,72,Sarkhej Gam - Lal Darwaja,Sarkhej Gam,Lal Darwaja,1149,4103,06,35,06,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+559,72-U,72,Sahyadri Bunglows - Godrejcity Phase-1,Sahyadri Bunglows,Godrejcity Phase-1,1320,2004,07,00,22,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+560,72-VS-U,72,Vadaj - Godrejcity Phase-1,Vadaj,Godrejcity Phase-1,2033,2004,05,35,08,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+561,72sh-U,72sh,Lal Darwaja - Godrejcity Phase-1,Lal Darwaja,Godrejcity Phase-1,4103,2004,07,15,19,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+562,74-D,74,VatvaRailwayColony - Andh Kalyan Kendra(New Ranip),Vatva Railway Colony,Andh Kalyan Kendra,5063,3468,07,15,21,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+563,74-LR-D,74,Isanpur - Andh Kalyan Kendra (New Ranip),Isanpur,Andh Kalyan Kendra,3072,3468,06,30,14,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+564,74-NL-D,74,Vatva Railway Colony - Isanpur,Vatva Railway Colony,Isanpur,5063,3072,13,15,21,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+565,89/2-JT-D,89/2,Jawahar Chowk - Tragad Gam,Jawahar Chowk (Sabarmati),Tragad Gam,3489,3562,06,50,06,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+566,74/1-D,74/1,Kali Gam - Lal Darwaja,Kali Gam,Lal Darwaja,5550,4103,07,05,19,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+567,74/1-KV-D,74/1,Kali Gam - Vadaj,Kali Gam,Vadaj,5550,2107,19,30,21,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+568,74/1-U,74/1,Lal Darwaja - Kali Gam,Lal Darwaja,Kali Gam,4103,4759,08,00,20,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+569,89/2-KT-D,89/2,Sarangpur - Tragad Gam,Sarangpur,Tragad Gam,2270,3562,06,30,06,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+570,74/1-VK-U,74/1,Vadaj - Kali Gam,Vadaj,Kali Gam,2033,4759,06,35,08,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+572,75-D,75,Chandkheda (Sarthi Bunglows) - Maninagar,Chandkheda (Sarthi Bunglows),Maninagar,2195,1329,06,20,21,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+577,75-U,75,Maninagar - Chandkheda (Sarthi Bunglows),Maninagar,Chandkheda (Sarthi Bunglows),1310,2194,07,50,22,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+578,75sh-D,75sh,Chandkheda (Sarthi Bunglows) - Maninagar,Chandkheda (Sarthi Bunglows),Maninagar,2195,1329,07,00,19,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+579,79-VS-D,79,Kalupur Terminus - Badrinarayan Society,Kalupur Terminus,Badrinarayan Society,1734,3446,05,50,08,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+581,75sh-U,75sh,Maninagar - Chandkheda (Sarthi Bunglows),Maninagar,Chandkheda (Sarthi Bunglows),1310,2194,08,30,21,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+582,76-D,76,Vaishnodevi Circle(Zydus Life) - Sarangpur,Vaishnodevi Circle(Zydus Life),Sarangpur,5933,1844,06,50,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+584,76-VzV-D,76,Vaishnodevi Circle(Zydus Life) - Vadaj,Vaishnodevi Circle(Zydus Life),Vadaj,5933,2107,20,35,22,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+585,76-U,76,Sarangpur - Vaishnodevi Circle(Zydus Life),Sarangpur,Vaishnodevi Circle(Zydus Life),2270,5932,08,05,21,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+587,79-CV-D,79,Chenpur Gam - Vadaj,Chenpur Gam,Vadaj,3414,3232,22,15,22,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+588,76-VVz-U,76,Vadaj - Vaishnodevi Circle(Zydus Life),Vadaj,Vaishnodevi Circle(Zydus Life),2033,5932,06,10,08,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+589,77-D,77,Indrapuri Township (Trikampura) - Nava Vadaj,Indrapuri Township (Trikampura),Nava Vadaj,6111,2082,06,30,22,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+590,77-NS-U,77,Nava Vadaj - Sarangpur,Nava Vadaj,Sarangpur,2101,1844,20,20,23,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+591,77-DS-D,77,Indrapuri Township (Trikampura) - Sarangpur,Indrapuri Township (Trikampura),Sarangpur,6111,2270,12,25,15,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+593,77-SN-D,77,Sarangpur - Nava Vadaj,Sarangpur,Nava Vadaj,2270,2082,13,20,16,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+594,79-D,79,Godrej Garden City - Badrinarayan Society,Godrejcity Phase-1,Badrinarayan Society,8410,3446,06,50,16,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+595,79-GK-D,79,Godrej Garden City - Kalupur Terminus,Godrejcity Phase-1,Kalupur Terminus,8410,1734,18,30,20,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+596,79-VB-D,79,Vadaj - Badrinarayan Society,Vadaj,Badrinarayan Society,3232,3446,09,15,09,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+597,89/3-D,89/3,Chandkheda(Sarthi Bunglows)- Amraiwadi,Chandkheda (Sarthi Bunglows),Amraiwadi,2195,8503,07,05,18,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+598,79-BC-U,79,Badrinarayan Society - Chenpur Gam,Badrinarayan Society,Chenpur Gam,3447,3477,06,20,20,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+601,77-SD-U,77,Vadaj - Indrapuri Township (Trikampura),Vadaj,Indrapuri Township (Trikampura),2107,6112,05,30,08,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+602,77-U,77,Nava Vadaj - Indrapuri Township (Trikampura),Nava Vadaj,Indrapuri Township (Trikampura),2101,6112,07,45,20,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+603,79-CB-D,79,Chenpur Gam - Badrinarayan Society,Chenpur Gam,Badrinarayan Society,3414,3446,06,20,19,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+604,79-CK-D,79,Chenpur Gam - Kalupur Terminus,Chenpur Gam,Kalupur Terminus,3414,1734,21,05,21,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+606,79-BVa-U,79,Badrinarayan Society - Vadaj,Badrinarayan Society,Vadaj,3447,2033,18,20,21,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+608,79-U,79,Badrinarayan Society - Godrej Garden City,Badrinarayan Society,Godrejcity Phase-1,3447,2004,07,30,18,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+610,84-U,84,Lal Darwaja - Chandkheda (Sarthi Bunglows),Lal Darwaja,Chandkheda (Sarthi Bunglows),4103,2194,08,20,20,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+611,84/1-D,84/1,Rajivnagar (Chandkheda) - Lal Darwaja,Rajivnagar (Chandkheda),Lal Darwaja,6015,5976,07,05,19,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+612,79-VC-U,79,Vadaj - Godrej Garden City,Vadaj,Godrejcity Phase-1,2033,2004,06,20,07,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+613,79-VaC-U,79,Vadaj - Chenpur Gam,Vadaj,Chenpur Gam,2033,3477,05,55,08,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+617,82-D,82,Gayatri Vidyalay - Lal Darwaja,Gayatri Vidyalay,Lal Darwaja,2092,4103,06,40,20,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+618,82-U,82,Lal Darwaja - Gayatri Vidyalay,Lal Darwaja,Gayatri Vidyalay,4103,2091,07,20,21,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+620,84/1-U,84/1,Lal Darwaja - Rajivnagar (Chandkheda),Lal Darwaja,Rajivnagar (Chandkheda),5976,6014,07,55,20,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+621,83-D,83,Sabarmati 'D' Cabin - Lal Darwaja,Sabarmati 'D' Cabin,Lal Darwaja,5569,4103,06,15,21,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+622,83-SV-D,83,Sabarmati 'D' Cabin - Vadaj,Sabarmati 'D' Cabin,Vadaj,5569,2107,19,20,20,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+623,83-U,83,Lal Darwaja - Sabarmati 'D' Cabin,Lal Darwaja,Sabarmati 'D' Cabin,4103,4259,06,50,20,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+624,84-CS-D,84,Chandkheda (Sarthi Bunglows) - Jawahar Chowk,Chandkheda (Sarthi Bunglows),Jawahar Chowk (Sabarmati),2195,2127,20,25,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+625,84-D,84,Chandkheda (Sarthi Bunglows) - Lal Darwaja,Chandkheda (Sarthi Bunglows),Lal Darwaja,2195,4103,07,20,21,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+627,89/3-CS-D,89/3,Chandkheda(Sarthi Bunglows)- Kalupur Terminus,Chandkheda (Sarthi Bunglows),Kalupur Terminus,2195,1715,07,40,21,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+629,85sh-D,85sh,Chandkheda (Sarthi Bunglows) - Lal Darwaja,Chandkheda (Sarthi Bunglows),Lal Darwaja,2195,4103,07,40,22,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+632,85sh-LA-U,85sh,Lal Darwaja - Subhash Bridge Circle,Lal Darwaja,Subhash Bridge Circle,4103,2168,23,20,23,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+633,85sh-U,85sh,Lal Darwaja - Chandkheda (Sarthi Bunglows),Lal Darwaja,Chandkheda (Sarthi Bunglows),4103,2194,08,05,21,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+636,88-D,88,Nikol Kathwada Ring Road - Nava Vadaj,Nikol Kathwada Ring Road,Nava Vadaj,5053,2101,07,15,20,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+638,88-NKa-D,88,Nikol Kathwada Ring Road - Kalupur Terminus,Nikol Kathwada Ring Road,Kalupur Terminus,5053,1715,20,50,23,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+640,109-AN-D,109,Amba Township Sector-5(Trimandir) - Naroda,Amba Township Sector-5 (Trimandir),Naroda,5573,1434,17,25,17,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+643,88-KN-U,88,Kalupur Terminus - Nikol Kathwada Ring Road,Kalupur Terminus,Nikol Kathwada Ring Road,1734,4272,13,50,16,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+644,88-NK-U,88,Nava Vadaj - Kalupur Terminus,Nava Vadaj,Kalupur Terminus,2082,1734,12,40,15,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+648,88-U,88,Nava Vadaj - Nikol Kathwada Ring Road,Nava Vadaj,Nikol Kathwada Ring Road,2082,4272,06,05,21,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+649,89/1-AC-D,89/1,Amba Township Sector-5(Trimandir) - Chandkheda Gam,Amba Township Sector-5 (Trimandir),Chandkheda Gam,5573,1652,19,50,19,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+650,89/1-CK-D,89/1,Chandkheda Gam - Kalupur Terminus,Chandkheda Gam,Kalupur Terminus,1652,1734,06,40,07,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+651,89/1-D,89/1,Amba Township(Trimandir) - Manmohan Park,Amba Township Sector-5 (Trimandir),Manmohan Park,5573,4129,07,45,07,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+652,89/1sh-D,89/1sh,Amba Township(Trimandir) - Kalupur Terminus,Amba Township Sector-5 (Trimandir),Kalupur Terminus,5573,1734,09,00,18,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+653,89/1-CA-U,89/1,Chandkheda Gam - Amba Township(Trimandir),Chandkheda Gam,Amba Township Sector-5 (Trimandir),1653,4768,07,00,07,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+654,89/1-KC-U,89/1,Kalupur Terminus - Chandkheda Gam,Kalupur Terminus,Chandkheda Gam,1715,1653,19,35,20,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+656,89/2-RK-D,89/2,Ramol Gam - Sarangpur,Ramol Gam,Sarangpur,2302,2270,19,10,19,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+657,109-CG-D,109,Chandkheda Gam - G.E.B (Naroda),Chandkheda Gam,G.E.B (Naroda),1652,9110,14,25,14,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+659,89/2-SR-U,89/2,Sarangpur - Ramol Gam,Sarangpur,Ramol Gam,1844,2451,06,35,07,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+660,89/2-TK-U,89/2,Tragad Gam - Sarangpur,Tragad Gam,Sarangpur,3576,1844,19,00,19,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+661,89/2-TS-U,89/2,Tragad Gam - Jawahar Chowk,Tragad Gam,Jawahar Chowk (Sabarmati),3576,2127,19,45,19,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+662,89/2-U,89/2,Tragad Gam - Ramol Gam,Tragad Gam,Ramol Gam,3576,2451,07,15,17,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+666,89/3-SC-U,89/3,Kalupur Terminus - Chandkheda(SarthiBunglows),Kalupur Terminus,Chandkheda (Sarthi Bunglows),1734,2194,06,15,18,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+667,89/3-U,89/3,Amraiwadi - Chandkheda(SarthiBunglows),Amraiwadi,Chandkheda (Sarthi Bunglows),8504,2194,08,25,20,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+674,90sh-BK-D,90sh,Bhakti Circle - Krushnanagar,Bhakti Circle,Krushnanagar,5290,6099,19,35,22,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+675,90sh-CT-D,90sh,Chandkheda Gam - Tragad Gam,Chandkheda Gam,Tragad Gam,3547,3562,06,10,07,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+676,90sh-D,90sh,Bhakti Circle - Tragad Gam,Bhakti Circle,Tragad Gam,5290,3562,06,30,18,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+678,90sh-TK-U,90sh,Tragad Gam - Krushnanagar,Tragad Gam,Krushnanagar,3576,6098,06,30,11,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+679,90sh-TS-U,90sh,Tragad Gam - Abu-Koba Cross Road,Tragad Gam,Abu-Koba Cross Road,3576,3588,19,00,19,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+680,90sh-U,90sh,Tragad Gam - Bhakti Circle,Tragad Gam,Bhakti Circle,3576,4818,12,00,20,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+681,96-D,96,Vatva Railway Colony - Civil Hospital,Vatva Railway Colony,Civil Hospital,5063,1110,06,25,22,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+685,96-U,96,Civil Hospital - Vatva Railway Colony,Civil Hospital,Vatva Railway Colony,1092,4283,05,15,20,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+693,106-U,106,Sarangpur - Sarangpur,Sarangpur,Sarangpur,1204,1489,06,20,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+696,103-D,103,Bhakti Circle - Lal Darwaja,Bhakti Circle,Lal Darwaja,5290,4104,06,35,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+698,103-KS-D,103,Krushnanagar - Sarangpur,Krushnanagar,Sarangpur,6099,1844,20,40,22,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+699,103-SL-D,103,Sarangpur - Lal Darwaja,Sarangpur,Lal Darwaja,1844,4104,13,30,15,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+701,103-BS-D,103,Bhakti Circle - Sarangpur,Bhakti Circle,Sarangpur,5290,1844,12,25,14,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+702,103-LK-U,103,Lal Darwaja - Krushnanagar,Lal Darwaja,Krushnanagar,5976,6098,19,35,20,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+704,103-SB-U,103,Sarangpur - Bhakti Circle,Sarangpur,Bhakti Circle,1204,4818,05,50,07,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+705,103-U,103,Lal Darwaja - Bhakti Circle,Lal Darwaja,Bhakti Circle,5976,4818,07,50,18,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+706,105-D,105,Naroda Industrial Township(MuthiyaGam)-Lal Darwaja,Naroda Industrial Township(MuthiyaGam),Lal Darwaja,3646,8721,06,15,23,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+709,105-U,105,Lal Darwaja-Naroda Industrial Township(MuthiyaGam),Lal Darwaja,Naroda Industrial Township(MuthiyaGam),8721,3647,05,25,22,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+711,107-D,107,Sarangpur - Sarangpur,Sarangpur,Sarangpur,1204,1489,06,20,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+713,109-CN-D,109,Chandkheda Gam - Naroda,Chandkheda Gam,Naroda,1652,1434,12,00,20,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+714,109-D,109,Amba Township Sector-5(Trimandir) - G.E.B (Naroda),Amba Township Sector-5 (Trimandir),G.E.B (Naroda),5573,9110,08,35,16,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+715,109-SK-D,109,Sarangpur - Kalupur Terminus,Sarangpur,Kalupur Terminus,1844,1734,13,35,13,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+718,109-UN-D,109,Kalupur Terminus - G.E.B (Naroda),Kalupur Terminus,G.E.B (Naroda),1734,9110,06,20,14,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+719,109-GC-U,109,G.E.B (Naroda) - Chandkheda Gam,G.E.B (Naroda),Chandkheda Gam,9109,1653,10,50,18,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+720,109-NA-U,109,Naroda - Amba Township Sector-5(Trimandir),Naroda,Amba Township Sector-5 (Trimandir),1543,4768,08,20,08,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+721,109-NC-U,109,Naroda - Chandkheda Gam,Naroda,Chandkheda Gam,1543,1653,19,30,19,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+722,109-NS-U,109,Naroda - Sarangpur,Naroda,Sarangpur,1434,1844,13,00,20,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+723,109-U,109,G.E.B (Naroda) - Amba Township Sector-5(Trimandir),G.E.B (Naroda),Amba Township Sector-5 (Trimandir),9109,4768,07,00,15,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+725,116-D,116,Dani Limda Gam - Civil Hospital,Dani Limda Gam,Civil Hospital,3480,1092,06,40,21,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+727,112-D,112,Kubernagar Bangla - Lal Darwaja,Kubernagar Bangla,Lal Darwaja,5102,8721,07,10,19,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+731,112-U,112,Lal Darwaja - Kubernagar Bangla,Lal Darwaja,Kubernagar Bangla,8721,4306,06,30,18,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+733,116-DS-D,116,Dani Limda Gam - Sarangpur,Dani Limda Gam,Sarangpur,3480,1204,14,40,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+735,116-CK-U,116,Civil Hospital - Sarangpur,Civil Hospital,Sarangpur,1110,1844,22,40,22,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+736,116-SD-U,116,Sarangpur -Dani Limda Gam,Sarangpur,Dani Limda Gam,1844,3517,15,20,15,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+737,116-U,116,Civil Hospital - Dani Limda Gam,Civil Hospital,Dani Limda Gam,1110,3517,07,20,20,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+738,117-D,117,Paldi-Kankaj Gam - Kalapinagar,Paldi-Kankaj Gam,Kalapinagar,5116,1588,07,10,19,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+739,137sh-KB-D,137sh,Kalupur Terminus - Bapunagar,Kalupur Terminus,Bapunagar,1734,4164,19,35,21,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+743,117-SKa-D,117,Sarangpur - Kalupur,Sarangpur,Kalupur Terminus,1204,3733,12,40,12,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+745,123-LSa-U,123,Lal Darwaja - Sarangpur Darwaja,Lal Darwaja,Sarangpur,5976,1204,13,05,21,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+746,117-KP-U,117,Kalupur Terminus - Paldi-Kankaj Gam,Kalupur Terminus,Paldi-Kankaj Gam,1715,4325,06,20,14,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+747,123-LV-D,123,Sarangpur - Vasna,Sarangpur,Vasna,1844,1598,05,55,15,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+748,123-SL-D,123,Sitarambapa Chowk (Gopal Chowk)-Sarangpur Darwaja,Sitarambapa Chowk (Gopal Chowk),Sarangpur,8923,1844,13,00,22,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+749,123-SLa-D,123,Sitarambapa Chowk(Gopal Chowk) - Lal Darawja,Sitarambapa Chowk (Gopal Chowk),Lal Darwaja,8923,4104,12,00,20,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+753,123-SaS-U,123,Sarangpur Darwaja - Sitarambapa Chowk(Gopal Chowk),Sarangpur,Sitarambapa Chowk (Gopal Chowk),1204,8923,06,05,07,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+754,123-U,123,Vasna - Sitarambapa Chowk (Gopal Chowk),Vasna,Sitarambapa Chowk (Gopal Chowk),1286,8923,06,40,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+756,123sh-D,123sh,Sitarambapa Chowk (Gopal Chowk) - Lal Darwaja,Sitarambapa Chowk (Gopal Chowk),Lal Darwaja,8923,4104,06,30,21,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+759,123sh-SL-D,123sh,Sarangpur Darwaja - Lal Darwaja,Sarangpur,Lal Darwaja,1844,4104,13,40,16,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+760,123sh-SS-D,123sh,Sitarambapa Chowk(Gopal Chowk) - Sarangpur,Sitarambapa Chowk (Gopal Chowk),Sarangpur,8923,1844,12,55,23,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+761,123sh-LK-U,123sh,Sarangpur - Sitarambapa Chowk (Gopal Chowk),Sarangpur,Sitarambapa Chowk (Gopal Chowk),2270,8923,05,55,08,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+762,123sh-U,123sh,Lal Darwaja - Sitarambapa Chowk (Gopal Chowk),Lal Darwaja,Sitarambapa Chowk (Gopal Chowk),5976,8923,07,20,22,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+766,125-U,125,Lal Darwaja - Vehlal Gam,Lal Darwaja,Vehlal Gam,5976,4497,06,20,17,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+767,125sh-D,125sh,Vehlal Gam - Naroda,Vehlal Gam,Naroda,5137,1434,07,30,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+769,125sh-U,125sh,Naroda - Vehlal Gam,Naroda,Vehlal Gam,1543,4497,06,30,19,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+770,126-D,126,Sardarnagar - Sarangpur,Sardarnagar,Sarangpur,2364,1844,07,00,19,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+771,126-U,126,Sarangpur - Sardarnagar,Sarangpur,Sardarnagar,2270,2339,06,15,18,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+772,127-D,127,Bhakti Circle - Sarangpur,Bhakti Circle,Sarangpur,5639,1844,07,05,22,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+773,127-U,127,Sarangpur - Bhakti Circle,Sarangpur,Bhakti Circle,2270,4818,06,25,21,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+774,128-MN-D,128,Kalupur Terminus- Nigam Society,Kalupur Terminus,Nigam Society,1715,3240,05,40,09,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+777,128-NS-D,128,Naroda Industrial Township - Sarangpur,Naroda Industrial Township(MuthiyaGam),Sarangpur,3647,1844,18,25,22,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+778,503-D,503,Chandkheda Gam - Prabhahanuman Mandir(Trimandir),Chandkheda Gam,Prabhahanuman Mandir(Trimandir),1653,9972,06,10,18,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+787,130sh-M-D,130sh,Mahavirnagar - Naroda Industrial Township,Mahavirnagar (Bajarangbapu Ashram),Naroda Industrial Township(MuthiyaGam),3624,3646,07,00,10,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+788,128-NS-U,128,Nigam Society - Sarangpur,Nigam Society,Sarangpur,3063,2270,18,25,22,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+789,128-SN-U,128,Kalupur Terminus - Naroda Industrial Township,Kalupur Terminus,Naroda Industrial Township(MuthiyaGam),1734,3646,09,50,09,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+791,128-U,128,Nigam Society-NarodaIndustrialTownship(MuthiyaGam),Nigam Society,Naroda Industrial Township(MuthiyaGam),3063,3646,06,10,21,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+793,130sh-N-D,130sh,Narol circle - Naroda Terminus,Narol Circle,Naroda,3608,1543,17,45,19,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+800,130sh-D,130sh,Lambha Gam-Naroda Industrial Township(MuthiyaGam),Lambha Gam,Naroda Industrial Township(MuthiyaGam),3603,3646,06,30,21,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+803,130sh-N-U,130sh,Naroda Industrial Township -Narol Circle,Naroda Industrial Township(MuthiyaGam),Narol Circle,3647,3260,16,20,18,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+806,130sh-NiN-U,130sh,Naroda Industrial Township - Naroda Terminus,Naroda Industrial Township(MuthiyaGam),Naroda,3647,1543,20,10,23,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+807,130sh-T-U,130sh,Naroda Terminus - Lambha Gam,Naroda,Lambha Gam,1543,3688,05,30,07,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+808,130sh-U,130sh,Naroda Industrial Township(MuthiyaGam)-Lambha Gam,Naroda Industrial Township(MuthiyaGam),Lambha Gam,3647,3688,07,20,20,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+809,13/1sh-D,13/1sh,Lal Darwaja - Nigam Society,Lal Darwaja,Nigam Society,1125,3240,06,00,21,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+810,13/1sh-U,13/1sh,Nigam Society - Lal Darwaja,Nigam Society,Lal Darwaja,3063,1077,06,40,22,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+814,135-D,135,Bhakti Circle - Lal Darwaja,Bhakti Circle,Lal Darwaja,2464,5976,06,00,20,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+817,135-PR-U,135,Pramukh Swaminagar - Bhakti Circle ,Pramukh Swaminagar (Bapunagar Tollnaka),Bhakti Circle,2513,2537,05,40,09,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+819,135-U,135,Lal Darwaja - Bhakti Circle,Lal Darwaja,Bhakti Circle,5976,2537,07,00,22,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+821,503-AC-U,503,Acher - Chandkheda Gam,Acher Depot,Chandkheda Gam,2182,1653,05,55,06,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+824,136-D,136,Sattadhar Society - G.E.B (Naroda),Sattadhar Society,G.E.B (Naroda),3976,9110,06,50,19,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+825,136-GM-D,136,Gujarat University - Manmohan Park,Gujarat University,Manmohan Park,1222,4129,08,10,14,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+826,136-GSa-D,136,Gujarat University - Sarangpur,Gujarat University,Sarangpur,1222,1204,20,55,20,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+828,136-SM-D,136,Sattadhar Society - Manmohan Park,Sattadhar Society,Manmohan Park,3976,4129,07,20,17,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+829,136-SMp-D,136,Sarangpur - Manmohan Park,Sarangpur,Manmohan Park,1204,4129,06,30,14,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+830,136-SN-D,136,Sarangpur - G.E.B (Naroda),Sarangpur,G.E.B (Naroda),1204,9110,06,10,08,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+831,137sh-CN-D,137sh,Chandlodiya Talav - Nava Vadaj,Chandlodiya Talav (Ganeshwar Mahadev),Nava Vadaj,5293,2101,13,30,13,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+832,136-SS-D,136,Sattadhar Society - Sarangpur,Sattadhar Society,Sarangpur,3976,1204,18,40,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+833,136sh-D,136sh,Gujarat University - G.E.B (Naroda),Gujarat University,G.E.B (Naroda),1222,9110,11,25,19,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+834,136-MG-U,136,Manmohan Park - Gujarat University,Manmohan Park,Gujarat University,4231,1051,07,00,19,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+835,136-MS-U,136,Manmohan Park - Sattadhar Society,Manmohan Park,Sattadhar Society,4231,2243,09,25,15,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+836,136-MSP-U,136,Manmohan Park - Sarangpur,Manmohan Park,Sarangpur,4231,1204,12,50,12,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+837,136-NS-U,136,G.E.B (Naroda) - Sarangpur,G.E.B (Naroda),Sarangpur,9109,1204,18,40,21,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+839,136-SS-U,136,Sarangpur - Sattadhar Society,Sarangpur,Sattadhar Society,1204,2243,06,00,08,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+841,136-U,136,G.E.B (Naroda) - Sattadhar Society,G.E.B (Naroda),Sattadhar Society,9109,2243,06,50,18,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+842,136sh-U,136sh,G.E.B (Naroda) - Gujarat University,G.E.B (Naroda),Gujarat University,9109,1051,09,30,18,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+843,137sh-D,137sh,Gujarat High Court - Bapunagar,Gujarat High Court,Bapunagar,1621,4164,07,45,20,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+845,137sh-VB-D,137sh,Vadaj - Bapunagar,Vadaj,Bapunagar,3232,4164,08,40,08,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+846,137sh-BK-U,137sh,Bapunagar - Kalupur Terminus,Bapunagar,Kalupur Terminus,4416,1734,19,05,21,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+847,137sh-BV-U,137sh,Bapunagar - Vadaj,Bapunagar,Vadaj,4416,2033,21,25,21,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+848,137sh-U,137sh,Bapunagar - Gujarat High Court,Bapunagar,Gujarat High Court,4416,1687,06,35,18,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+850,204-U,204,Vasna - Vasna,Vasna,Vasna,1286,1598,07,20,19,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+852,205-VL-D,205,Vasna - Lal Darwaja,Vasna,Lal Darwaja,1286,5976,20,25,21,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+854,137sh-CV-D,137sh,Chandlodiya Talav - Vadaj,Chandlodiya Talav (Ganeshwar Mahadev),Vadaj,5293,3232,21,15,21,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+855,137sh-NK-D,137sh,Nava Vadaj - Kalupur Terminus,Nava Vadaj,Kalupur Terminus,2101,1715,13,50,13,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+856,137sh-VK-D,137sh,Vadaj - Kalupur Terminus,Vadaj,Kalupur Terminus,3232,1715,06,35,06,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+858,137shc-D,137shc,Chandlodiya Talav - Kalupur Terminus,Chandlodiya Talav (Ganeshwar Mahadev),Kalupur Terminus,5293,1715,07,45,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+862,137shc-U,137shc,Kalupur Terminus - Chandlodiya Talav,Kalupur Terminus,Chandlodiya Talav (Ganeshwar Mahadev),1734,4513,07,00,20,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+863,137M-D,137M,Lapakaman Gam - Manmohan Park,Lapakaman Gam,Manmohan Park,2774,4129,08,00,18,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+864,148-D,148,Naroda - Sarangpur,Naroda,Sarangpur,1434,1489,06,30,22,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+865,503-U,503,Prabhahanuman Mandir(Trimandir) - Chandkheda Gam,Prabhahanuman Mandir(Trimandir),Chandkheda Gam,9973,1652,06,50,19,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+866,137M-KM-D,137M,Bapunagar - Manmohan Park,Bapunagar,Manmohan Park,4164,4129,06,00,07,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+868,137M-MK-U,137M,Manmohan Park - Kalupur Terminus,Manmohan Park,Kalupur Terminus,4231,1734,19,00,20,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+869,137M-U,137M,Manmohan Park - Lapakaman Gam,Manmohan Park,Lapakaman Gam,4231,2723,06,20,16,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+870,138-D,138,Gujarat University - Bapunagar,Gujarat University,Bapunagar,1222,4164,08,05,19,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+871,138-GL-D,138,Gujarat University - Sarangpur,Gujarat University,Sarangpur,1222,2270,13,30,13,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+872,138-LS-D,138,Lal Darwaja - Sarangpur,Lal Darwaja,Sarangpur,5976,2270,21,55,21,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+873,138-SB-D,138,Kalupur Terminus - Bapunagar,Kalupur Terminus,Bapunagar,1734,4164,06,40,14,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+874,144-SA-D,144,Sarangpur - Arbudanagar,Sarangpur,Arbudanagar,1489,1181,05,50,08,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+876,138-BL-U,138,Bapunagar - Lal Darwaja,Bapunagar,Lal Darwaja,4416,1125,21,05,21,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+877,138-U,138,Bapunagar - Gujarat University,Bapunagar,Gujarat University,4416,1051,07,00,17,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+878,142-D,142,Gujarat University - Vastral Gam,Gujarat University,Vastral Gam,1222,3717,06,45,20,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+879,142-GS-D,142,Gujarat University - Sarangpur,Gujarat University,Sarangpur,1222,1489,18,55,21,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+880,142-LV-D,142,Sarangpur - Vastral Gam,Sarangpur,Vastral Gam,1489,3717,07,40,08,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+881,150sh-SK-D,150sh,Sarangpur - Kalupur,Sarangpur,Kalupur Terminus,1489,1734,06,30,06,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+882,142sh-SaV-D,142sh,Sarangpur - Vastral Gam,Sarangpur,Vastral Gam,1489,3717,06,10,07,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+883,142-LG-U,142,Sarangpur - Gujarat University,Sarangpur,Gujarat University,1489,1051,06,10,09,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+884,142-U,142,Vastral Gam - Gujarat University,Vastral Gam,Gujarat University,3718,1051,06,50,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+886,142sh-VSa-U,142sh,Vastral Gam - Sarangpur,Vastral Gam,Sarangpur,3718,1489,19,00,21,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+887,142sh-D,142sh,Lal Darwaja - Vastral Gam,Lal Darwaja,Vastral Gam,5977,3717,06,50,22,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+891,142sh-SVa-D,142sh,Sarangpur - Vastral Gam,Sarangpur,Vastral Gam,1489,3717,05,30,10,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+893,142sh-U,142sh,Vastral Gam - Lal Darwaja,Vastral Gam,Lal Darwaja,3718,1125,06,05,21,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+895,142sh-VaS-U,142sh,Vastral Gam - Sarangpur,Vastral Gam,Sarangpur,3718,1489,18,20,23,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+897,143-D,143,Pasunj Gam - Sarangpur,Pasunj Gam,Sarangpur,2539,1489,06,45,20,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+899,143-U,143,Sarangpur - Pasunj Gam,Sarangpur,Pasunj Gam,1204,2596,05,20,18,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+900,143sh-D,143sh,Kubadthal Gam - Sarangpur,Kubadthal Gam,Sarangpur,2550,1489,06,15,21,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+902,144-AS-U,144,Arbudanagar - Sarangpur,Arbudanagar,Sarangpur,1182,1204,18,40,21,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+904,144-U,144,Arbudanagar - Gujarat University,Arbudanagar,Gujarat University,1182,1222,06,15,19,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+908,147-D,147,Ranchodpura Cross Road - Vadaj,Ranchodpura Cross Road,Vadaj,5861,2107,07,15,19,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+910,147-U,147,Vadaj - Ranchodpura Cross Road,Vadaj,Ranchodpura Cross Road,2107,5862,06,20,18,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+911,204-VL-U,204,Vasna - Lal Darwaja,Vasna,Lal Darwaja,1286,5976,20,20,21,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+913,401-VV-D,401,Vadaj - Vasna,Vadaj,Vasna,2107,1598,05,35,09,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+914,148-KS-D,148,Kathwada Gam - Sarangpur,Kathwada Gam,Sarangpur,1454,1489,10,35,14,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+915,148-SK-U,148,Sarangpur - Kathwada Gam,Sarangpur,Kathwada Gam,1204,1523,09,40,13,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+916,148-U,148,Sarangpur - Naroda,Sarangpur,Naroda,1204,1543,05,25,20,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+917,150-CS-D,150,Chinubhainagar - Sarangpur Darwaja,Chinubhainagar,Sarangpur,1099,1489,12,20,23,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+918,150-D,150,Chinubhainagar - Sarkhej Gam,Chinubhainagar,Sarkhej Gam,1099,1273,06,10,21,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+921,111/2-SN-D,111/2,Someshwar Mahadev - Naroda,Someshwar Mahadev,Naroda,8978,1543,20,25,21,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+922,150-SS-D,150,Sarangpur Darwaja - Sarkhej Gam,Sarangpur,Sarkhej Gam,1489,1273,05,30,16,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+923,150-SC-U,150,Sarangpur Darwaja - Chinubhainagar,Sarangpur,Chinubhainagar,1204,1819,05,30,16,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+924,150-SS-U,150,Sarkhej Gam - Sarangpur Darwaja,Sarkhej Gam,Sarangpur,1149,1204,12,10,23,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+925,150-U,150,Sarkhej Gam - Chinubhainagar,Sarkhej Gam,Chinubhainagar,1149,1819,06,10,21,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+926,150sh-CS-U,150sh,Chinubhainagar - Sarangpur ,Chinubhainagar,Sarangpur,1099,1489,23,40,23,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+927,151sh-HV-U,151sh,Hatkeshwar Depo - Vivekanandnagar,Hatkeshwar Depo,Vivekanandnagar,2393,3110,06,00,16,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+928,150sh-BV-D,150sh,Badrinarayan Society - Vadaj,Badrinarayan Society,Vadaj,3447,2033,07,05,07,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+929,150sh-CS-D,150sh,Calico Colony - Sarkhej Gam,Calico Colony,Sarkhej Gam,1344,1273,05,20,05,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+930,150sh-CSa-D,150sh,Chinubhainagar - Sarkhej Gam,Chinubhainagar,Sarkhej Gam,1099,1273,10,25,19,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+931,150sh-D,150sh,Sarangpur Darwaja - Sarkhej Gam,Sarangpur,Sarkhej Gam,1489,1273,16,35,16,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+932,150sh-KB-D,150sh,Kalupur -Badrinarayan Society,Kalupur Terminus,Badrinarayan Society,1734,3446,06,35,06,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+933,150sh-SC-D,150sh,Sarangpur - Chinubhainagar,Sarangpur,Chinubhainagar,1204,1819,09,40,23,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+934,150sh-U,150sh,Sarkhej Gam - Sarangpur Darwaja,Sarkhej Gam,Sarangpur,1149,1204,05,55,22,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+935,150sh-VS-U,150sh,Vadaj - Sarangpur,Vadaj,Sarangpur,3232,1204,08,15,08,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+936,151-D,151,Vivekanandnagar - Iskon Mandir,Vivekanandnagar,Iskon Mandir,3135,3213,06,10,20,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+937,151-HI-D,151,Hatkeshwar Depo - Iskon Mandir,Hatkeshwar Depo,Iskon Mandir,2312,3213,05,12,15,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+938,151-VH-D,151,Vivekanandnagar - Hatkeshwar Depo,Vivekanandnagar,Hatkeshwar Depo,3135,2312,12,20,22,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+939,151-HV-U,151,Hatkeshwar Depo - Vivekanandnagar,Hatkeshwar Depo,Vivekanandnagar,2393,3110,05,40,15,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+940,151-IH-U,151,Iskon Mandir - Hatkeshwar Depo,Iskon Mandir,Hatkeshwar Depo,3197,2393,12,05,21,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+941,151-U,151,Iskon Mandir - Vivekanandnagar,Iskon Mandir,Vivekanandnagar,3197,3110,06,30,20,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+942,151sh-D,151sh,Vivekanandnagar - Lal Darwaja,Vivekanandnagar,Lal Darwaja,3135,8431,06,30,20,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+943,151sh-VH-D,151sh,Vivekanandnagar - Hatkeshwar Depo,Vivekanandnagar,Hatkeshwar Depo,3135,2312,12,50,23,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+945,151sh-U,151sh,Lal Darwaja - Vivekanandnagar,Lal Darwaja,Vivekanandnagar,2222,3110,07,55,21,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+946,152-D,152,Wanch Gam - Lal Darwaja,Wanch Gam,Lal Darwaja,2292,2222,06,20,22,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+951,152-U,152,Lal Darwaja - Wanch Gam,Lal Darwaja,Wanch Gam,2222,2462,05,30,20,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+953,152Sh-D,152Sh,Dhamatwan Gam - Lal Darwaja,Dhamatwan Gam,Lal Darwaja,7044,2222,07,20,21,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+957,202-U,202,Vasna - Naroda,Vasna,Naroda,1598,1543,06,45,19,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+960,205-D,205,Vasna - Vasna,Vasna,Vasna,1286,1598,07,20,19,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+962,152Sh-HL-D,152Sh,Hatkeshwar Depo - Lal Darwaja,Hatkeshwar Depo,Lal Darwaja,2312,1077,12,55,16,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+963,152Sh-LH-U,152Sh,Lal Darwaja -  Hatkeshwar Depo,Lal Darwaja,Hatkeshwar Depo,2222,2393,11,20,15,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+964,152Sh-U,152Sh,Lal Darwaja-Dhamatwan Gam,Lal Darwaja,Dhamatwan Gam,2222,7043,06,20,20,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+967,160-D,160,Silver Oak University - Hatkeshwar Depo,Silver Oak University,Hatkeshwar Depo,9230,2393,07,35,22,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+970,401-U,401,Vasna - Chandkheda (Sarthi Bunglows),Vasna,Chandkheda (Sarthi Bunglows),1286,2194,06,00,21,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+972,300-D,300,Maninagar - Maninagar,Maninagar,Maninagar,1329,3215,06,30,19,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+973,300-VA-D,300,Vadaj - Acher,Vadaj,Acher Depot,2107,2182,19,35,22,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+974,300-VM-D,300,Vadaj - Maninagar,Vadaj,Maninagar,2107,3215,06,20,08,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+975,111/2-NS-U,111/2,Naroda - Someshwar Mahadev,Naroda,Someshwar Mahadev,1434,8978,07,25,08,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+976,300-AV-U,300,Acher - Vadaj,Acher Depot,Vadaj,2202,2107,06,05,08,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+978,300-MV-U,300,Maninagar - Vadaj,Maninagar,Vadaj,1329,2107,18,15,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+979,130/2-CN-D,130/2,C.T.M. Cross Road - Naroda,C.T.M. Cross Road,Naroda,3158,1434,15,15,15,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+980,31/4sh-BV-D,31/4sh,Bakrol Gam - Paldi,Bakrol Gam,Paldi,7063,1293,18,35,18,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+981,31/4sh-D,31/4sh,Bakrol Gam - Lal Darwaja,Bakrol Gam,Lal Darwaja,7063,4104,06,55,15,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+983,39/3sh-U,39/3sh,Kalupur Terminus - But Bhavani Mandir,Kalupur Terminus,But Bhavani Mandir,1715,1365,06,20,19,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+984,400-U,400,Lal Darwaja - Lal Darwaja,Lal Darwaja,Lal Darwaja,5978,8431,06,30,21,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+985,31/4sh-BB-U,31/4sh,Paldi - Bakrol Gam,Paldi,Bakrol Gam,1346,7062,06,05,06,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+986,31/4sh-U,31/4sh,Lal Darwaja - Bakrol Gam,Lal Darwaja,Bakrol Gam,4104,7062,08,00,17,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+987,SP1-NM-D,SP1,Nana Chiloda - Memco,Nana Chiloda(Mnu.Octroi),Memco,3939,3950,20,35,21,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+988,33/1sh-D,33/1sh,Lal Darwaja - Vaishali Township,Lal Darwaja,Vaishali Township,4104,2081,07,05,19,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+989,33/1sh-U,33/1sh,Vaishali Township - Lal Darwaja,Vaishali Township,Lal Darwaja,2039,4104,07,45,19,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+990,39/3sh-BS-D,39/3sh,But Bhavani Mandir - Sarangpur,But Bhavani Mandir,Sarangpur,1274,1489,20,40,20,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+991,39/3sh-D,39/3sh,But Bhavani Mandir - Kalupur Terminus,But Bhavani Mandir,Kalupur Terminus,1274,1734,07,05,18,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+992,401-CV-D,401,Chandkheda (Sarthi Bunglows) - Vadaj,Chandkheda (Sarthi Bunglows),Vadaj,2195,2107,18,10,21,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+993,401-D,401,Chandkheda (Sarthi Bunglows) - Vasna,Chandkheda (Sarthi Bunglows),Vasna,2195,1598,06,00,20,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+994,SP1-RA-D,SP1,Ranasan Circle - Aslali Circle,Ranasan Circle,Aslali Circle,5824,9985,07,45,19,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+995,130/2-D,130/2,Kamod Gam - Naroda,Kamod Gam,Naroda,1915,1434,07,20,18,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+996,401-VC-U,401,Vadaj - Chandkheda (Sarthi Bunglows),Vadaj,Chandkheda (Sarthi Bunglows),2033,2194,05,35,08,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+998,401-VV-U,401,Vasna - Vadaj,Vasna,Vadaj,1286,2033,17,45,20,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+1001,500-D,500,Lal Darwaja - Lal Darwaja,Lal Darwaja,Lal Darwaja,5979,1125,06,30,21,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+1002,501-D,501,PrabhahanumanMandir(Trimandir)-SanathalCrossRoad,Prabhahanuman Mandir(Trimandir),Sanathal Cross Road,9973,4594,08,50,17,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+1004,111/2-U,111/2,Lal Darwaja - Someshwar Mahadev,Lal Darwaja,Someshwar Mahadev,8721,8978,09,10,20,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+1005,117/1-D,117/1,Miroli Gam - Kalupur Terminus,Miroli Gam,Kalupur Terminus,1896,1734,06,40,17,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+1009,501-PC-D,501,Prabhahanuman Mandir(Trimandir) - Gandhibag(Acher),Prabhahanuman Mandir(Trimandir),Gandhibag (Acher),9973,2419,19,25,21,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+1010,501-PS-D,501,Paldi - Sarkhej Bavla Circle(Ujala),Paldi,Sarkhej-Bavla Circle (Ujala Hotel),1346,4592,05,55,08,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+1011,501-PSa-D,501,Prabhahanuman Mandir(Trimandir) - Sarkhej (Ujala),Prabhahanuman Mandir(Trimandir),Sarkhej-Bavla Circle (Ujala Hotel),9973,4592,07,00,20,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+1013,501-UL-D,501,Sarkhej (Ujala) - Lal Darwaja,Sarkhej-Bavla Circle (Ujala Hotel),Lal Darwaja,4592,4104,18,50,21,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+1016,501-CP-U,501,Gandhibag(Acher) - Prabhahanuman Mandir(Trimandir),Gandhibag (Acher),Prabhahanuman Mandir(Trimandir),2427,9972,06,25,08,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+1019,501-SaP-U,501,Sarkhej (Ujala) - Prabhahanuman Mandir(Trimandir),Sarkhej-Bavla Circle (Ujala Hotel),Prabhahanuman Mandir(Trimandir),5406,9972,06,20,20,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+1021,66/3sh-D,66/3sh,Moti Bhoyan Chokdi - Sarangpur,Moti Bhoyan Chokdi,Sarangpur,5514,1844,07,50,19,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+1022,501-SaV-U,501,Sanathal Cross Road - Lal Darwaja,Sanathal Cross Road,Lal Darwaja,4937,4104,19,25,19,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+1023,501-U,501,SanathalCrossRoad-PrabhahanumanMandir(Trimandir),Sanathal Cross Road,Prabhahanuman Mandir(Trimandir),4937,9972,07,00,15,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+1028,67/1sh-D,67/1sh,Sattadhar Society - Kalupur Terminus,Sattadhar Society,Kalupur Terminus,2243,1734,07,30,19,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+1032,67/1sh-U,67/1sh,Kalupur Terminus - Sattadhar Society,Kalupur Terminus,Sattadhar Society,1715,3976,08,15,20,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+1033,71/1-LL-D,71/1,Lapakaman Gam - Lal Darwaja,Lapakaman Gam,Lal Darwaja,2774,4103,10,00,19,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+1034,71/1-LV-D,71/1,Lapakaman Gam - Vadaj,Lapakaman Gam,Vadaj,2774,2107,21,05,21,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+1036,71/1-SL-D,71/1,Sarangpur - Lal Darwaja,Sarangpur,Lal Darwaja,1489,4103,13,30,15,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+1037,71/1VM-D,71/1VM,Moti Bhoyan Chokdi - Vadaj,Moti Bhoyan Chokdi,Vadaj,5514,2107,07,40,22,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+1038,71/1sh-D,71/1sh,Moti Bhoyan Chokdi - Lal Darwaja,Moti Bhoyan Chokdi,Lal Darwaja,5514,4103,07,00,22,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+1039,71/1-LL-U,71/1,Lal Darwaja - Lapakaman Gam,Lal Darwaja,Lapakaman Gam,4103,2723,08,25,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+1041,71/1-LS-U,71/1,Lal Darwaja - Sarangpur,Lal Darwaja,Sarangpur,4103,1489,13,05,15,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+1042,117/1-KaK-D,117/1,Kamod Gam - Kalupur Terminus,Kamod Gam,Kalupur Terminus,1915,1734,08,25,08,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+1043,117/1-MS-D,117/1,Miroli Gam - Sarangpur,Miroli Gam,Sarangpur,1896,1489,13,55,21,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+1045,71/1VM-U,71/1VM,Vadaj - Moti Bhoyan Chokdi,Vadaj,Moti Bhoyan Chokdi,2033,2757,06,40,20,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+1046,71/1sh-U,71/1sh,Lal Darwaja - Moti Bhoyan Chokdi,Lal Darwaja,Moti Bhoyan Chokdi,4103,2757,05,40,20,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+1049,800-U,800,Nava Vadaj - Nava Vadaj,Nava Vadaj,Nava Vadaj,2101,2082,07,45,19,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+1052,89/3sh-D,89/3sh,Chandkheda(SarthiBunglows) - Sarangpur,Chandkheda (Sarthi Bunglows),Sarangpur,2195,1844,06,00,20,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+1054,89/3sh-U,89/3sh,Sarangpur - Chandkheda(SarthiBunglows),Sarangpur,Chandkheda (Sarthi Bunglows),2270,2194,07,00,21,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+1055,900-D,900,Nava Vadaj - Nava Vadaj,Nava Vadaj,Nava Vadaj,2082,2101,07,45,19,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+1056,111/2-D,111/2,Someshwar Mahadev - Lal Darwaja,Someshwar Mahadev,Lal Darwaja,8978,8721,07,45,19,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+1057,117/1-KS-D,117/1,Kamod Gam - Sarangpur,Kamod Gam,Sarangpur,1915,1489,12,25,12,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+1059,117/1-KK-U,117/1,Kalupur Terminus - Kamod Gam,Kalupur Terminus,Kamod Gam,1715,1876,07,40,11,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+1060,117/1-U,117/1,Kalupur Terminus - Miroli Gam,Kalupur Terminus,Miroli Gam,1715,1895,05,45,20,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+1061,123/1-D,123/1,Parshwanath Township - Sarangpur,Parshwanath Township,Sarangpur,7174,1844,07,05,20,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+1062,123/1-U,123/1,Sarangpur - Parshwanath Township,Sarangpur,Parshwanath Township,2270,7173,06,35,19,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+1063,125/1-D,125/1,Dabhoda Gam - Sarangpur,Dabhoda Gam,Sarangpur,7234,1844,12,30,19,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+1064,125/1-DN-D,125/1,Dabhoda Gam - Naroda,Dabhoda Gam,Naroda,7234,1434,07,10,21,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+1065,125/1-ND-U,125/1,Naroda - Dabhoda Gam,Naroda,Dabhoda Gam,1543,7233,06,00,19,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+1066,125/1-U,125/1,Sarangpur - Dabhoda Gam,Sarangpur,Dabhoda Gam,2270,7233,07,50,14,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+1067,130/2-NC-U,130/2,Naroda - C.T.M. Cross Road,Naroda,C.T.M. Cross Road,1543,3087,14,25,14,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+1068,130/2-U,130/2,Naroda - Kamod Gam,Naroda,Kamod Gam,1543,1876,06,00,16,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+1070,130/4-D,130/4,Manmohan Park - Nava Vadaj,Manmohan Park,Nava Vadaj,7607,2101,07,50,20,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+1073,130/4-NC-U,130/4,Nava Vadaj - Memco,Nava Vadaj,Memco,2101,2688,20,35,21,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+1074,146/6-U,146/6,Sarangpur - Arbudanagar,Sarangpur,Arbudanagar,1204,1181,06,30,19,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+1076,130/4-U,130/4,Nava Vadaj - Manmohan Park,Nava Vadaj,Manmohan Park,2101,7342,07,55,19,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+1079,137/1-D,137/1,Gujarat High Court - Kalupur Terminus,Gujarat High Court,Kalupur Terminus,1621,1715,07,35,17,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+1080,137/1-GV-D,137/1,Gujarat High Court - Vadaj,Gujarat High Court,Vadaj,1621,3232,19,25,19,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+1082,137/1-U,137/1,Kalupur Terminus - Gujarat High Court,Kalupur Terminus,Gujarat High Court,1734,1687,08,30,18,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+1083,137/1-VG-U,137/1,Vadaj - Gujarat High Court,Vadaj,Gujarat High Court,2033,1687,07,05,07,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+1084,138/1-D,138/1,Riddhi Siddhi Bunglows (Sanand) - Lal Darwaja,Riddhi Siddhi Bunglows (Ashapura Motors),Lal Darwaja,1383,8431,06,40,21,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+1085,138/1-U,138/1,Lal Darwaja - Riddhi Siddhi Bunglows (Sanand),Lal Darwaja,Riddhi Siddhi Bunglows (Ashapura Motors),8431,1774,05,30,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+1086,144/1-D,144/1,Madhav Homes - Lal Darwaja,Madhav Homes,Lal Darwaja,1951,5977,06,30,20,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+1088,144/1sh-D,144/1sh,Madhav Homes - Sarangpur,Madhav Homes,Sarangpur,1951,1489,20,45,23,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+1089,144/1-LS-U,144/1,Lal Darwaja - Sarangpur Darwaja,Lal Darwaja,Sarangpur,5977,1489,13,10,15,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+1090,144/1-U,144/1,Lal Darwaja- Madhav Homes,Lal Darwaja,Madhav Homes,5977,1951,07,35,22,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+1092,144/1sh-U,144/1sh,Sarangpur - Madhav Homes,Sarangpur,Madhav Homes,1489,1951,05,50,16,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+1097,146/1-D,146/1,Ranip Gam - Chinubhainagar,Ranip Gam,Chinubhainagar,3230,1819,06,20,19,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+1101,146/1-RV-D,146/1,Ranip Gam - Vadaj,Ranip Gam,Vadaj,3230,3232,18,35,19,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+1102,146/1-VC-D,146/1,Vadaj - Chinubhainagar,Vadaj,Chinubhainagar,3232,1819,05,45,09,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+1105,146/1-U,146/1,Chinubhainagar - Ranip Gam,Chinubhainagar,Ranip Gam,1099,3229,06,35,21,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+1108,146/6-D,146/6,Arbudanagar - Sarangpur,Arbudanagar,Sarangpur,1182,1489,06,55,19,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+1109,147/2-D,147/2,ChandlodiyaRailwayStation-SwamiVivekanand(Vastral),Vagheshwari Soc(Chandlodia Rly Station),Swami Vivekanand Chowk(Vastral),4695,9174,09,25,14,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+1110,147/2-VS-D,147/2,Sarangpur - SwamiVivekanand(Vastral),Sarangpur,Swami Vivekanand Chowk(Vastral),1204,9174,06,20,06,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+1111,147/2-VaS-D,147/2,Chandlodiya Railway Station - Sarangpur,Vagheshwari Soc(Chandlodia Rly Station),Sarangpur,4695,1204,19,00,19,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+1113,147/2-U,147/2,SwamiVivekanand(Vastral)-ChandlodiyaRailwayStation,Swami Vivekanand Chowk(Vastral),Vagheshwari Soc(Chandlodia Rly Station),9173,5493,07,40,16,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+1115,SP1-AN-U,SP1,Aslali Circle - Nana Chiloda(Mnu.Octroi),Aslali Circle,Nana Chiloda(Mnu.Octroi),9984,3939,19,00,20,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+1116,SP1-AS-U,SP1,Aslali Circle - Lal Darwaja,Aslali Circle,Lal Darwaja,9984,1077,19,00,22,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+1117,SP1-U,SP1,Aslali Circle - Ranasan Circle,Aslali Circle,Ranasan Circle,9984,5823,07,00,18,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+1118,148/1-AS-D,148/1,Arbudanagar - Sarangpur,Arbudanagar,Sarangpur,1182,1489,13,35,22,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+1119,148/1-D,148/1,Bakrol-Bujrang Gam - Sarangpur,Bakrol-Bujrang Gam,Sarangpur,4100,1489,08,10,21,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+1121,148/1-SA-U,148/1,Sarangpur - Arbudanagar,Sarangpur,Arbudanagar,1844,1181,13,00,21,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+1123,148/1-U,148/1,Sarangpur - Bakrol-Bujrang Gam,Sarangpur,Bakrol-Bujrang Gam,1844,4099,07,05,20,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+1124,151/2-D,151/2,Nandej-Barejadi Gam - Maninagar,Nandej-Barejadi Gam,Maninagar,3123,1329,06,20,22,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+1125,151/2-U,151/2,Maninagar - Nandej-Barejadi Gam,Maninagar,Nandej-Barejadi Gam,1310,3122,05,15,20,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+1126,151/3-D,151/3,Hatkeshwar Depo - Godhavi Gam,Hatkeshwar Depo,Godhavi Gam,2312,8136,06,30,20,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+1127,151/3-HG-D,151/3,Hatkeshwar Depo - Vakil Bridge,Hatkeshwar Depo,Vakil Bridge,2312,9386,06,05,21,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+1130,151/3-GH-U,151/3,Vakil Bridge - Hatkeshwar Depo,Vakil Bridge,Hatkeshwar Depo,9387,2393,07,20,22,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+1133,151/3-U,151/3,Godhavi Gam - Hatkeshwar Depo,Godhavi Gam,Hatkeshwar Depo,8005,2393,08,10,22,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+1134,151/4-D,151/4,Hatkeshwar Depo - Gujarat University,Hatkeshwar Depo,Gujarat University,2312,8214,06,35,20,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+1138,151/4-U,151/4,Gujarat University - Hatkeshwar Depo,Gujarat University,Hatkeshwar Depo,8137,2393,07,35,21,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+1139,152/1-D,152/1,Gatrad Gam - Lal Darwaja,Gatrad Gam,Lal Darwaja,7028,2222,06,35,19,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+1140,152/1-GK-D,152/1,Gatrad Gam - Hatkeshwar Depo,Gatrad Gam,Hatkeshwar Depo,7028,2312,18,05,21,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+1141,152/1-GKm-D,152/1,Gatrad Gam - Khokhra(Mahemdabad),Gatrad Gam,Khokhara Circle,7028,2259,14,40,15,55,"1,2,3,4,5,6,7",AMTS,NORMAL
+1142,152/1-GR-D,152/1,Gatrad Gam - Raipur Darwaja,Gatrad Gam,Raipur Darwaja,7028,1847,22,20,22,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+1143,152/1-HL-D,152/1,Hatkeshwar Depo - Lal Darwaja,Hatkeshwar Depo,Lal Darwaja,2312,1077,15,20,15,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+1145,152/1-KmG-U,152/1,Khokhra(Mahemdabad) - Gatrad Gam,Khokhara Circle,Gatrad Gam,2285,7027,15,10,16,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+1146,152/1-LH-U,152/1,Lal Darwaja - Hatkeshwar Depo,Lal Darwaja,Hatkeshwar Depo,1125,2393,14,35,14,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+1147,152/1-RG-U,152/1,Raipur Darwaja - Gatrad Gam,Raipur Darwaja,Gatrad Gam,1300,7027,07,20,07,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+1148,152/1-U,152/1,Lal Darwaja - Gatrad Gam,Lal Darwaja,Gatrad Gam,2222,7027,05,45,21,10,"1,2,3,4,5,6,7",AMTS,NORMAL
+1152,160/1-D,160/1,Adinathnagar - Maninagar,Adinathnagar,Maninagar,3205,1310,08,10,19,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+1153,160/1-SM-D,160/1,Shrinand Residency - Maninagar,Shrinand Residency,Maninagar,8242,1310,15,35,15,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+1154,160/1-MS-U,160/1,Maninagar - Shrinand Residency,Maninagar,Shrinand Residency,1329,8239,15,00,15,00,"1,2,3,4,5,6,7",AMTS,NORMAL
+1156,160/1-U,160/1,Maninagar - Adinathnagar,Maninagar,Adinathnagar,1329,3206,07,10,18,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+1162,Feeder/5-VS-U,Feeder/5,Vadaj - Saradaben Hospital,Vadaj,Shardaben Hospital,3232,3438,06,45,06,45,"1,2,3,4,5,6,7",AMTS,NORMAL
+1163,Feeder/5-U,Feeder/5,Shardaben Hospital - Rasraj Jackpot (Ring),Shardaben Hospital,Rasraj Jackpot (Ring Road),3438,2538,07,15,20,35,"1,2,3,4,5,6,7",AMTS,NORMAL
+1167,Feeder/5-SaS-U,Feeder/5,Sarangpur - Shardaben Hospital,Sarangpur,Shardaben Hospital,2270,3438,14,15,14,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+1168,Feeder/4-D,Feeder/4,Chosar Gam - Isanpur,Chosar Gam,Isanpur,5628,3072,06,40,20,40,"1,2,3,4,5,6,7",AMTS,NORMAL
+1169,Feeder/4-U,Feeder/4,Isanpur - Chosar Gam,Isanpur,Chosar Gam,3224,4067,06,00,19,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+1170,Feeder/5-D,Feeder/5,Rasraj Jackpot - Shardaben Hospital,Rasraj Jackpot (Ring Road),Shardaben Hospital,2463,2497,07,55,21,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+1171,Feeder/5-SS-D,Feeder/5,Shardaben Hospital - Sarangpur,Shardaben Hospital,Sarangpur,2497,1844,13,25,13,25,"1,2,3,4,5,6,7",AMTS,NORMAL
+1172,Feeder/5-SV-D,Feeder/5,Sardaben Hospital - Vadaj,Shardaben Hospital,Vadaj,2497,2033,21,50,21,50,"1,2,3,4,5,6,7",AMTS,NORMAL
+1173,SP1-D,SP1,Ranasan Circle - Aslali Circle,Ranasan Circle,Aslali Circle,5824,9985,11,25,20,20,"1,2,3,4,5,6,7",AMTS,NORMAL
+1179,SP1sh-D,SP1sh,Zundal Circle - Ranasan Circle,Zundal Circle,Ranasan Circle,5842,5824,07,15,20,15,"1,2,3,4,5,6,7",AMTS,NORMAL
+1181,SP1sh-ZG-D,SP1sh,Zundal Circle - Gandhibag (Acher),Zundal Circle,Gandhibag (Acher),5842,2419,20,30,21,05,"1,2,3,4,5,6,7",AMTS,NORMAL
+1182,SP1sh-GZ-U,SP1sh,Gandhibag (Acher) - Zundal Circle,Gandhibag (Acher),Zundal Circle,2427,5841,07,00,07,30,"1,2,3,4,5,6,7",AMTS,NORMAL
+1183,SP1sh-U,SP1sh,Ranasan Circle - Zundal Circle,Ranasan Circle,Zundal Circle,5823,5841,07,40,20,40,"1,2,3,4,5,6,7",AMTS,NORMAL

@@ -25,11 +25,14 @@ service_type = None
 traffic_congestion_data = None
 all_locations_data = None
 all_routes_data = None
+all_routes_details_data = None
+all_routes =  None
 time_hour = None
 time_minute = None
 time_day = None
 specific_station = None
 all_stations_list = []
+all_available_routes_from_route = None
 
 with st.sidebar:
     st.title("Statistics")
@@ -40,14 +43,20 @@ with st.sidebar:
     if data:
         service_type = data
         if(service_type == "AMTS"):
-            traffic_congestion_data = pd.read_csv("../data/amts_traffic_congestion_data.csv")
-            all_locations_data = pd.read_csv("../data/amts_all_loc.csv")
-            all_routes_data = pd.read_csv("../data/amts_all_routes.csv")
+            traffic_congestion_data = pd.read_csv("./data/amts_traffic_congestion_data.csv")
+            all_locations_data = pd.read_csv("./data/amts_all_loc.csv")
+            all_routes_data = pd.read_csv("./data/amts_all_routes.csv")
+            all_routes = pd.read_csv("./data/brts_routes.csv")
+            all_routes_details_data = pd.read_csv("./data/brts_routes_details.csv")
+
 
         if(service_type == "BRTS"):
-            traffic_congestion_data = pd.read_csv("../data/brts_traffic_congestion_data.csv")
-            all_locations_data = pd.read_csv("../data/brts_all_loc.csv")
-            all_routes_data = pd.read_csv("../data/brts_all_routes.csv")
+            traffic_congestion_data = pd.read_csv("./data/brts_traffic_congestion_data.csv")
+            all_locations_data = pd.read_csv("./data/brts_all_loc.csv")
+            all_routes_data = pd.read_csv("./data/brts_all_routes.csv")
+            all_routes = pd.read_csv("./data/brts_routes.csv")
+            all_routes_details_data = pd.read_csv("./data/brts_routes_details.csv")
+
 
     if service_type:
         ## Dropdown for seleting Time and Day of the week, Default is Current Time and Day
@@ -77,7 +86,7 @@ with st.sidebar:
         time_hour = current_time.hour
         time_minute = current_time.minute
         time_day = current_day
-        print("Time Values: ",time_hour, time_minute, time_day)
+        # print("Time Values: ",time_hour, time_minute, time_day)
 
 
     ## Dropdown for selecting Specific Station
@@ -86,7 +95,14 @@ with st.sidebar:
         all_stations_list = all_locations_data['station_name'].unique()
         specific_station = st.selectbox("Select Station", all_stations_list)    
 
-
+    ## Dropdown for selecting Specific Route
+    if service_type:
+        st.subheader("Customize Route")
+        print(specific_station)
+        if len(specific_station) > 0:
+            print("hello")
+            all_available_routes_from_route = all_routes_details_data[all_routes_details_data['first_stop_name'] == specific_station]
+            print(all_available_routes_from_route.head())
 
 
 col = st.columns((5, 3), gap='medium')
@@ -104,12 +120,16 @@ if service_type:
         "height":128,
         "anchorY": 128
     }
+        
+
+        
+
         map_all_location_data = map_functions.create_traffic_congestion_map_currently(all_locations_data, traffic_congestion_data, time_hour, time_day)
         map_all_location_data['icon_data'] = None
         for i in map_all_location_data.index:
             map_all_location_data["icon_data"][i] = icon_data
 
-        print(map_all_location_data.head())
+        # print(map_all_location_data.head())
 
         view_state = pdk.ViewState(
             longitude=72.5714,
@@ -158,18 +178,61 @@ if service_type:
         }
         }
 
+    
+        
         r = pdk.Deck(layers=pdk_layers, initial_view_state=view_state, tooltip=tooltip)
-        st.pydeck_chart(r)
+        st.pydeck_chart(r, use_container_width=True)
 
 
         ### Bar Chart for the Traffic Congestion on Stations for the specific time and day
         st.subheader("Traffic Congestion on Stations")
+        specific_time_data = traffic_congestion_data[(traffic_congestion_data['time'] == time_hour) & (traffic_congestion_data["day"] == time_day)]
+
+        # Filter the data for the specific time and day
+        # Filter the data for the specific time and day
+        specific_time_data = traffic_congestion_data[(traffic_congestion_data['time'] == time_hour) & (traffic_congestion_data["day"] == time_day)]
+
+        # Calculate the average traffic congestion for the specific time and day
+        avg_traffic_congestion = specific_time_data['traffic_congestion'].mean()
+
+        # Create Altair chart
+        chart = alt.Chart(specific_time_data).mark_bar().encode(
+            x='station_name',
+            y='traffic_congestion'
+        ).properties(
+            width=600,  # Adjust width as needed
+            height=400  # Adjust height as needed
+        )
+
+        # Add a dotted line representing the average traffic congestion
+        avg_line = alt.Chart(pd.DataFrame({'avg_traffic_congestion': [avg_traffic_congestion]})).mark_rule(color='red', strokeDash=[3,3]).encode(
+            y='avg_traffic_congestion'
+        )
+
+        # Overlay the line on the chart
+        chart_with_avg_line = chart + avg_line
+
+        # Set axis labels
+        chart_with_avg_line = chart_with_avg_line.configure_axis(
+            labelFontSize=12,
+            titleFontSize=14
+        ).configure_title(
+            fontSize=16
+        )
+
+        # Display the Altair chart with the average line in Streamlit
+        st.altair_chart(chart_with_avg_line, use_container_width=True)
+
+        
+
+        
+        
 
 
         ### HEAT MAP
         heatmap_merged_data = map_functions.create_traffic_congestion_map_currently(all_locations_data, traffic_congestion_data, time_hour, time_day)
         pivot_data = traffic_congestion_data.pivot_table(index='day', columns='time', values='traffic_congestion', aggfunc='mean')
-        print(pivot_data.head())
+        # print(pivot_data.head())
         fig = px.imshow(pivot_data,
                     labels=dict(x="Hour of the Day", y="Day of the Week", color="Congestion (%)"),
                     x=['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00',
@@ -180,17 +243,6 @@ if service_type:
         st.subheader(f"Average Traffic Congestion: {specific_station}")  
         # Display the heatmap
         st.plotly_chart(fig,theme="streamlit",use_container_width=True)
-
-
-
-        
-
-
-
-        
-
-
-    
 
 
     with col[1]:
@@ -220,7 +272,7 @@ if service_type:
 
         ## Line Chart for the Traffic Congestion at the specific station with proper x and y axis
         station_overall_congestion  = congestion_metrics_functions.traffic_congestion_rates_specific_station_allday(traffic_congestion_data, specific_station)
-        print(station_overall_congestion)
+        # print(station_overall_congestion)
         st.subheader(f"Traffic Congestion: {specific_station}")  
         chart = alt.Chart(station_overall_congestion).mark_line().encode(
         x='time',

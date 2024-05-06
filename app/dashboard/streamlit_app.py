@@ -1,5 +1,3 @@
-#######################
-# Import libraries
 import streamlit as st
 import pandas as pd
 import altair as alt
@@ -8,264 +6,295 @@ import datetime
 import numpy as np
 import pydeck as pdk
 from st_pages import Page, show_pages, add_page_title
+import matplotlib.pyplot as plt
+import altair as alt
 
 import functions.map as map_functions
-#######################
-# Page configuration
+import functions.congestion_metrics as congestion_metrics_functions
+
+
+service_type = None
+
 st.set_page_config(
-    page_title="BigData Project",
+    page_title=f"{ '' if service_type is None else service_type} Statistics | BigData Project",
     page_icon="🏂",
     layout="wide",
     initial_sidebar_state="expanded")
 
-alt.themes.enable("dark")
-show_pages(
-    [
-        Page("streamlit_app.py", "Dashboard", "🏠"),
-        Page("./page_stats.py", "Statistics", "📊"),
-    ]
-)
 
-#######################
-# Load data
-df_reshaped = pd.read_csv('data/us-population-2010-2019-reshaped.csv')
-data = pd.read_csv('../data/brts_traffic_congestion_data.csv')
-brts_station_name = data['station_name'].unique()
+traffic_congestion_data = None
+all_locations_data = None
+all_routes_data = None
+all_routes_details_data = None
+all_routes =  None
+time_hour = None
+time_minute = None
+time_day = None
+specific_station = None
+all_stations_list = []
+all_available_routes_from_route = None
 
-all_loc_data = pd.read_csv('../data/brts_all_loc.csv')
-
-#######################
-# Sidebar
 with st.sidebar:
-    st.title('🏂 US Population Dashboard')
+    st.title("Ahmedabad Last Mile Connectivity")
+
+    ## Dropdown for selecting the Data
+    st.subheader("Serivce Type")
+    data = st.selectbox("Select Service", [None, "AMTS", "BRTS"])
+    if data:
+        service_type = data
+        if(service_type == "AMTS"):
+            traffic_congestion_data = pd.read_csv("../data/amts_traffic_congestion_data.csv")
+            all_locations_data = pd.read_csv("../data/amts_all_loc.csv")
+            all_routes_data = pd.read_csv("../data/amts_all_routes.csv")
+            all_routes = pd.read_csv("../data/brts_routes.csv")
+            all_routes_details_data = pd.read_csv("../data/brts_routes_details.csv")
+
+
+        if(service_type == "BRTS"):
+            traffic_congestion_data = pd.read_csv("../data/brts_traffic_congestion_data.csv")
+            all_locations_data = pd.read_csv("../data/brts_all_loc.csv")
+            all_routes_data = pd.read_csv("../data/brts_all_routes.csv")
+            all_routes = pd.read_csv("../data/brts_routes.csv")
+            all_routes_details_data = pd.read_csv("../data/brts_routes_details.csv")
+
+
+    if service_type:
+        ## Dropdown for seleting Time and Day of the week, Default is Current Time and Day
+        st.subheader("Customize Time")
+        current_time = datetime.datetime.now()
+        current_day = current_time.strftime("%A")
+        current_hour = current_time.strftime("%H")
+        current_minute = current_time.strftime("%M")
+        current_time = st.time_input("Select Time", datetime.time(int(9), int(0)))
+        current_day = st.selectbox("Select Day", ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], index=(datetime.datetime.now().weekday() + 1) % 7 - 1)
+        if current_day:
+            if(current_day == "Monday"):
+                current_day = 1
+            if(current_day == "Tuesday"):
+                current_day = 2
+            if(current_day == "Wednesday"):
+                current_day = 3
+            if(current_day == "Thursday"):
+                current_day = 4
+            if(current_day == "Friday"):
+                current_day = 5
+            if(current_day == "Saturday"):
+                current_day = 6
+            if(current_day == "Sunday"):
+                current_day = 7
+
+        time_hour = current_time.hour
+        time_minute = current_time.minute
+        time_day = current_day
+        # print("Time Values: ",time_hour, time_minute, time_day)
+
+
+    ## Dropdown for selecting Specific Station
+    if service_type:
+        st.subheader("Customize Station")
+        all_stations_list = all_locations_data['station_name'].unique()
+        specific_station = st.selectbox("Select Station", all_stations_list)    
+
+    ## Dropdown for selecting Specific Route
+    if service_type:
+        st.subheader("Customize Route")
+        print(specific_station)
+        if len(specific_station) > 0:
+            print("hello")
+            all_available_routes_from_route = all_routes_details_data[all_routes_details_data['first_stop_name'] == specific_station]
+            print(all_available_routes_from_route.head())
+
+
+col = st.columns((5, 3), gap='medium')
+
+if not service_type:
+    col[0].write("Please select a service type from the sidebar")
+
+
+if service_type:
+    with col[0]:
+        st.subheader("Station Visualization")    
+        icon_data = {
+        "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+        "width": 128,
+        "height":128,
+        "anchorY": 128
+    }
+        
+
+        
+
+        map_all_location_data = map_functions.create_traffic_congestion_map_currently(all_locations_data, traffic_congestion_data, time_hour, time_day)
+        map_all_location_data['icon_data'] = None
+        for i in map_all_location_data.index:
+            map_all_location_data["icon_data"][i] = icon_data
+
+        # print(map_all_location_data.head())
+
+        view_state = pdk.ViewState(
+            longitude=72.5714,
+            latitude=23.0225,
+            zoom=11,
+            pitch=50
+        )
+
+        pdk_layers = [
+            pdk.Layer(
+                type='IconLayer',
+                data=map_all_location_data,
+                get_icon='icon_data',
+                get_size=4,
+                pickable=True,
+                size_scale=7,
+                get_position='[long,lat]'
+            ),
+            ## Scatterplot Layer for all the stations
+            pdk.Layer(
+                type='ScatterplotLayer',
+                data=map_all_location_data,
+                get_position='[long, lat]',
+                get_color='[200, 30, 0, 160]',
+                get_radius="scaled_traffic_congestion",
+                pickable=True,
+                auto_highlight=True
+            ),
+            ## Scatterplot Layer for the specific station
+            pdk.Layer(
+                type='ScatterplotLayer',
+                data=map_all_location_data[map_all_location_data['station_name'] == specific_station],
+                get_position='[long, lat]',
+                get_color='[30, 30, 200, 160]',
+                get_radius="scaled_traffic_congestion",
+                pickable=True,
+                auto_highlight=True
+            )
+            ]
+
+        tooltip = {
+        "html": "<b>Station Name:</b> {station_name} <br/> <b>Traffic:</b> {traffic_congestion}%",
+        "style": {
+                "backgroundColor": "steelblue",
+                "color": "white"
+        }
+        }
+
     
-    year_list = list(df_reshaped.year.unique())[::-1]
-    
-    selected_year = st.selectbox('Select a year', year_list)
-    df_selected_year = df_reshaped[df_reshaped.year == selected_year]
-    df_selected_year_sorted = df_selected_year.sort_values(by="population", ascending=False)
-
-    color_theme_list = ['blues', 'cividis', 'greens', 'inferno', 'magma', 'plasma', 'reds', 'rainbow', 'turbo', 'viridis']
-    selected_color_theme = st.selectbox('Select a color theme', color_theme_list)
+        
+        r = pdk.Deck(layers=pdk_layers, initial_view_state=view_state, tooltip=tooltip)
+        st.pydeck_chart(r, use_container_width=True)
 
 
-#######################
-# Plots
+        ### Bar Chart for the Traffic Congestion on Stations for the specific time and day
+        st.subheader("Traffic Congestion on Stations")
+        specific_time_data = traffic_congestion_data[(traffic_congestion_data['time'] == time_hour) & (traffic_congestion_data["day"] == time_day)]
 
-# Heatmap
-def make_heatmap(input_df, input_y, input_x, input_color, input_color_theme):
-    heatmap = alt.Chart(input_df).mark_rect().encode(
-            y=alt.Y(f'{input_y}:O', axis=alt.Axis(title="Year", titleFontSize=18, titlePadding=15, titleFontWeight=900, labelAngle=0)),
-            x=alt.X(f'{input_x}:O', axis=alt.Axis(title="", titleFontSize=18, titlePadding=15, titleFontWeight=900)),
-            color=alt.Color(f'max({input_color}):Q',
-                             legend=None,
-                             scale=alt.Scale(scheme=input_color_theme)),
-            stroke=alt.value('black'),
-            strokeWidth=alt.value(0.25),
-        ).properties(width=900
-        ).configure_axis(
-        labelFontSize=12,
-        titleFontSize=12
-        ) 
-    # height=300
-    return heatmap
+        # Filter the data for the specific time and day
+        # Filter the data for the specific time and day
+        specific_time_data = traffic_congestion_data[(traffic_congestion_data['time'] == time_hour) & (traffic_congestion_data["day"] == time_day)]
 
-# Choropleth map
-def make_choropleth(input_df, input_id, input_column, input_color_theme):
-    choropleth = px.choropleth(input_df, locations=input_id, color=input_column, locationmode="USA-states",
-                               color_continuous_scale=input_color_theme,
-                               range_color=(0, max(df_selected_year.population)),
-                               scope="usa",
-                               labels={'population':'Population'}
-                              )
-    choropleth.update_layout(
-        template='plotly_dark',
-        plot_bgcolor='rgba(0, 0, 0, 0)',
-        paper_bgcolor='rgba(0, 0, 0, 0)',
-        margin=dict(l=0, r=0, t=0, b=0),
-        height=350
-    )
-    return choropleth
+        # Calculate the average traffic congestion for the specific time and day
+        avg_traffic_congestion = specific_time_data['traffic_congestion'].mean()
 
+        # Create Altair chart
+        chart = alt.Chart(specific_time_data).mark_bar().encode(
+            x='station_name',
+            y='traffic_congestion'
+        ).properties(
+            width=600,  # Adjust width as needed
+            height=400  # Adjust height as needed
+        )
 
-# Donut chart
-def make_donut(input_response, input_text, input_color):
-  if input_color == 'blue':
-      chart_color = ['#29b5e8', '#155F7A']
-  if input_color == 'green':
-      chart_color = ['#27AE60', '#12783D']
-  if input_color == 'orange':
-      chart_color = ['#F39C12', '#875A12']
-  if input_color == 'red':
-      chart_color = ['#E74C3C', '#781F16']
-    
-  source = pd.DataFrame({
-      "Topic": ['', input_text],
-      "% value": [100-input_response, input_response]
-  })
-  source_bg = pd.DataFrame({
-      "Topic": ['', input_text],
-      "% value": [100, 0]
-  })
-    
-  plot = alt.Chart(source).mark_arc(innerRadius=45, cornerRadius=25).encode(
-      theta="% value",
-      color= alt.Color("Topic:N",
-                      scale=alt.Scale(
-                          #domain=['A', 'B'],
-                          domain=[input_text, ''],
-                          # range=['#29b5e8', '#155F7A']),  # 31333F
-                          range=chart_color),
-                      legend=None),
-  ).properties(width=130, height=130)
-    
-  text = plot.mark_text(align='center', color="#29b5e8", font="Lato", fontSize=32, fontWeight=700, fontStyle="italic").encode(text=alt.value(f'{input_response} %'))
-  plot_bg = alt.Chart(source_bg).mark_arc(innerRadius=45, cornerRadius=20).encode(
-      theta="% value",
-      color= alt.Color("Topic:N",
-                      scale=alt.Scale(
-                          # domain=['A', 'B'],
-                          domain=[input_text, ''],
-                          range=chart_color),  # 31333F
-                      legend=None),
-  ).properties(width=130, height=130)
-  return plot_bg + plot + text
+        # Add a dotted line representing the average traffic congestion
+        avg_line = alt.Chart(pd.DataFrame({'avg_traffic_congestion': [avg_traffic_congestion]})).mark_rule(color='red', strokeDash=[3,3]).encode(
+            y='avg_traffic_congestion'
+        )
 
-# Convert population to text 
-def format_number(num):
-    if num > 1000000:
-        if not num % 1000000:
-            return f'{num // 1000000} M'
-        return f'{round(num / 1000000, 1)} M'
-    return f'{num // 1000} K'
+        # Overlay the line on the chart
+        chart_with_avg_line = chart + avg_line
 
-# Calculation year-over-year population migrations
-def calculate_population_difference(input_df, input_year):
-  selected_year_data = input_df[input_df['year'] == input_year].reset_index()
-  previous_year_data = input_df[input_df['year'] == input_year - 1].reset_index()
-  selected_year_data['population_difference'] = selected_year_data.population.sub(previous_year_data.population, fill_value=0)
-  return pd.concat([selected_year_data.states, selected_year_data.id, selected_year_data.population, selected_year_data.population_difference], axis=1).sort_values(by="population_difference", ascending=False)
+        # Set axis labels
+        chart_with_avg_line = chart_with_avg_line.configure_axis(
+            labelFontSize=12,
+            titleFontSize=14
+        ).configure_title(
+            fontSize=16
+        )
+
+        # Display the Altair chart with the average line in Streamlit
+        st.altair_chart(chart_with_avg_line, use_container_width=True)
+
+        
+
+        
+        
 
 
-#######################
-# Dashboard Main Panel
-col = st.columns((1.5, 4.5, 2), gap='medium')
-
-with col[0]:
-    st.markdown('#### Gains/Losses')
-
-    df_population_difference_sorted = calculate_population_difference(df_reshaped, selected_year)
-
-    if selected_year > 2010:
-        first_state_name = df_population_difference_sorted.states.iloc[0]
-        first_state_population = format_number(df_population_difference_sorted.population.iloc[0])
-        first_state_delta = format_number(df_population_difference_sorted.population_difference.iloc[0])
-    else:
-        first_state_name = '-'
-        first_state_population = '-'
-        first_state_delta = ''
-    st.metric(label=first_state_name, value=first_state_population, delta=first_state_delta)
-
-    if selected_year > 2010:
-        last_state_name = df_population_difference_sorted.states.iloc[-1]
-        last_state_population = format_number(df_population_difference_sorted.population.iloc[-1])   
-        last_state_delta = format_number(df_population_difference_sorted.population_difference.iloc[-1])   
-    else:
-        last_state_name = '-'
-        last_state_population = '-'
-        last_state_delta = ''
-    st.metric(label=last_state_name, value=last_state_population, delta=last_state_delta)
-
-    
-    st.markdown('#### Congestion Metrices')
-
-    
-    states_migration_greater = 0
-    states_migration_less = 0
-    donut_chart_greater = make_donut(states_migration_greater, 'Inbound Migration', 'green')
-    donut_chart_less = make_donut(states_migration_less, 'Outbound Migration', 'red')
-
-    migrations_col = st.columns((0.2, 1, 0.2))
-    with migrations_col[1]:
-        st.write('Inbound')
-        st.altair_chart(donut_chart_greater)
-        st.write('Outbound')
-        st.altair_chart(donut_chart_less)
-
-
-with col[1]:
-    st.markdown('#### Ahmendabad BRTS Traffic Congestion')
-    
-    # choropleth = make_choropleth(df_selected_year, 'states_code', 'population', selected_color_theme)
-    # st.plotly_chart(choropleth, use_container_width=True)
-
-    merged_data = map_functions.create_traffic_congestion_map_currently(all_loc_data, data)
-    print(merged_data.head())
-
-    st.map(merged_data,
-    zoom=10,
-    latitude='lat',
-    longitude='long',
-    size='scaled_traffic_congestion',
-    use_container_width=True)
-
-
-    pivot_data = data.pivot_table(index='day', columns='time', values='traffic_congestion', aggfunc='mean')
-
-
-    # Define map parameters
-    view_state = pdk.ViewState(
-        latitude=37.7749295,
-        longitude=-122.4194155,
-        zoom=10,
-        bearing=0,
-        pitch=45
-    )
-
-   
-    # Create a heatmap using Plotly
-    fig = px.imshow(pivot_data,
+        ### HEAT MAP
+        heatmap_merged_data = map_functions.create_traffic_congestion_map_currently(all_locations_data, traffic_congestion_data, time_hour, time_day)
+        pivot_data = traffic_congestion_data.pivot_table(index='day', columns='time', values='traffic_congestion', aggfunc='mean')
+        # print(pivot_data.head())
+        fig = px.imshow(pivot_data,
                     labels=dict(x="Hour of the Day", y="Day of the Week", color="Congestion (%)"),
                     x=['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00',
                     '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00'],
                     y=['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
                     color_continuous_scale='viridis')
+        
+        st.subheader(f"Average Traffic Congestion: {specific_station}")  
+        # Display the heatmap
+        st.plotly_chart(fig,theme="streamlit",use_container_width=True)
 
-    # Update the layout
-    fig.update_layout(title='Average Traffic Congestion by Day and Hour',width=900)
 
-    # Display the heatmap
-    st.plotly_chart(fig,theme="streamlit")
+    with col[1]:
+        st.markdown('#### Top Traffic Congestion Stations')
 
-    
+        # current_hour = datetime.datetime.now().hour
+        # current_day = datetime.datetime.today().weekday() + 1
+        data_current_hour = traffic_congestion_data[traffic_congestion_data['time'] == time_hour]
+        data_current_hour = data_current_hour[data_current_hour['day'] == time_day]
 
-with col[2]:
-    st.markdown('#### Top Traffic Congestion Stations')
+        st.dataframe(data_current_hour,
+                column_order=("station_name", "traffic_congestion"),
+                hide_index=True,
+                width=None,
+                column_config={
+                    "station_name": st.column_config.TextColumn(
+                        "Station Name",
+                    ),
+                    "traffic_congestion": st.column_config.ProgressColumn(
+                        "Traffic Congestion",
+                        format="%f%%",
+                        min_value=0,
+                        max_value=100,
+                    )
+                }, use_container_width=True)
+        
 
-    current_hour = datetime.datetime.now().hour
-    current_day = datetime.datetime.today().weekday() + 1
-    data_current_hour = data[data['time'] == current_hour]
-    data_current_hour = data_current_hour[data_current_hour['day'] == current_day]
+        ## Line Chart for the Traffic Congestion at the specific station with proper x and y axis
+        station_overall_congestion  = congestion_metrics_functions.traffic_congestion_rates_specific_station_allday(traffic_congestion_data, specific_station)
+        # print(station_overall_congestion)
+        st.subheader(f"Traffic Congestion: {specific_station}")  
+        chart = alt.Chart(station_overall_congestion).mark_line().encode(
+        x='time',
+        y='traffic_congestion'
+        ).properties(
+            width=600,  # Adjust width as needed
+            height=400  # Adjust height as needed
+        ).configure_axis(
+            labelFontSize=12,
+            titleFontSize=14
+        ).configure_title(
+            fontSize=16
+        )
 
-    st.dataframe(data_current_hour,
-             column_order=("station_name", "traffic_congestion"),
-             hide_index=True,
-             width=None,
-             column_config={
-                "station_name": st.column_config.TextColumn(
-                    "Station Name",
-                ),
-                "traffic_congestion": st.column_config.ProgressColumn(
-                    "Traffic Congestion",
-                    format="%f%%",
-                    min_value=0,
-                    max_value=100,
-                 )
-             })
-    
-    with st.expander('About', expanded=True):
-        st.write('''
-            - Data: [U.S. Census Bureau](https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html).
-            - :orange[**Gains/Losses**]: states with high inbound/ outbound migration for selected year
-            - :orange[**States Migration**]: percentage of states with annual inbound/ outbound migration > 50,000
-            ''')
+        # Set axis labels
+        chart = chart.configure_axis()
+
+        # Display the Altair chart in Streamlit
+        st.altair_chart(chart, use_container_width=True)
+        
+
+        
+
+
+
